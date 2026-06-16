@@ -1,0 +1,11 @@
+# Pinned for reproducibility. cobra MUST stay 0.31.1 (model/solver behaviour pinned).
+cobra==0.31.1
+numpy
+scipy
+matplotlib
+pyrodigal
+requests
+# External, not pip-installed:
+#   DIAMOND (homology search)        -> https://github.com/bbuchfink/diamond
+#   Evo 2 via NVIDIA NIM (optional)  -> API key supplied by user, NEVER committed
+#   ESM-2 (optional fold gate)       -> see code/install_esm.sh
