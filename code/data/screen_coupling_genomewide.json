@@ -1,0 +1,3042 @@
+{
+  "model": "iML1515",
+  "cobra": "0.31.1",
+  "growth_fraction": 0.5,
+  "n_products_screened": 331,
+  "n_growth_coupled_full": 2,
+  "n_nonobvious_coupled": 2,
+  "n_plain_good_but_infeasible": 1,
+  "top20_coupled_full": [
+    {
+      "exchange": "EX_meoh_e",
+      "metabolite": "meoh",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.5192,
+      "full_coupling": 0.5,
+      "known": false
+    },
+    {
+      "exchange": "EX_h2o_e",
+      "metabolite": "h2o",
+      "plain_prod": 76.0221,
+      "full_prod": 580.2845,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0022,
+      "known": false
+    }
+  ],
+  "top20_nonobvious_coupled": [
+    {
+      "exchange": "EX_meoh_e",
+      "metabolite": "meoh",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.5192,
+      "full_coupling": 0.5,
+      "known": false
+    },
+    {
+      "exchange": "EX_h2o_e",
+      "metabolite": "h2o",
+      "plain_prod": 76.0221,
+      "full_prod": 580.2845,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0022,
+      "known": false
+    }
+  ],
+  "top20_plain_good_but_infeasible": [
+    {
+      "exchange": "EX_nh4_e",
+      "metabolite": "nh4",
+      "plain_prod": 111.289,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    }
+  ],
+  "all_rows": [
+    {
+      "exchange": "EX_12ppd__R_e",
+      "metabolite": "12ppd__R",
+      "plain_prod": 40.3648,
+      "full_prod": 7.0013,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_12ppd__S_e",
+      "metabolite": "12ppd__S",
+      "plain_prod": 38.7826,
+      "full_prod": 6.8915,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_14glucan_e",
+      "metabolite": "14glucan",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_15dap_e",
+      "metabolite": "15dap",
+      "plain_prod": 23.3496,
+      "full_prod": 3.8574,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_23camp_e",
+      "metabolite": "23camp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_23ccmp_e",
+      "metabolite": "23ccmp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_23cgmp_e",
+      "metabolite": "23cgmp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_23cump_e",
+      "metabolite": "23cump",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_23dappa_e",
+      "metabolite": "23dappa",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_26dap__M_e",
+      "metabolite": "26dap__M",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_2ddglcn_e",
+      "metabolite": "2ddglcn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_2dglc_e",
+      "metabolite": "2dglc",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_34dhpac_e",
+      "metabolite": "34dhpac",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_3amp_e",
+      "metabolite": "3amp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_3cmp_e",
+      "metabolite": "3cmp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_3gmp_e",
+      "metabolite": "3gmp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_3hcinnm_e",
+      "metabolite": "3hcinnm",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_3hpp_e",
+      "metabolite": "3hpp",
+      "plain_prod": 8.0631,
+      "full_prod": 5.8484,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_3hpppn_e",
+      "metabolite": "3hpppn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_3ump_e",
+      "metabolite": "3ump",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_4abut_e",
+      "metabolite": "4abut",
+      "plain_prod": 51.9361,
+      "full_prod": 6.483,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_4abzglu_e",
+      "metabolite": "4abzglu",
+      "plain_prod": 11.6782,
+      "full_prod": 2.2619,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_4hoxpacd_e",
+      "metabolite": "4hoxpacd",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_5dglcn_e",
+      "metabolite": "5dglcn",
+      "plain_prod": 19.353,
+      "full_prod": 5.4494,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_5mtr_e",
+      "metabolite": "5mtr",
+      "plain_prod": 6.2587,
+      "full_prod": 1.3361,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_LalaDgluMdapDala_e",
+      "metabolite": "LalaDgluMdapDala",
+      "plain_prod": 4.3237,
+      "full_prod": 1.3624,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_LalaDgluMdap_e",
+      "metabolite": "LalaDgluMdap",
+      "plain_prod": 4.3237,
+      "full_prod": 1.5807,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_LalaDglu_e",
+      "metabolite": "LalaDglu",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_LalaLglu_e",
+      "metabolite": "LalaLglu",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ac_e",
+      "metabolite": "ac",
+      "plain_prod": 137.2822,
+      "full_prod": 15.9378,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_acac_e",
+      "metabolite": "acac",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_acald_e",
+      "metabolite": "acald",
+      "plain_prod": 121.7499,
+      "full_prod": 12.5189,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_acgal1p_e",
+      "metabolite": "acgal1p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_acgal_e",
+      "metabolite": "acgal",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_acgam1p_e",
+      "metabolite": "acgam1p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_acgam_e",
+      "metabolite": "acgam",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_acmana_e",
+      "metabolite": "acmana",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_acmum_e",
+      "metabolite": "acmum",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_acnam_e",
+      "metabolite": "acnam",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_acser_e",
+      "metabolite": "acser",
+      "plain_prod": 39.1997,
+      "full_prod": 6.2542,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ade_e",
+      "metabolite": "ade",
+      "plain_prod": 8.0918,
+      "full_prod": 5.1465,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_adn_e",
+      "metabolite": "adn",
+      "plain_prod": 6.4692,
+      "full_prod": 2.6544,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_adocbl_e",
+      "metabolite": "adocbl",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ag_e",
+      "metabolite": "ag",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_agm_e",
+      "metabolite": "agm",
+      "plain_prod": 23.3437,
+      "full_prod": 4.1715,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_akg_e",
+      "metabolite": "akg",
+      "plain_prod": 35.9173,
+      "full_prod": 7.0781,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_ala_B_e",
+      "metabolite": "ala_B",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ala__D_e",
+      "metabolite": "ala__D",
+      "plain_prod": 12.1881,
+      "full_prod": 6.7151,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ala__L_e",
+      "metabolite": "ala__L",
+      "plain_prod": 98.2775,
+      "full_prod": 10.0696,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_alaala_e",
+      "metabolite": "alaala",
+      "plain_prod": 6.3475,
+      "full_prod": 3.3565,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_all__D_e",
+      "metabolite": "all__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_alltn_e",
+      "metabolite": "alltn",
+      "plain_prod": 6.0995,
+      "full_prod": 6.602,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_amp_e",
+      "metabolite": "amp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_anhgm_e",
+      "metabolite": "anhgm",
+      "plain_prod": 5.2472,
+      "full_prod": 1.3293,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_arab__L_e",
+      "metabolite": "arab__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_arbt_e",
+      "metabolite": "arbt",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_arbtn_e",
+      "metabolite": "arbtn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_arbtn_fe3_e",
+      "metabolite": "arbtn_fe3",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_arg__L_e",
+      "metabolite": "arg__L",
+      "plain_prod": 12.3288,
+      "full_prod": 4.1349,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ascb__L_e",
+      "metabolite": "ascb__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_asn__L_e",
+      "metabolite": "asn__L",
+      "plain_prod": 27.1212,
+      "full_prod": 7.9356,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_aso3_e",
+      "metabolite": "aso3",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_asp__L_e",
+      "metabolite": "asp__L",
+      "plain_prod": 39.7222,
+      "full_prod": 8.9957,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_btn_e",
+      "metabolite": "btn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_but_e",
+      "metabolite": "but",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_butso3_e",
+      "metabolite": "butso3",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ca2_e",
+      "metabolite": "ca2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cbi_e",
+      "metabolite": "cbi",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cbl1_e",
+      "metabolite": "cbl1",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cd2_e",
+      "metabolite": "cd2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cellb_e",
+      "metabolite": "cellb",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cgly_e",
+      "metabolite": "cgly",
+      "plain_prod": 9.7971,
+      "full_prod": 3.3591,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ch4_e",
+      "metabolite": "ch4",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_chol_e",
+      "metabolite": "chol",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_chtbs_e",
+      "metabolite": "chtbs",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cit_e",
+      "metabolite": "cit",
+      "plain_prod": 28.7414,
+      "full_prod": 6.1699,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cl_e",
+      "metabolite": "cl",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cm_e",
+      "metabolite": "cm",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cmp_e",
+      "metabolite": "cmp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_co2_e",
+      "metabolite": "co2",
+      "plain_prod": 118.4277,
+      "full_prod": 42.1208,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cobalt2_e",
+      "metabolite": "cobalt2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cpgn_e",
+      "metabolite": "cpgn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cpgn_un_e",
+      "metabolite": "cpgn_un",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_crn__D_e",
+      "metabolite": "crn__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_crn_e",
+      "metabolite": "crn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cs1_e",
+      "metabolite": "cs1",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_csn_e",
+      "metabolite": "csn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cu2_e",
+      "metabolite": "cu2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cu_e",
+      "metabolite": "cu",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cyan_e",
+      "metabolite": "cyan",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cynt_e",
+      "metabolite": "cynt",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cys__D_e",
+      "metabolite": "cys__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cys__L_e",
+      "metabolite": "cys__L",
+      "plain_prod": 9.7971,
+      "full_prod": 4.9,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_cytd_e",
+      "metabolite": "cytd",
+      "plain_prod": 9.4024,
+      "full_prod": 3.053,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dad_2_e",
+      "metabolite": "dad_2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_damp_e",
+      "metabolite": "damp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dca_e",
+      "metabolite": "dca",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dcmp_e",
+      "metabolite": "dcmp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dcyt_e",
+      "metabolite": "dcyt",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ddca_e",
+      "metabolite": "ddca",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dgmp_e",
+      "metabolite": "dgmp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dgsn_e",
+      "metabolite": "dgsn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dha_e",
+      "metabolite": "dha",
+      "plain_prod": 49.1377,
+      "full_prod": 9.5621,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dhps_e",
+      "metabolite": "dhps",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dimp_e",
+      "metabolite": "dimp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_din_e",
+      "metabolite": "din",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dms_e",
+      "metabolite": "dms",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dmso_e",
+      "metabolite": "dmso",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dopa_e",
+      "metabolite": "dopa",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_doxrbcn_e",
+      "metabolite": "doxrbcn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dtmp_e",
+      "metabolite": "dtmp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dump_e",
+      "metabolite": "dump",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_duri_e",
+      "metabolite": "duri",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_dxylnt_e",
+      "metabolite": "dxylnt",
+      "plain_prod": 0.0011,
+      "full_prod": 0.0006,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_eca4colipa_e",
+      "metabolite": "eca4colipa",
+      "plain_prod": 0.4825,
+      "full_prod": 0.0911,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_enlipa_e",
+      "metabolite": "enlipa",
+      "plain_prod": 1.332,
+      "full_prod": 0.1988,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_enter_e",
+      "metabolite": "enter",
+      "plain_prod": 2.8783,
+      "full_prod": 0.8583,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_etha_e",
+      "metabolite": "etha",
+      "plain_prod": 6.5812,
+      "full_prod": 5.386,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ethso3_e",
+      "metabolite": "ethso3",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_etoh_e",
+      "metabolite": "etoh",
+      "plain_prod": 85.9179,
+      "full_prod": 10.5273,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_f6p_e",
+      "metabolite": "f6p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fad_e",
+      "metabolite": "fad",
+      "plain_prod": 2.249,
+      "full_prod": 0.8808,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fald_e",
+      "metabolite": "fald",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fe2_e",
+      "metabolite": "fe2",
+      "plain_prod": 9.987,
+      "full_prod": 47.8992,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fe3_e",
+      "metabolite": "fe3",
+      "plain_prod": 9.987,
+      "full_prod": 999.993,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fe3dcit_e",
+      "metabolite": "fe3dcit",
+      "plain_prod": 13.7877,
+      "full_prod": 3.0849,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fe3dhbzs_e",
+      "metabolite": "fe3dhbzs",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fe3hox_e",
+      "metabolite": "fe3hox",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fe3hox_un_e",
+      "metabolite": "fe3hox_un",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fecrm_e",
+      "metabolite": "fecrm",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fecrm_un_e",
+      "metabolite": "fecrm_un",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_feenter_e",
+      "metabolite": "feenter",
+      "plain_prod": 2.8783,
+      "full_prod": 0.8583,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_feoxam_e",
+      "metabolite": "feoxam",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_feoxam_un_e",
+      "metabolite": "feoxam_un",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fmn_e",
+      "metabolite": "fmn",
+      "plain_prod": 3.6466,
+      "full_prod": 1.3446,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_for_e",
+      "metabolite": "for",
+      "plain_prod": 116.3631,
+      "full_prod": 52.3586,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_fru_e",
+      "metabolite": "fru",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_frulys_e",
+      "metabolite": "frulys",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fruur_e",
+      "metabolite": "fruur",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fuc__L_e",
+      "metabolite": "fuc__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_fum_e",
+      "metabolite": "fum",
+      "plain_prod": 62.2671,
+      "full_prod": 9.2066,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_fusa_e",
+      "metabolite": "fusa",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_g1p_e",
+      "metabolite": "g1p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_g3pc_e",
+      "metabolite": "g3pc",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_g3pe_e",
+      "metabolite": "g3pe",
+      "plain_prod": 5.9667,
+      "full_prod": 3.1679,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_g3pg_e",
+      "metabolite": "g3pg",
+      "plain_prod": 5.1437,
+      "full_prod": 2.8244,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_g3pi_e",
+      "metabolite": "g3pi",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_g3ps_e",
+      "metabolite": "g3ps",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_g6p_e",
+      "metabolite": "g6p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gal1p_e",
+      "metabolite": "gal1p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gal_bD_e",
+      "metabolite": "gal_bD",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gal_e",
+      "metabolite": "gal",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_galct__D_e",
+      "metabolite": "galct__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_galctn__D_e",
+      "metabolite": "galctn__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_galctn__L_e",
+      "metabolite": "galctn__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_galt_e",
+      "metabolite": "galt",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_galur_e",
+      "metabolite": "galur",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gam6p_e",
+      "metabolite": "gam6p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gam_e",
+      "metabolite": "gam",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gbbtn_e",
+      "metabolite": "gbbtn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gdp_e",
+      "metabolite": "gdp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glc__D_e",
+      "metabolite": "glc__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glcn_e",
+      "metabolite": "glcn",
+      "plain_prod": 19.6198,
+      "full_prod": 5.0348,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glcr_e",
+      "metabolite": "glcr",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glcur1p_e",
+      "metabolite": "glcur1p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glcur_e",
+      "metabolite": "glcur",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gln__L_e",
+      "metabolite": "gln__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glu__L_e",
+      "metabolite": "glu__L",
+      "plain_prod": 35.4639,
+      "full_prod": 6.4049,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gly_e",
+      "metabolite": "gly",
+      "plain_prod": 33.6749,
+      "full_prod": 14.6126,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glyald_e",
+      "metabolite": "glyald",
+      "plain_prod": 38.145,
+      "full_prod": 8.8605,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glyb_e",
+      "metabolite": "glyb",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glyc2p_e",
+      "metabolite": "glyc2p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glyc3p_e",
+      "metabolite": "glyc3p",
+      "plain_prod": 6.7803,
+      "full_prod": 4.7753,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glyc__R_e",
+      "metabolite": "glyc__R",
+      "plain_prod": 39.4414,
+      "full_prod": 11.1701,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glyc_e",
+      "metabolite": "glyc",
+      "plain_prod": 26.5349,
+      "full_prod": 7.8292,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_glyclt_e",
+      "metabolite": "glyclt",
+      "plain_prod": 37.3639,
+      "full_prod": 15.9378,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_gmp_e",
+      "metabolite": "gmp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gsn_e",
+      "metabolite": "gsn",
+      "plain_prod": 5.7026,
+      "full_prod": 2.6877,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gthox_e",
+      "metabolite": "gthox",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gthrd_e",
+      "metabolite": "gthrd",
+      "plain_prod": 9.7971,
+      "full_prod": 2.2059,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gtp_e",
+      "metabolite": "gtp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_gua_e",
+      "metabolite": "gua",
+      "plain_prod": 7.0463,
+      "full_prod": 5.3328,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_h2_e",
+      "metabolite": "h2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_h2o2_e",
+      "metabolite": "h2o2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_h2o_e",
+      "metabolite": "h2o",
+      "plain_prod": 76.0221,
+      "full_prod": 580.2845,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0022,
+      "known": false
+    },
+    {
+      "exchange": "EX_h2s_e",
+      "metabolite": "h2s",
+      "plain_prod": 9.7971,
+      "full_prod": 9.8553,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_h_e",
+      "metabolite": "h",
+      "plain_prod": 162.5935,
+      "full_prod": 56.3641,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_hacolipa_e",
+      "metabolite": "hacolipa",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_halipa_e",
+      "metabolite": "halipa",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_hdca_e",
+      "metabolite": "hdca",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_hdcea_e",
+      "metabolite": "hdcea",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_hg2_e",
+      "metabolite": "hg2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_his__L_e",
+      "metabolite": "his__L",
+      "plain_prod": 8.86,
+      "full_prod": 4.0151,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_hom__L_e",
+      "metabolite": "hom__L",
+      "plain_prod": 29.8333,
+      "full_prod": 6.475,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_hxa_e",
+      "metabolite": "hxa",
+      "plain_prod": 46.3816,
+      "full_prod": 3.9254,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_hxan_e",
+      "metabolite": "hxan",
+      "plain_prod": 8.6226,
+      "full_prod": 5.4558,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_idon__L_e",
+      "metabolite": "idon__L",
+      "plain_prod": 19.6198,
+      "full_prod": 5.0348,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ile__L_e",
+      "metabolite": "ile__L",
+      "plain_prod": 22.1911,
+      "full_prod": 3.6149,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_imp_e",
+      "metabolite": "imp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_indole_e",
+      "metabolite": "indole",
+      "plain_prod": 10.0099,
+      "full_prod": 2.7122,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_inost_e",
+      "metabolite": "inost",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ins_e",
+      "metabolite": "ins",
+      "plain_prod": 6.7183,
+      "full_prod": 2.7184,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_isetac_e",
+      "metabolite": "isetac",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_k_e",
+      "metabolite": "k",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_lac__D_e",
+      "metabolite": "lac__D",
+      "plain_prod": 107.2623,
+      "full_prod": 10.5273,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_lac__L_e",
+      "metabolite": "lac__L",
+      "plain_prod": 29.2595,
+      "full_prod": 8.6651,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_lcts_e",
+      "metabolite": "lcts",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_leu__L_e",
+      "metabolite": "leu__L",
+      "plain_prod": 31.5636,
+      "full_prod": 3.9887,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_lipoate_e",
+      "metabolite": "lipoate",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_lys__L_e",
+      "metabolite": "lys__L",
+      "plain_prod": 23.3496,
+      "full_prod": 3.8574,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_lyx__L_e",
+      "metabolite": "lyx__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_mal__D_e",
+      "metabolite": "mal__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_mal__L_e",
+      "metabolite": "mal__L",
+      "plain_prod": 47.7956,
+      "full_prod": 9.2066,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_malt_e",
+      "metabolite": "malt",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_malthx_e",
+      "metabolite": "malthx",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_maltpt_e",
+      "metabolite": "maltpt",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_malttr_e",
+      "metabolite": "malttr",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_maltttr_e",
+      "metabolite": "maltttr",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_man6p_e",
+      "metabolite": "man6p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_man_e",
+      "metabolite": "man",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_manglyc_e",
+      "metabolite": "manglyc",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_melib_e",
+      "metabolite": "melib",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_meoh_e",
+      "metabolite": "meoh",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.5192,
+      "full_coupling": 0.5,
+      "known": false
+    },
+    {
+      "exchange": "EX_mepn_e",
+      "metabolite": "mepn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_met__D_e",
+      "metabolite": "met__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_met__L_e",
+      "metabolite": "met__L",
+      "plain_prod": 9.7971,
+      "full_prod": 2.9461,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_metglcur_e",
+      "metabolite": "metglcur",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_metsox_R__L_e",
+      "metabolite": "metsox_R__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_metsox_S__L_e",
+      "metabolite": "metsox_S__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_mg2_e",
+      "metabolite": "mg2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_mincyc_e",
+      "metabolite": "mincyc",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_minohp_e",
+      "metabolite": "minohp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_mmet_e",
+      "metabolite": "mmet",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_mn2_e",
+      "metabolite": "mn2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_mnl_e",
+      "metabolite": "mnl",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_mobd_e",
+      "metabolite": "mobd",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_mso3_e",
+      "metabolite": "mso3",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_mththf_e",
+      "metabolite": "mththf",
+      "plain_prod": 12.7515,
+      "full_prod": 4.8098,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_n2o_e",
+      "metabolite": "n2o",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_na1_e",
+      "metabolite": "na1",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_nac_e",
+      "metabolite": "nac",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_nh4_e",
+      "metabolite": "nh4",
+      "plain_prod": 111.289,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ni2_e",
+      "metabolite": "ni2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_nmn_e",
+      "metabolite": "nmn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_no2_e",
+      "metabolite": "no2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_no3_e",
+      "metabolite": "no3",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_no_e",
+      "metabolite": "no",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_novbcn_e",
+      "metabolite": "novbcn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_o2_e",
+      "metabolite": "o2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_o2s_e",
+      "metabolite": "o2s",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ocdca_e",
+      "metabolite": "ocdca",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ocdcea_e",
+      "metabolite": "ocdcea",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_octa_e",
+      "metabolite": "octa",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_orn_e",
+      "metabolite": "orn",
+      "plain_prod": 25.0864,
+      "full_prod": 4.771,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_orot_e",
+      "metabolite": "orot",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pacald_e",
+      "metabolite": "pacald",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_peamn_e",
+      "metabolite": "peamn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_phe__L_e",
+      "metabolite": "phe__L",
+      "plain_prod": 14.7001,
+      "full_prod": 2.7029,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pheme_e",
+      "metabolite": "pheme",
+      "plain_prod": 2.7634,
+      "full_prod": 0.665,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pi_e",
+      "metabolite": "pi",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pnto__R_e",
+      "metabolite": "pnto__R",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ppa_e",
+      "metabolite": "ppa",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ppal_e",
+      "metabolite": "ppal",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pppn_e",
+      "metabolite": "pppn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ppt_e",
+      "metabolite": "ppt",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pro__L_e",
+      "metabolite": "pro__L",
+      "plain_prod": 39.9054,
+      "full_prod": 5.0795,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_progly_e",
+      "metabolite": "progly",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_psclys_e",
+      "metabolite": "psclys",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pser__L_e",
+      "metabolite": "pser__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ptrc_e",
+      "metabolite": "ptrc",
+      "plain_prod": 35.2452,
+      "full_prod": 4.8198,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pydam_e",
+      "metabolite": "pydam",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pydx_e",
+      "metabolite": "pydx",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pydxn_e",
+      "metabolite": "pydxn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_pyr_e",
+      "metabolite": "pyr",
+      "plain_prod": 130.2203,
+      "full_prod": 12.5189,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_quin_e",
+      "metabolite": "quin",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_r5p_e",
+      "metabolite": "r5p",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_rfamp_e",
+      "metabolite": "rfamp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_rib__D_e",
+      "metabolite": "rib__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_rmn_e",
+      "metabolite": "rmn",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_sbt__D_e",
+      "metabolite": "sbt__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_sel_e",
+      "metabolite": "sel",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ser__D_e",
+      "metabolite": "ser__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ser__L_e",
+      "metabolite": "ser__L",
+      "plain_prod": 42.5355,
+      "full_prod": 10.6166,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_skm_e",
+      "metabolite": "skm",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_slnt_e",
+      "metabolite": "slnt",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_so2_e",
+      "metabolite": "so2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_so3_e",
+      "metabolite": "so3",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_so4_e",
+      "metabolite": "so4",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_spmd_e",
+      "metabolite": "spmd",
+      "plain_prod": 6.2587,
+      "full_prod": 1.3361,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_sq_e",
+      "metabolite": "sq",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_succ_e",
+      "metabolite": "succ",
+      "plain_prod": 101.7388,
+      "full_prod": 8.5394,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": true
+    },
+    {
+      "exchange": "EX_sucr_e",
+      "metabolite": "sucr",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_sulfac_e",
+      "metabolite": "sulfac",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tartr__D_e",
+      "metabolite": "tartr__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tartr__L_e",
+      "metabolite": "tartr__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_taur_e",
+      "metabolite": "taur",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tcynt_e",
+      "metabolite": "tcynt",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_thm_e",
+      "metabolite": "thm",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_thr__L_e",
+      "metabolite": "thr__L",
+      "plain_prod": 21.3095,
+      "full_prod": 6.1377,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_thrp_e",
+      "metabolite": "thrp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_thym_e",
+      "metabolite": "thym",
+      "plain_prod": 12.4306,
+      "full_prod": 5.1348,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_thymd_e",
+      "metabolite": "thymd",
+      "plain_prod": 9.4211,
+      "full_prod": 2.5234,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tma_e",
+      "metabolite": "tma",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tmao_e",
+      "metabolite": "tmao",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tre_e",
+      "metabolite": "tre",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_trp__L_e",
+      "metabolite": "trp__L",
+      "plain_prod": 9.1395,
+      "full_prod": 2.2235,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tsul_e",
+      "metabolite": "tsul",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ttdca_e",
+      "metabolite": "ttdca",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ttdcea_e",
+      "metabolite": "ttdcea",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ttrcyc_e",
+      "metabolite": "ttrcyc",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tungs_e",
+      "metabolite": "tungs",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tym_e",
+      "metabolite": "tym",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tyr__L_e",
+      "metabolite": "tyr__L",
+      "plain_prod": 14.1932,
+      "full_prod": 2.8159,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_tyrp_e",
+      "metabolite": "tyrp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_uacgam_e",
+      "metabolite": "uacgam",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_udpacgal_e",
+      "metabolite": "udpacgal",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_udpg_e",
+      "metabolite": "udpg",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_udpgal_e",
+      "metabolite": "udpgal",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_udpglcur_e",
+      "metabolite": "udpglcur",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ump_e",
+      "metabolite": "ump",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_ura_e",
+      "metabolite": "ura",
+      "plain_prod": 16.5741,
+      "full_prod": 7.8043,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_urate_e",
+      "metabolite": "urate",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_urea_e",
+      "metabolite": "urea",
+      "plain_prod": 21.3984,
+      "full_prod": 15.5836,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_uri_e",
+      "metabolite": "uri",
+      "plain_prod": 11.6234,
+      "full_prod": 3.2419,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_val__L_e",
+      "metabolite": "val__L",
+      "plain_prod": 53.1388,
+      "full_prod": 5.0348,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_xan_e",
+      "metabolite": "xan",
+      "plain_prod": 8.1852,
+      "full_prod": 5.9367,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_xmp_e",
+      "metabolite": "xmp",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_xtsn_e",
+      "metabolite": "xtsn",
+      "plain_prod": 6.7103,
+      "full_prod": 2.8673,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_xyl__D_e",
+      "metabolite": "xyl__D",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_xylu__L_e",
+      "metabolite": "xylu__L",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    },
+    {
+      "exchange": "EX_zn2_e",
+      "metabolite": "zn2",
+      "plain_prod": 0.0,
+      "full_prod": 0.0,
+      "plain_coupling": 0.0,
+      "full_coupling": 0.0,
+      "known": false
+    }
+  ],
+  "note": "plain = rich medium no ATPM; full = M9 + NGAM (resource-aware). infeasible flag uses REAL model reactions, not injected traps."
+}

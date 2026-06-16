@@ -1,0 +1,4362 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P0A6L2",
+  "secondaryAccessions": [
+    "P05640",
+    "P78223"
+  ],
+  "uniProtkbId": "DAPA_ECOLI",
+  "entryAudit": {
+    "firstPublicDate": "2005-05-10",
+    "lastAnnotationUpdateDate": "2026-06-10",
+    "lastSequenceUpdateDate": "2005-05-10",
+    "entryVersion": 160,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Escherichia coli (strain K12)",
+    "taxonId": 83333,
+    "lineage": [
+      "Bacteria",
+      "Pseudomonadati",
+      "Pseudomonadota",
+      "Gammaproteobacteria",
+      "Enterobacterales",
+      "Enterobacteriaceae",
+      "Escherichia"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_00418"
+          }
+        ],
+        "value": "4-hydroxy-tetrahydrodipicolinate synthase"
+      },
+      "shortNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "HAMAP-Rule",
+              "id": "MF_00418"
+            }
+          ],
+          "value": "HTPA synthase"
+        }
+      ],
+      "ecNumbers": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "HAMAP-Rule",
+              "id": "MF_00418"
+            }
+          ],
+          "value": "4.3.3.7"
+        }
+      ]
+    }
+  },
+  "genes": [
+    {
+      "geneName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_00418"
+          }
+        ],
+        "value": "dapA"
+      },
+      "orderedLocusNames": [
+        {
+          "value": "b2478"
+        },
+        {
+          "value": "JW2463"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "HAMAP-Rule",
+              "id": "MF_00418"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20503968"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8993314"
+            }
+          ],
+          "value": "Catalyzes the condensation of (S)-aspartate-beta-semialdehyde [(S)-ASA] and pyruvate to 4-hydroxy-tetrahydrodipicolinate (HTPA)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "L-aspartate 4-semialdehyde + pyruvate = (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:34171"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15361"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:67139"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:537519"
+          }
+        ],
+        "ecNumber": "4.3.3.7",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_00418"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20503968"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "8993314"
+          }
+        ]
+      }
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "14580236"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18787203"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9048556"
+            }
+          ],
+          "value": "Is allosterically regulated by the feedback inhibitor (S)-lysine. Is inhibited by pyruvate analogs such as 3-fluoropyruvate, 2-ketobutyrate, glyoxylate, and beta-hydroxypyruvate. Is not inhibited by its substrate, (S)-ASA"
+        }
+      ],
+      "commentType": "ACTIVITY REGULATION"
+    },
+    {
+      "commentType": "BIOPHYSICOCHEMICAL PROPERTIES",
+      "kineticParameters": {
+        "maximumVelocities": [
+          {
+            "velocity": 0.58,
+            "unit": "umol/sec/mg",
+            "enzyme": "enzyme",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14580236"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15066435"
+              }
+            ]
+          }
+        ],
+        "michaelisConstants": [
+          {
+            "constant": 0.26,
+            "unit": "mM",
+            "substrate": "pyruvate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14580236"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15066435"
+              }
+            ]
+          },
+          {
+            "constant": 0.11,
+            "unit": "mM",
+            "substrate": "L-aspartate-4-semialdehyde",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14580236"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15066435"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "texts": [
+            {
+              "value": "kcat is 124 sec(-1)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "HAMAP-Rule",
+              "id": "MF_00418"
+            }
+          ],
+          "value": "Amino-acid biosynthesis; L-lysine biosynthesis via DAP pathway; (S)-tetrahydrodipicolinate from L-aspartate: step 3/4"
+        }
+      ],
+      "commentType": "PATHWAY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "HAMAP-Rule",
+              "id": "MF_00418"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "16041077"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18556019"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18937497"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20353808"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "22552955"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "Reference",
+              "id": "Ref.22"
+            }
+          ],
+          "value": "Homotetramer; dimer of dimers"
+        }
+      ],
+      "commentType": "SUBUNIT"
+    },
+    {
+      "commentType": "INTERACTION",
+      "interactions": [
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "P0A6L2",
+            "intActId": "EBI-907527"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "P0A6L2",
+            "geneName": "dapA",
+            "intActId": "EBI-907527"
+          },
+          "numberOfExperiments": 2,
+          "organismDiffer": false
+        }
+      ]
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "value": "Cytoplasm",
+            "id": "SL-0086"
+          }
+        }
+      ]
+    },
+    {
+      "commentType": "MASS SPECTROMETRY",
+      "method": "Electrospray",
+      "molWeight": 31272.0,
+      "molWeightError": 1.0,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14580236"
+        }
+      ]
+    },
+    {
+      "commentType": "MASS SPECTROMETRY",
+      "method": "Electrospray",
+      "molWeight": 31270.0,
+      "molWeightError": 0.0,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18787203"
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "HAMAP-Rule",
+              "id": "MF_00418"
+            }
+          ],
+          "value": "Belongs to the DapA family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "20503968"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "8993314"
+            }
+          ],
+          "value": "Was originally thought to be a dihydrodipicolinate synthase (DHDPS), catalyzing the condensation of (S)-aspartate-beta-semialdehyde [(S)-ASA] and pyruvate to dihydrodipicolinate (DHDP). However, it was shown that the product of the enzymatic reaction is not dihydrodipicolinate but in fact (4S)-4-hydroxy-2,3,4,5-tetrahydro-(2S)-dipicolinic acid (HTPA), and that the consecutive dehydration reaction leading to DHDP is not spontaneous but catalyzed by DapB (PubMed:20503968, PubMed:8993314)"
+        }
+      ],
+      "commentType": "CAUTION"
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 292,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "4-hydroxy-tetrahydrodipicolinate synthase",
+      "featureId": "PRO_0000103110"
+    },
+    {
+      "type": "Active site",
+      "location": {
+        "start": {
+          "value": 133,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 133,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Proton donor/acceptor"
+    },
+    {
+      "type": "Active site",
+      "location": {
+        "start": {
+          "value": 161,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 161,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Schiff-base intermediate with substrate"
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 45,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 45,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:15361"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_00418"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20353808"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22552955"
+        }
+      ],
+      "ligand": {
+        "name": "pyruvate",
+        "id": "ChEBI:CHEBI:15361"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 203,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 203,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:15361"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_00418"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20353808"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22552955"
+        }
+      ],
+      "ligand": {
+        "name": "pyruvate",
+        "id": "ChEBI:CHEBI:15361"
+      }
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 44,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 44,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Part of a proton relay during catalysis"
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 49,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 49,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "L-lysine inhibitor binding; via carbonyl oxygen"
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 80,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 80,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "L-lysine inhibitor binding"
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 84,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 84,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "L-lysine inhibitor binding"
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 106,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 106,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "L-lysine inhibitor binding"
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 107,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 107,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Part of a proton relay during catalysis"
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 44,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 44,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "8% of wild-type activity. 4-fold decrease in affinity for pyruvate, but nearly no change in that for (S)-ASA.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15066435"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19505526"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "S"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 44,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 44,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Reduced kcat by 99.9%.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15066435"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19505526"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 107,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 107,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Reduced kcat by 90%.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15066435"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18937497"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "F"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 107,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 107,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Reduced activity by 95%. Reduced affinity for both substrates. Exists as a mixture of monomer, dimer and tetramer in solution. Has significantly lower thermal stability than the wild-type enzyme.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15066435"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18937497"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "W"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 133,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 133,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Reduced kcat by 99.7%. Reduced affinity for both substrates.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15066435"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "F"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 138,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 138,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Strongly increased KM for L-aspartate 4-semialdehyde. No effect on KM for pyruvate. Reduced activity by 99.7%.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16185069"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "A",
+          "H"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 161,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 161,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "0.1% of wild-type activity. 3-fold decrease in affinity for pyruvate, and 2-fold decrease in that for (S)-ASA.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20353808"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 161,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 161,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "0.35% of wild-type activity. 3-fold decrease in affinity for pyruvate, but nearly no change in that for (S)-ASA.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20353808"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 197,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 197,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "1.4 to 2.5% of wild-type activity. Decrease in affinity for pyruvate, but nearly no change in that for (S)-ASA. Exists as a dimer in solution.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18556019"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "Y",
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 207,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 207,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 1; AAA23665",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 224,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 224,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 1; AAA23665",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "G",
+        "alternativeSequences": [
+          "E"
+        ]
+      }
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 4,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 8,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 17,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 19,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2PUR"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 21,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 34,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 38,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 43,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 44,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 47,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 48,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 50,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 53,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 67,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 73,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 76,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 82,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 91,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 92,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 94,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 98,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 103,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 104,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 106,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2PUR"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 112,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 123,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 130,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 133,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 136,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 139,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 145,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 152,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 157,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 159,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 168,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 174,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 184,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 186,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 188,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 190,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 191,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 196,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 201,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 205,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 206,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 208,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 211,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 222,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 226,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 242,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 245,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 247,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 250,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 258,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 261,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 263,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 273,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 275,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 276,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 288,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2OJP"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0002",
+      "category": "Technical term",
+      "name": "3D-structure"
+    },
+    {
+      "id": "KW-0021",
+      "category": "Molecular function",
+      "name": "Allosteric enzyme"
+    },
+    {
+      "id": "KW-0028",
+      "category": "Biological process",
+      "name": "Amino-acid biosynthesis"
+    },
+    {
+      "id": "KW-0963",
+      "category": "Cellular component",
+      "name": "Cytoplasm"
+    },
+    {
+      "id": "KW-0220",
+      "category": "Biological process",
+      "name": "Diaminopimelate biosynthesis"
+    },
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-0456",
+      "category": "Molecular function",
+      "name": "Lyase"
+    },
+    {
+      "id": "KW-0457",
+      "category": "Biological process",
+      "name": "Lysine biosynthesis"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0704",
+      "category": "Ligand",
+      "name": "Schiff base"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "3514578",
+        "citationType": "journal article",
+        "authors": [
+          "Richaud F.",
+          "Richaud C.",
+          "Ratet P.",
+          "Patte J.-C."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "3514578"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1128/jb.166.1.297-300.1986"
+          }
+        ],
+        "title": "Chromosomal location and nucleotide sequence of the Escherichia coli dapA gene.",
+        "publicationDate": "1986",
+        "journal": "J. Bacteriol.",
+        "firstPage": "297",
+        "lastPage": "300",
+        "volume": "166"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "9205837",
+        "citationType": "journal article",
+        "authors": [
+          "Yamamoto Y.",
+          "Aiba H.",
+          "Baba T.",
+          "Hayashi K.",
+          "Inada T.",
+          "Isono K.",
+          "Itoh T.",
+          "Kimura S.",
+          "Kitagawa M.",
+          "Makino K.",
+          "Miki T.",
+          "Mitsuhashi N.",
+          "Mizobuchi K.",
+          "Mori H.",
+          "Nakade S.",
+          "Nakamura Y.",
+          "Nashimoto H.",
+          "Oshima T.",
+          "Oyama S.",
+          "Saito N.",
+          "Sampei G.",
+          "Satoh Y.",
+          "Sivasundaram S.",
+          "Tagami H.",
+          "Takahashi H.",
+          "Takeda J.",
+          "Takemoto K.",
+          "Uehara K.",
+          "Wada C.",
+          "Yamagata S.",
+          "Horiuchi T."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9205837"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1093/dnares/4.2.91"
+          }
+        ],
+        "title": "Construction of a contiguous 874-kb sequence of the Escherichia coli-K12 genome corresponding to 50.0-68.8 min on the linkage map and analysis of its sequence features.",
+        "publicationDate": "1997",
+        "journal": "DNA Res.",
+        "firstPage": "91",
+        "lastPage": "113",
+        "volume": "4"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "K12 / W3110 / ATCC 27325 / DSM 5911",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "9278503",
+        "citationType": "journal article",
+        "authors": [
+          "Blattner F.R.",
+          "Plunkett G. III",
+          "Bloch C.A.",
+          "Perna N.T.",
+          "Burland V.",
+          "Riley M.",
+          "Collado-Vides J.",
+          "Glasner J.D.",
+          "Rode C.K.",
+          "Mayhew G.F.",
+          "Gregor J.",
+          "Davis N.W.",
+          "Kirkpatrick H.A.",
+          "Goeden M.A.",
+          "Rose D.J.",
+          "Mau B.",
+          "Shao Y."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9278503"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1126/science.277.5331.1453"
+          }
+        ],
+        "title": "The complete genome sequence of Escherichia coli K-12.",
+        "publicationDate": "1997",
+        "journal": "Science",
+        "firstPage": "1453",
+        "lastPage": "1462",
+        "volume": "277"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "K12 / MG1655 / ATCC 47076",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "16738553",
+        "citationType": "journal article",
+        "authors": [
+          "Hayashi K.",
+          "Morooka N.",
+          "Yamamoto Y.",
+          "Fujita K.",
+          "Isono K.",
+          "Choi S.",
+          "Ohtsubo E.",
+          "Baba T.",
+          "Wanner B.L.",
+          "Mori H.",
+          "Horiuchi T."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16738553"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/msb4100049"
+          }
+        ],
+        "title": "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.",
+        "publicationDate": "2006",
+        "journal": "Mol. Syst. Biol.",
+        "firstPage": "E1",
+        "lastPage": "E5",
+        "volume": "2"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "K12 / W3110 / ATCC 27325 / DSM 5911",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "CI-DHECQI5U91QT7",
+        "citationType": "submission",
+        "authors": [
+          "Frutiger S.",
+          "Hughes G.J.",
+          "Pasquali C.",
+          "Hochstrasser D.F."
+        ],
+        "publicationDate": "FEB-1996",
+        "submissionDatabase": "UniProtKB"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE OF 1-11"
+      ],
+      "referenceComments": [
+        {
+          "value": "K12 / W3110 / ATCC 27325 / DSM 5911",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 6,
+      "citation": {
+        "id": "9298646",
+        "citationType": "journal article",
+        "authors": [
+          "Link A.J.",
+          "Robison K.",
+          "Church G.M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9298646"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1002/elps.1150180807"
+          }
+        ],
+        "title": "Comparing the predicted and observed properties of proteins encoded in the genome of Escherichia coli K-12.",
+        "publicationDate": "1997",
+        "journal": "Electrophoresis",
+        "firstPage": "1259",
+        "lastPage": "1313",
+        "volume": "18"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE OF 1-12"
+      ],
+      "referenceComments": [
+        {
+          "value": "K12 / EMG2",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 7,
+      "citation": {
+        "id": "9600841",
+        "citationType": "journal article",
+        "authors": [
+          "Wilkins M.R.",
+          "Gasteiger E.",
+          "Tonella L.",
+          "Ou K.",
+          "Tyler M.",
+          "Sanchez J.-C.",
+          "Gooley A.A.",
+          "Walsh B.J.",
+          "Bairoch A.",
+          "Appel R.D.",
+          "Williams K.L.",
+          "Hochstrasser D.F."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9600841"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1006/jmbi.1998.1726"
+          }
+        ],
+        "title": "Protein identification with N and C-terminal sequence tags in proteome projects.",
+        "publicationDate": "1998",
+        "journal": "J. Mol. Biol.",
+        "firstPage": "599",
+        "lastPage": "608",
+        "volume": "278"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE OF 1-4"
+      ],
+      "referenceComments": [
+        {
+          "value": "K12 / W3110 / ATCC 27325 / DSM 5911",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 8,
+      "citation": {
+        "id": "1463470",
+        "citationType": "journal article",
+        "authors": [
+          "Laber B.",
+          "Gomis-Rueth F.-X.",
+          "Romao M.J.",
+          "Huber R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "1463470"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1042/bj2880691"
+          }
+        ],
+        "title": "Escherichia coli dihydrodipicolinate synthase. Identification of the active site and crystallization.",
+        "publicationDate": "1992",
+        "journal": "Biochem. J.",
+        "firstPage": "691",
+        "lastPage": "695",
+        "volume": "288"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE OF 156-167",
+        "ACTIVE SITE"
+      ]
+    },
+    {
+      "referenceNumber": 9,
+      "citation": {
+        "id": "2120198",
+        "citationType": "journal article",
+        "authors": [
+          "Tiedemann A.A.",
+          "Demarini D.J.",
+          "Parker J.",
+          "Smith J.M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "2120198"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1128/jb.172.10.6035-6041.1990"
+          }
+        ],
+        "title": "DNA sequence of the purC gene encoding 5'-phosphoribosyl-5-aminoimidazole-4-N-succinocarboxamide synthetase and organization of the dapA-purC region of Escherichia coli K-12.",
+        "publicationDate": "1990",
+        "journal": "J. Bacteriol.",
+        "firstPage": "6035",
+        "lastPage": "6041",
+        "volume": "172"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 288-292"
+      ],
+      "referenceComments": [
+        {
+          "value": "K12",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 10,
+      "citation": {
+        "id": "1885529",
+        "citationType": "journal article",
+        "authors": [
+          "Bouvier J.",
+          "Pugsley A.P.",
+          "Stragier P."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "1885529"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1128/jb.173.17.5523-5531.1991"
+          }
+        ],
+        "title": "A gene for a new lipoprotein in the dapA-purC interval of the Escherichia coli chromosome.",
+        "publicationDate": "1991",
+        "journal": "J. Bacteriol.",
+        "firstPage": "5523",
+        "lastPage": "5531",
+        "volume": "173"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 288-292"
+      ],
+      "referenceComments": [
+        {
+          "value": "K12",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 11,
+      "citation": {
+        "id": "9298644",
+        "citationType": "journal article",
+        "authors": [
+          "VanBogelen R.A.",
+          "Abshire K.Z.",
+          "Moldover B.",
+          "Olson E.R.",
+          "Neidhardt F.C."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9298644"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1002/elps.1150180805"
+          }
+        ],
+        "title": "Escherichia coli proteome analysis using the gene-protein database.",
+        "publicationDate": "1997",
+        "journal": "Electrophoresis",
+        "firstPage": "1243",
+        "lastPage": "1251",
+        "volume": "18"
+      },
+      "referencePositions": [
+        "IDENTIFICATION BY 2D-GEL"
+      ]
+    },
+    {
+      "referenceNumber": 12,
+      "citation": {
+        "id": "9048556",
+        "citationType": "journal article",
+        "authors": [
+          "Karsten W.E."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9048556"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1021/bi962264x"
+          }
+        ],
+        "title": "Dihydrodipicolinate synthase from Escherichia coli: pH dependent changes in the kinetic mechanism and kinetic mechanism of allosteric inhibition by L-lysine.",
+        "publicationDate": "1997",
+        "journal": "Biochemistry",
+        "firstPage": "1730",
+        "lastPage": "1739",
+        "volume": "36"
+      },
+      "referencePositions": [
+        "ACTIVITY REGULATION"
+      ]
+    },
+    {
+      "referenceNumber": 13,
+      "citation": {
+        "id": "14580236",
+        "citationType": "journal article",
+        "authors": [
+          "Dobson R.C.",
+          "Gerrard J.A.",
+          "Pearce F.G."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "14580236"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1042/bj20031389"
+          }
+        ],
+        "title": "Dihydrodipicolinate synthase is not inhibited by its substrate, (S)-aspartate beta-semialdehyde.",
+        "publicationDate": "2004",
+        "journal": "Biochem. J.",
+        "firstPage": "757",
+        "lastPage": "762",
+        "volume": "377"
+      },
+      "referencePositions": [
+        "ACTIVITY REGULATION",
+        "KINETIC PARAMETERS",
+        "MASS SPECTROMETRY"
+      ]
+    },
+    {
+      "referenceNumber": 14,
+      "citation": {
+        "id": "18977662",
+        "citationType": "journal article",
+        "authors": [
+          "Boughton B.A.",
+          "Griffin M.D.",
+          "O'Donnell P.A.",
+          "Dobson R.C.",
+          "Perugini M.A.",
+          "Gerrard J.A.",
+          "Hutton C.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18977662"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.bmc.2008.10.026"
+          }
+        ],
+        "title": "Irreversible inhibition of dihydrodipicolinate synthase by 4-oxo-heptenedioic acid analogues.",
+        "publicationDate": "2008",
+        "journal": "Bioorg. Med. Chem.",
+        "firstPage": "9975",
+        "lastPage": "9983",
+        "volume": "16"
+      },
+      "referencePositions": [
+        "SYNTHETIC INHIBITORS"
+      ]
+    },
+    {
+      "referenceNumber": 15,
+      "citation": {
+        "id": "20503968",
+        "citationType": "journal article",
+        "authors": [
+          "Devenish S.R.",
+          "Blunt J.W.",
+          "Gerrard J.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "20503968"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1021/jm100349s"
+          }
+        ],
+        "title": "NMR studies uncover alternate substrates for dihydrodipicolinate synthase and suggest that dihydrodipicolinate reductase is also a dehydratase.",
+        "publicationDate": "2010",
+        "journal": "J. Med. Chem.",
+        "firstPage": "4808",
+        "lastPage": "4812",
+        "volume": "53"
+      },
+      "referencePositions": [
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "IDENTIFICATION OF HTPA AS REACTION PRODUCT",
+        "SUBSTRATE SPECIFICITY"
+      ]
+    },
+    {
+      "referenceNumber": 16,
+      "citation": {
+        "id": "22386717",
+        "citationType": "journal article",
+        "authors": [
+          "Boughton B.A.",
+          "Hor L.",
+          "Gerrard J.A.",
+          "Hutton C.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "22386717"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.bmc.2012.01.045"
+          }
+        ],
+        "title": "1,3-Phenylene bis(ketoacid) derivatives as inhibitors of Escherichia coli dihydrodipicolinate synthase.",
+        "publicationDate": "2012",
+        "journal": "Bioorg. Med. Chem.",
+        "firstPage": "2419",
+        "lastPage": "2426",
+        "volume": "20"
+      },
+      "referencePositions": [
+        "SYNTHETIC INHIBITORS"
+      ]
+    },
+    {
+      "referenceNumber": 17,
+      "citation": {
+        "id": "7853400",
+        "citationType": "journal article",
+        "authors": [
+          "Mirwaldt C.",
+          "Korndoerfer I.",
+          "Huber R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7853400"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1006/jmbi.1994.0078"
+          }
+        ],
+        "title": "The crystal structure of dihydrodipicolinate synthase from Escherichia coli at 2.5-A resolution.",
+        "publicationDate": "1995",
+        "journal": "J. Mol. Biol.",
+        "firstPage": "227",
+        "lastPage": "239",
+        "volume": "246"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS)"
+      ]
+    },
+    {
+      "referenceNumber": 18,
+      "citation": {
+        "id": "8993314",
+        "citationType": "journal article",
+        "authors": [
+          "Blicking S.",
+          "Renner C.",
+          "Laber B.",
+          "Pohlenz H.-D.",
+          "Holak T.A.",
+          "Huber R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "8993314"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1021/bi962272d"
+          }
+        ],
+        "title": "Reaction mechanism of Escherichia coli dihydrodipicolinate synthase investigated by X-ray crystallography and NMR spectroscopy.",
+        "publicationDate": "1997",
+        "journal": "Biochemistry",
+        "firstPage": "24",
+        "lastPage": "33",
+        "volume": "36"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS)",
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "IDENTIFICATION OF HTPA AS REACTION PRODUCT",
+        "CATALYTIC MECHANISM"
+      ]
+    },
+    {
+      "referenceNumber": 19,
+      "citation": {
+        "id": "15066435",
+        "citationType": "journal article",
+        "authors": [
+          "Dobson R.C.J.",
+          "Valegaard K.",
+          "Gerrard J.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15066435"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.jmb.2004.02.060"
+          }
+        ],
+        "title": "The crystal structure of three site-directed mutants of Escherichia coli dihydrodipicolinate synthase: further evidence for a catalytic triad.",
+        "publicationDate": "2004",
+        "journal": "J. Mol. Biol.",
+        "firstPage": "329",
+        "lastPage": "339",
+        "volume": "338"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.35 ANGSTROMS) OF MUTANTS VAL-44; PHE-107 AND PHE-133",
+        "KINETIC PARAMETERS",
+        "MUTAGENESIS OF THR-44; TYR-107 AND TYR-133",
+        "REACTION MECHANISM"
+      ]
+    },
+    {
+      "referenceNumber": 20,
+      "citation": {
+        "id": "16041077",
+        "citationType": "journal article",
+        "authors": [
+          "Dobson R.C.J.",
+          "Griffin M.D.W.",
+          "Jameson G.B.",
+          "Gerrard J.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16041077"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1107/s0907444905016318"
+          }
+        ],
+        "title": "The crystal structures of native and (S)-lysine-bound dihydrodipicolinate synthase from Escherichia coli with improved resolution show new features of biological significance.",
+        "publicationDate": "2005",
+        "journal": "Acta Crystallogr. D",
+        "firstPage": "1116",
+        "lastPage": "1124",
+        "volume": "61"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF APOENZYME AND IN COMPLEX WITH ALLOSTERIC INHIBITOR (S)-LYSINE",
+        "SUBUNIT"
+      ]
+    },
+    {
+      "referenceNumber": 21,
+      "citation": {
+        "id": "16185069",
+        "citationType": "journal article",
+        "authors": [
+          "Dobson R.C.J.",
+          "Devenish S.R.A.",
+          "Turner L.A.",
+          "Clifford V.R.",
+          "Pearce F.G.",
+          "Jameson G.B.",
+          "Gerrard J.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16185069"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1021/bi051281w"
+          }
+        ],
+        "title": "Role of arginine 138 in the catalysis and regulation of Escherichia coli dihydrodipicolinate synthase.",
+        "publicationDate": "2005",
+        "journal": "Biochemistry",
+        "firstPage": "13007",
+        "lastPage": "13013",
+        "volume": "44"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.05 ANGSTROMS) OF MUTANTS ALA-138 AND HIS-138",
+        "MUTAGENESIS OF ARG-138"
+      ]
+    },
+    {
+      "referenceNumber": 22,
+      "citation": {
+        "id": "CI-5QTCB8BF3BQND",
+        "citationType": "submission",
+        "authors": [
+          "Devenish S.R.A.",
+          "Dobson R.C.J.",
+          "Jameson G.B.",
+          "Gerrard J.A."
+        ],
+        "title": "The co-crystallisation of (S)-lysine-bound dihydrodipicolinate synthase from E. coli indicates that domain movements are not responsible for (S)-lysine inhibition.",
+        "publicationDate": "AUG-2005",
+        "submissionDatabase": "PDB data bank"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) IN COMPLEX WITH LYSINE INHIBITOR"
+      ]
+    },
+    {
+      "referenceNumber": 23,
+      "citation": {
+        "id": "19052357",
+        "citationType": "journal article",
+        "authors": [
+          "Devenish S.R.",
+          "Gerrard J.A.",
+          "Jameson G.B.",
+          "Dobson R.C."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "19052357"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1107/s1744309108033654"
+          }
+        ],
+        "title": "The high-resolution structure of dihydrodipicolinate synthase from Escherichia coli bound to its first substrate, pyruvate.",
+        "publicationDate": "2008",
+        "journal": "Acta Crystallogr. F",
+        "firstPage": "1092",
+        "lastPage": "1095",
+        "volume": "64"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS)"
+      ]
+    },
+    {
+      "referenceNumber": 24,
+      "citation": {
+        "id": "18937497",
+        "citationType": "journal article",
+        "authors": [
+          "Pearce F.G.",
+          "Dobson R.C.",
+          "Weber A.",
+          "Lane L.A.",
+          "McCammon M.G.",
+          "Squire M.A.",
+          "Perugini M.A.",
+          "Jameson G.B.",
+          "Robinson C.V.",
+          "Gerrard J.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18937497"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1021/bi801094t"
+          }
+        ],
+        "title": "Mutating the tight-dimer interface of dihydrodipicolinate synthase disrupts the enzyme quaternary structure: toward a monomeric enzyme.",
+        "publicationDate": "2008",
+        "journal": "Biochemistry",
+        "firstPage": "12108",
+        "lastPage": "12117",
+        "volume": "47"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS) OF MUTANT TRP-107",
+        "SUBUNIT",
+        "MUTAGENESIS OF TYR-107"
+      ]
+    },
+    {
+      "referenceNumber": 25,
+      "citation": {
+        "id": "18556019",
+        "citationType": "journal article",
+        "authors": [
+          "Griffin M.D.",
+          "Dobson R.C.",
+          "Pearce F.G.",
+          "Antonio L.",
+          "Whitten A.E.",
+          "Liew C.K.",
+          "Mackay J.P.",
+          "Trewhella J.",
+          "Jameson G.B.",
+          "Perugini M.A.",
+          "Gerrard J.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18556019"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.jmb.2008.05.038"
+          }
+        ],
+        "title": "Evolution of quaternary structure in a homotetrameric enzyme.",
+        "publicationDate": "2008",
+        "journal": "J. Mol. Biol.",
+        "firstPage": "691",
+        "lastPage": "703",
+        "volume": "380"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) OF MUTANT TYR-197",
+        "SUBUNIT",
+        "MUTAGENESIS OF LEU-197"
+      ]
+    },
+    {
+      "referenceNumber": 26,
+      "citation": {
+        "id": "18787203",
+        "citationType": "journal article",
+        "authors": [
+          "Dobson R.C.",
+          "Griffin M.D.",
+          "Devenish S.R.",
+          "Pearce F.G.",
+          "Hutton C.A.",
+          "Gerrard J.A.",
+          "Jameson G.B.",
+          "Perugini M.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18787203"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1110/ps.037440.108"
+          }
+        ],
+        "title": "Conserved main-chain peptide distortions: a proposed role for Ile203 in catalysis by dihydrodipicolinate synthase.",
+        "publicationDate": "2008",
+        "journal": "Protein Sci.",
+        "firstPage": "2080",
+        "lastPage": "2090",
+        "volume": "17"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.40 ANGSTROMS)",
+        "ACTIVITY REGULATION",
+        "MASS SPECTROMETRY"
+      ]
+    },
+    {
+      "referenceNumber": 27,
+      "citation": {
+        "id": "19505526",
+        "citationType": "journal article",
+        "authors": [
+          "Dobson R.C.",
+          "Perugini M.A.",
+          "Jameson G.B.",
+          "Gerrard J.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "19505526"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.biochi.2009.05.013"
+          }
+        ],
+        "title": "Specificity versus catalytic potency: The role of threonine 44 in Escherichia coli dihydrodipicolinate synthase mediated catalysis.",
+        "publicationDate": "2009",
+        "journal": "Biochimie",
+        "firstPage": "1036",
+        "lastPage": "1044",
+        "volume": "91"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) OF MUTANT SER-44",
+        "MUTAGENESIS OF THR-44",
+        "ACTIVE SITES",
+        "REACTION MECHANISM"
+      ]
+    },
+    {
+      "referenceNumber": 28,
+      "citation": {
+        "id": "20353808",
+        "citationType": "journal article",
+        "authors": [
+          "Soares da Costa T.P.",
+          "Muscroft-Taylor A.C.",
+          "Dobson R.C.",
+          "Devenish S.R.",
+          "Jameson G.B.",
+          "Gerrard J.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "20353808"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.biochi.2010.03.004"
+          }
+        ],
+        "title": "How essential is the 'essential' active-site lysine in dihydrodipicolinate synthase?",
+        "publicationDate": "2010",
+        "journal": "Biochimie",
+        "firstPage": "837",
+        "lastPage": "845",
+        "volume": "92"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) OF MUTANTS ALA-161 AND ARG-161 OF NATIVE PROTEIN AND IN COMPLEX WITH PYRUVATE",
+        "MUTAGENESIS OF LYS-161"
+      ]
+    },
+    {
+      "referenceNumber": 29,
+      "citation": {
+        "id": "22552955",
+        "citationType": "journal article",
+        "authors": [
+          "Boughton B.A.",
+          "Dobson R.C.",
+          "Hutton C.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "22552955"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1002/prot.24106"
+          }
+        ],
+        "title": "The crystal structure of dihydrodipicolinate synthase from Escherichia coli with bound pyruvate and succinic acid semialdehyde: unambiguous resolution of the stereochemistry of the condensation product.",
+        "publicationDate": "2012",
+        "journal": "Proteins",
+        "firstPage": "2117",
+        "lastPage": "2122",
+        "volume": "80"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.30 ANGSTROMS) IN COMPLEX WITH PYRUVATE AND SUBSTRATE ANALOG INHIBITOR"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "M12844",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA23665.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U00096",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC75531.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AP009048",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "BAA16355.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "M33928",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "X57402",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "CAA40660.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "PIR",
+      "id": "E65023",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "SYECDP"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_416973.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NC_000913.3"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "WP_001311023.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NZ_CP009789.1"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1DHP",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.30 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1S5T",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.30 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1S5V",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.35 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1S5W",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.32 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1YXC",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.90 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1YXD",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.00 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2A6L",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.05 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2A6N",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.94 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2ATS",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.90 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2OJP",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.70 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2PUR",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.70 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3C0J",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.40 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3DEN",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.20 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3DU0",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.00 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3I7Q",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.00 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3I7R",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.10 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3I7S",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.30 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "4EOU",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.30 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "5T25",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.99 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "5T26",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.10 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7JZ7",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.74 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7JZ8",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.82 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7JZ9",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.82 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7JZA",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.82 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7JZB",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.93 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7JZC",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.07 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7JZD",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.91 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7JZE",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.00 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7JZF",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.82 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7JZG",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.82 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-292"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "1DHP",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "1S5T",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "1S5V",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "1S5W",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "1YXC",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "1YXD",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "2A6L",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "2A6N",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "2ATS",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "2OJP",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "2PUR",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3C0J",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3DEN",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3DU0",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3I7Q",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3I7R",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3I7S",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "4EOU",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "5T25",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "5T26",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7JZ7",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7JZ8",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7JZ9",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7JZA",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7JZB",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7JZC",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7JZD",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7JZE",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7JZF",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7JZG",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "4261968",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "57"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "851291",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "698"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "511145.b2478",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BindingDB",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ChEMBL",
+      "id": "CHEMBL4083",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DrugCentral",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "jPOST",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "511145-b2478",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EnsemblBacteria",
+      "id": "AAC75531",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC75531"
+        },
+        {
+          "key": "GeneId",
+          "value": "b2478"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "946952",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "ecj:JW2463",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "eco:b2478",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "ecoc:C3026_13755",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PATRIC",
+      "id": "fig|1411691.4.peg.4261",
+      "properties": [
+        {
+          "key": "GeneDesignation",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EchoBASE",
+      "id": "EB0201",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "COG0329",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Bacteria"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_049343_7_1_6",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "GMDACVP",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "9782828at2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioCyc",
+      "id": "EcoCyc:DIHYDRODIPICSYN-MONOMER",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioCyc",
+      "id": "MetaCyc:DIHYDRODIPICSYN-MONOMER",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "4.3.3.7",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2026"
+        }
+      ]
+    },
+    {
+      "database": "SABIO-RK",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "UniPathway",
+      "id": "UPA00034",
+      "properties": [
+        {
+          "key": "RectionId",
+          "value": "UER00017"
+        }
+      ]
+    },
+    {
+      "database": "EvolutionaryTrace",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000000625",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "AbasyAtlas",
+      "id": "P0A6L2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005829",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:cytosol"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:EcoCyc"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "15911532"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "18304323"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008840",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:4-hydroxy-tetrahydrodipicolinate synthase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:EcoCyc"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "1463470"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "4910051"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "8993314"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042802",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:identical protein binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:EcoCyc"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "7832769"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0019877",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:diaminopimelate biosynthetic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:EcoliWiki"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "4910051"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0009089",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:L-lysine biosynthetic process via diaminopimelate"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-UniRule"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd00950",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DHDPS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.20.20.70:FF:000046",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "4-hydroxy-tetrahydrodipicolinate synthase"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.20.20.70",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Aldolase class I"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "HAMAP",
+      "id": "MF_00418",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DapA"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR013785",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Aldolase_TIM"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR005263",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DapA"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002220",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DapA-like"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR020625",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Schiff_base-form_aldolases_AS"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR020624",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Schiff_base-form_aldolases_CS"
+        }
+      ]
+    },
+    {
+      "database": "NCBIfam",
+      "id": "TIGR00674",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "dapA"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR12128:SF66",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "4-HYDROXY-2-OXOGLUTARATE ALDOLASE, MITOCHONDRIAL"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR12128",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DIHYDRODIPICOLINATE SYNTHASE"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00701",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DHDPS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PIRSF",
+      "id": "PIRSF001365",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DHDPS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00146",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DHPICSNTHASE"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM01130",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DHDPS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF51569",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Aldolase"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00665",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DHDPS_1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00666",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DHDPS_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MFTGSIVAIVTPMDEKGNVCRASLKKLIDYHVASGTSAIVSVGTTGESATLNHDEHADVVMMTLDLADGRIPVIAGTGANATAEAISLTQRFNDSGIVGCLTVTPYYNRPSQEGLYQHFKAIAEHTDLPQILYNVPSRTGCDLLPETVGRLAKVKNIIGIKEATGNLTRVNQIKELVSDDFVLLSGDDASALDFMQLGGHGVISVTANVAARDMAQMCKLAAEGHFAEARVINQRLMPLHNKLFVEPNPIPVKWACKELGLVATDTLRLPMTPITDSGRETVRAALKHAGLL",
+    "length": 292,
+    "molWeight": 31270,
+    "crc64": "3970543296A77C08",
+    "md5": "82BF9D8DA90BE8F700DF586B4387BC0E"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "CATALYTIC ACTIVITY": 1,
+      "ACTIVITY REGULATION": 1,
+      "BIOPHYSICOCHEMICAL PROPERTIES": 1,
+      "PATHWAY": 1,
+      "SUBUNIT": 1,
+      "INTERACTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "MASS SPECTROMETRY": 2,
+      "SIMILARITY": 1,
+      "CAUTION": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Active site": 2,
+      "Binding site": 2,
+      "Site": 6,
+      "Mutagenesis": 9,
+      "Sequence conflict": 2,
+      "Beta strand": 11,
+      "Helix": 17,
+      "Turn": 2
+    },
+    "uniParcId": "UPI0000110FD5"
+  }
+}

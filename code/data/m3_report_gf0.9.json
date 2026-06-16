@@ -1,0 +1,3250 @@
+{
+  "n_candidates": 84,
+  "label_counts": {
+    "tp_pathway": 4,
+    "fp_medium": 10,
+    "realistic": 60,
+    "fp_thermo": 10
+  },
+  "score_scalar": "prod_at_near_max",
+  "growth_fraction": 0.9,
+  "H1_spearman_coupling": 0.3879959895485203,
+  "H2": {
+    "fp_winner_polos": 0.375,
+    "fp_winner_full": 0.0,
+    "pass": true
+  },
+  "Klaim2": {
+    "auroc_tp_vs_fp_polos": 0.5375,
+    "auroc_tp_vs_fp_full": 0.9875,
+    "auroc_tp_vs_fp_anaer": 0.775,
+    "tp_recall_polos": 0.75,
+    "tp_recall_full": 0.5,
+    "tp_recall_anaer": 0.75,
+    "pass": true
+  },
+  "anaerobic": {
+    "auroc": 0.775,
+    "tp_recall": 0.75,
+    "fp_among_winners": 0.0,
+    "coupling_strength_wt": {
+      "EX_ac_e": {
+        "full": 0.0,
+        "anaer": 0.4394020413346336
+      },
+      "EX_lac__D_e": {
+        "full": 0.0,
+        "anaer": 0.0
+      },
+      "EX_etoh_e": {
+        "full": 0.0,
+        "anaer": 0.4624891498010632
+      },
+      "EX_for_e": {
+        "full": 0.0,
+        "anaer": 0.4721364366835719
+      },
+      "EX_succ_e": {
+        "full": 0.0,
+        "anaer": 0.01284504786017025
+      },
+      "EX_akg_e": {
+        "full": 0.0,
+        "anaer": 0.0
+      },
+      "EX_pyr_e": {
+        "full": 0.0,
+        "anaer": 0.0
+      },
+      "EX_mal__L_e": {
+        "full": 0.0,
+        "anaer": 0.0
+      },
+      "EX_fum_e": {
+        "full": 0.0,
+        "anaer": 0.0
+      },
+      "EX_glyclt_e": {
+        "full": 0.0,
+        "anaer": 0.0
+      }
+    }
+  },
+  "ablative_fp_among_winners": {
+    "polos": 0.375,
+    "medium_atpm": 0.058823529411764705,
+    "full": 0.0,
+    "full_anaer": 0.0
+  },
+  "wt_baseline": {
+    "polos": {
+      "EX_ac_e": 101.18820600919561,
+      "EX_lac__D_e": 56.33751520876913,
+      "EX_etoh_e": 56.337515208764515,
+      "EX_for_e": 77.75611928898726,
+      "EX_succ_e": 59.977402728583485,
+      "EX_akg_e": 10.623805764782603,
+      "EX_pyr_e": 46.961395924902476,
+      "EX_mal__L_e": 9.944444444446361,
+      "EX_fum_e": 14.916666666667602,
+      "EX_glyclt_e": 9.944444444444537
+    },
+    "medium_atpm": {
+      "EX_ac_e": 3.563076923076679,
+      "EX_lac__D_e": 2.105454545455332,
+      "EX_etoh_e": 2.1054545454543994,
+      "EX_for_e": 11.52988283461265,
+      "EX_succ_e": 1.7155555555554467,
+      "EX_akg_e": 1.4475000000005294,
+      "EX_pyr_e": 2.5037837837835895,
+      "EX_mal__L_e": 1.8528000000006881,
+      "EX_fum_e": 1.852799999999889,
+      "EX_glyclt_e": 3.5630769230782113
+    },
+    "full": {
+      "EX_ac_e": 3.5630769230767894,
+      "EX_lac__D_e": 2.105454545455332,
+      "EX_etoh_e": 2.105454545454477,
+      "EX_for_e": 11.52988283461265,
+      "EX_succ_e": 1.7155555555555,
+      "EX_akg_e": 1.4475000000005294,
+      "EX_pyr_e": 2.5037837837836956,
+      "EX_mal__L_e": 1.8528000000006881,
+      "EX_fum_e": 1.8527999999999394,
+      "EX_glyclt_e": 3.5630769230782113
+    },
+    "full_anaer": {
+      "EX_ac_e": 12.269703730099307,
+      "EX_lac__D_e": 6.640000000001459,
+      "EX_etoh_e": 12.353239004455967,
+      "EX_for_e": 25.15801605355624,
+      "EX_succ_e": 3.363200471011452,
+      "EX_akg_e": 0.5533333333334721,
+      "EX_pyr_e": 2.2133333333325407,
+      "EX_mal__L_e": 0.9485714285716612,
+      "EX_fum_e": 0.9485714285711477,
+      "EX_glyclt_e": 0.6036836123345285
+    }
+  },
+  "scores": {
+    "polos": {
+      "FSEOF_EX_ac_e_00": {
+        "growth_max": 1.6132906517853915,
+        "feasible": true,
+        "prod_at_near_max": 101.18820600919561,
+        "prod_min_guaranteed": 38.108304754333794,
+        "coupling_strength": 0.37660816667577496,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_ac_e_01": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 101.18820600919369,
+        "prod_min_guaranteed": 38.108304754377265,
+        "coupling_strength": 0.3766081666762117,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_ac_e_02": {
+        "growth_max": 1.6132906517853915,
+        "feasible": true,
+        "prod_at_near_max": 101.18820600919561,
+        "prod_min_guaranteed": 38.108304754333794,
+        "coupling_strength": 0.37660816667577496,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_00": {
+        "growth_max": 1.4783324673664342,
+        "feasible": true,
+        "prod_at_near_max": 96.55394992981535,
+        "prod_min_guaranteed": 18.010338787508406,
+        "coupling_strength": 0.18653135164951867,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_01": {
+        "growth_max": 1.4783324673664116,
+        "feasible": true,
+        "prod_at_near_max": 96.55394992981333,
+        "prod_min_guaranteed": 18.010338787507518,
+        "coupling_strength": 0.18653135164951337,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_02": {
+        "growth_max": 1.4783324673664342,
+        "feasible": true,
+        "prod_at_near_max": 96.55394992981535,
+        "prod_min_guaranteed": 18.010338787508406,
+        "coupling_strength": 0.18653135164951867,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_ac_e": {
+        "growth_max": 1.6132906517853707,
+        "feasible": true,
+        "prod_at_near_max": 101.1882060091929,
+        "prod_min_guaranteed": 38.10830475433893,
+        "coupling_strength": 0.37660816667583585,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_ac_e": {
+        "growth_max": 2.1933801873559577,
+        "feasible": true,
+        "prod_at_near_max": 150.64258029914456,
+        "prod_min_guaranteed": 95.32950351248125,
+        "coupling_strength": 0.6328191094654437,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_00": {
+        "growth_max": 1.6132906517853915,
+        "feasible": true,
+        "prod_at_near_max": 56.337515208771585,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_01": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 56.33751520876913,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_02": {
+        "growth_max": 1.6132906517853915,
+        "feasible": true,
+        "prod_at_near_max": 56.337515208771585,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_00": {
+        "growth_max": 1.4783324673664342,
+        "feasible": true,
+        "prod_at_near_max": 73.20608502951151,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_01": {
+        "growth_max": 1.4783324673664116,
+        "feasible": true,
+        "prod_at_near_max": 73.20608502951309,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_02": {
+        "growth_max": 1.4783324673664342,
+        "feasible": true,
+        "prod_at_near_max": 73.20608502951151,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_lac__D_e": {
+        "growth_max": 1.6132906517852075,
+        "feasible": true,
+        "prod_at_near_max": 58.00725857565175,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_lac__D_e": {
+        "growth_max": 2.62322781934338,
+        "feasible": true,
+        "prod_at_near_max": 20.311294765837083,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_00": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 56.337515208765694,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_01": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 56.337515208765694,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_02": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 56.337515208765694,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_00": {
+        "growth_max": 1.4783324673664289,
+        "feasible": true,
+        "prod_at_near_max": 65.8709445542238,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_01": {
+        "growth_max": 1.4783324673664342,
+        "feasible": true,
+        "prod_at_near_max": 66.13759929327357,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_02": {
+        "growth_max": 1.4783324673664342,
+        "feasible": true,
+        "prod_at_near_max": 66.13759929327357,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "PATH_EX_etoh_e_PDC_homoethanol": {
+        "growth_max": 1.6132906517853953,
+        "feasible": true,
+        "prod_at_near_max": 56.33751520876335,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_etoh_e": {
+        "growth_max": 1.6132906517853842,
+        "feasible": true,
+        "prod_at_near_max": 56.337515208759164,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_etoh_e": {
+        "growth_max": 2.4460091890933033,
+        "feasible": true,
+        "prod_at_near_max": 26.373153978799877,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_00": {
+        "growth_max": 1.6132906517853833,
+        "feasible": true,
+        "prod_at_near_max": 77.75611928898728,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_01": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 77.75611928898726,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_02": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 77.75611928898726,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_00": {
+        "growth_max": 1.5510219177407454,
+        "feasible": true,
+        "prod_at_near_max": 84.3321136738655,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_01": {
+        "growth_max": 1.6132906517853955,
+        "feasible": true,
+        "prod_at_near_max": 77.75611928898357,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_02": {
+        "growth_max": 1.6132906517853272,
+        "feasible": true,
+        "prod_at_near_max": 77.75611928898772,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_for_e": {
+        "growth_max": 1.6132906517854124,
+        "feasible": true,
+        "prod_at_near_max": 78.72303191711134,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_for_e": {
+        "growth_max": 2.117350835765023,
+        "feasible": true,
+        "prod_at_near_max": 62.46353880328353,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_00": {
+        "growth_max": 1.6132906517857604,
+        "feasible": true,
+        "prod_at_near_max": 59.97740272858647,
+        "prod_min_guaranteed": 2.262601964872716,
+        "coupling_strength": 0.03772424049623464,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_01": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 59.97740272858444,
+        "prod_min_guaranteed": 2.262601964881674,
+        "coupling_strength": 0.037724240496385286,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_02": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 59.97740272858444,
+        "prod_min_guaranteed": 2.262601964881674,
+        "coupling_strength": 0.037724240496385286,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_00": {
+        "growth_max": 1.4783324673665426,
+        "feasible": true,
+        "prod_at_near_max": 53.28830996440795,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_01": {
+        "growth_max": 1.4783324673664342,
+        "feasible": true,
+        "prod_at_near_max": 53.28830996440818,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_02": {
+        "growth_max": 1.4783324673665386,
+        "feasible": true,
+        "prod_at_near_max": 53.288309964402444,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "PATH_EX_succ_e_PYC_anaplerotic": {
+        "growth_max": 1.6559751984091364,
+        "feasible": true,
+        "prod_at_near_max": 63.34394743781614,
+        "prod_min_guaranteed": 6.790938990192597,
+        "coupling_strength": 0.10720738547055605,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_succ_e": {
+        "growth_max": 1.613290651785378,
+        "feasible": true,
+        "prod_at_near_max": 59.97740272858418,
+        "prod_min_guaranteed": 2.262601964875322,
+        "coupling_strength": 0.03772424049627953,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_succ_e": {
+        "growth_max": 2.2082881692397085,
+        "feasible": true,
+        "prod_at_near_max": 48.476803767234685,
+        "prod_min_guaranteed": 1.0220961431322084,
+        "coupling_strength": 0.02108423129626875,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_00": {
+        "growth_max": 1.6132906517853747,
+        "feasible": true,
+        "prod_at_near_max": 10.623805764780663,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_01": {
+        "growth_max": 1.6132906517853747,
+        "feasible": true,
+        "prod_at_near_max": 10.623805764780663,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_02": {
+        "growth_max": 1.61329065178539,
+        "feasible": true,
+        "prod_at_near_max": 10.623805764780812,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_00": {
+        "growth_max": 1.2696994590063988,
+        "feasible": true,
+        "prod_at_near_max": 21.410316748832336,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_01": {
+        "growth_max": 1.2696994590064201,
+        "feasible": true,
+        "prod_at_near_max": 21.410316748833633,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_02": {
+        "growth_max": 1.6132906517853882,
+        "feasible": true,
+        "prod_at_near_max": 10.623805764781125,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_akg_e": {
+        "growth_max": 1.7398550125138332,
+        "feasible": true,
+        "prod_at_near_max": 17.58333333333312,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_akg_e": {
+        "growth_max": 2.471192348141617,
+        "feasible": true,
+        "prod_at_near_max": 30.13507486382707,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_00": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 46.961395924906164,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_01": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 46.961395924906164,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_02": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 46.961395924906164,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_00": {
+        "growth_max": 1.4783324673664342,
+        "feasible": true,
+        "prod_at_near_max": 53.66666666666277,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_01": {
+        "growth_max": 1.4783324673664342,
+        "feasible": true,
+        "prod_at_near_max": 53.66666666666277,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_02": {
+        "growth_max": 1.4783324673664342,
+        "feasible": true,
+        "prod_at_near_max": 53.66666666666277,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_pyr_e": {
+        "growth_max": 1.6132906517854295,
+        "feasible": true,
+        "prod_at_near_max": 46.96139592490586,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_pyr_e": {
+        "growth_max": 2.514976907149365,
+        "feasible": true,
+        "prod_at_near_max": 26.094132152139455,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_00": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444446361,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_01": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444446361,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_02": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444446361,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_00": {
+        "growth_max": 1.6132906517853882,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444444493,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_01": {
+        "growth_max": 1.6132906517839807,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444443688,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_02": {
+        "growth_max": 1.613290651785628,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444445152,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "PATH_EX_mal__L_e_PYC_anaplerotic": {
+        "growth_max": 1.6559751984091122,
+        "feasible": true,
+        "prod_at_near_max": 11.341392256347655,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_mal__L_e": {
+        "growth_max": 1.6638610589027114,
+        "feasible": true,
+        "prod_at_near_max": 10.27777777777885,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_mal__L_e": {
+        "growth_max": 2.7276819139510757,
+        "feasible": true,
+        "prod_at_near_max": 14.916666666672738,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_00": {
+        "growth_max": 1.6132906517853582,
+        "feasible": true,
+        "prod_at_near_max": 14.91666666666851,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_01": {
+        "growth_max": 1.6132906517853545,
+        "feasible": true,
+        "prod_at_near_max": 14.916666666664549,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_02": {
+        "growth_max": 1.6132906517854047,
+        "feasible": true,
+        "prod_at_near_max": 14.916666666667437,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_00": {
+        "growth_max": 1.4783324673663956,
+        "feasible": true,
+        "prod_at_near_max": 13.416666666666602,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_01": {
+        "growth_max": 1.478332467366435,
+        "feasible": true,
+        "prod_at_near_max": 13.416666666661166,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_02": {
+        "growth_max": 1.4783324673663976,
+        "feasible": true,
+        "prod_at_near_max": 13.416666666671164,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "PATH_EX_fum_e_PYC_anaplerotic": {
+        "growth_max": 1.6559751984091353,
+        "feasible": true,
+        "prod_at_near_max": 15.625000000000247,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_fum_e": {
+        "growth_max": 1.6132906517853935,
+        "feasible": true,
+        "prod_at_near_max": 14.916666666673978,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_fum_e": {
+        "growth_max": 2.516068818402926,
+        "feasible": true,
+        "prod_at_near_max": 23.74498033704733,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_00": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444444537,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_01": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444444537,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_02": {
+        "growth_max": 1.613290651785398,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444444537,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_00": {
+        "growth_max": 1.6132906517853882,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444443675,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_01": {
+        "growth_max": 1.6132906517853882,
+        "feasible": true,
+        "prod_at_near_max": 9.94444444444383,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_02": {
+        "growth_max": 1.6132906517853873,
+        "feasible": true,
+        "prod_at_near_max": 9.944444444447399,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_glyclt_e": {
+        "growth_max": 1.6132906517853884,
+        "feasible": true,
+        "prod_at_near_max": 14.916666666667746,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_glyclt_e": {
+        "growth_max": 2.193380187355923,
+        "feasible": true,
+        "prod_at_near_max": 42.40131219718667,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      }
+    },
+    "medium_atpm": {
+      "FSEOF_EX_ac_e_00": {
+        "growth_max": 0.8713041830556044,
+        "feasible": true,
+        "prod_at_near_max": 3.563076923076679,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_ac_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 3.563076923078179,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_ac_e_02": {
+        "growth_max": 0.8713041830556044,
+        "feasible": true,
+        "prod_at_near_max": 3.563076923076679,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_00": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 4.1915789473718625,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_01": {
+        "growth_max": 0.797084625151087,
+        "feasible": true,
+        "prod_at_near_max": 4.191578947369221,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_02": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 4.1915789473718625,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_ac_e": {
+        "growth_max": 0.8713041830555911,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230764843,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_ac_e": {
+        "growth_max": 0.8713041830555777,
+        "feasible": true,
+        "prod_at_near_max": 3.563076923076607,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_00": {
+        "growth_max": 0.8713041830556044,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454544322,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.105454545455332,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_02": {
+        "growth_max": 0.8713041830556044,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454544322,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_00": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 2.1524324324341637,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_01": {
+        "growth_max": 0.797084625151087,
+        "feasible": true,
+        "prod_at_near_max": 2.152432432432858,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_02": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 2.1524324324341637,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_lac__D_e": {
+        "growth_max": 0.871304183055587,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454546583,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_lac__D_e": {
+        "growth_max": 0.8713041830555908,
+        "feasible": true,
+        "prod_at_near_max": 2.105454545454662,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_00": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454553257,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454553257,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454553257,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_00": {
+        "growth_max": 0.7970846251510286,
+        "feasible": true,
+        "prod_at_near_max": 2.1524324324320334,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_01": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 2.1524324324342032,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_02": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 2.1524324324342032,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "PATH_EX_etoh_e_PDC_homoethanol": {
+        "growth_max": 0.8713041830555857,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454546236,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_etoh_e": {
+        "growth_max": 0.871304183055574,
+        "feasible": true,
+        "prod_at_near_max": 2.105454545454287,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_etoh_e": {
+        "growth_max": 0.8713041830555911,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454533513,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_00": {
+        "growth_max": 0.8713041830555813,
+        "feasible": true,
+        "prod_at_near_max": 11.529882834612454,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 11.52988283461265,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 11.52988283461265,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_00": {
+        "growth_max": 0.852316246874951,
+        "feasible": true,
+        "prod_at_near_max": 13.531848758882441,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_01": {
+        "growth_max": 0.867849963667625,
+        "feasible": true,
+        "prod_at_near_max": 11.768042328812927,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_02": {
+        "growth_max": 0.867849963667612,
+        "feasible": true,
+        "prod_at_near_max": 11.768042328812083,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_for_e": {
+        "growth_max": 0.8713041830556031,
+        "feasible": true,
+        "prod_at_near_max": 11.52988283461244,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_for_e": {
+        "growth_max": 0.8713041830555881,
+        "feasible": true,
+        "prod_at_near_max": 11.529882834609195,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_00": {
+        "growth_max": 0.8713041830555813,
+        "feasible": true,
+        "prod_at_near_max": 1.7155555555557582,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.7155555555562045,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.7155555555562045,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_00": {
+        "growth_max": 0.7970828030489021,
+        "feasible": true,
+        "prod_at_near_max": 2.6175687262511467,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_01": {
+        "growth_max": 0.7970846251510265,
+        "feasible": true,
+        "prod_at_near_max": 2.6175303064713304,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_02": {
+        "growth_max": 0.7970846251510026,
+        "feasible": true,
+        "prod_at_near_max": 2.6175303064710134,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "PATH_EX_succ_e_PYC_anaplerotic": {
+        "growth_max": 0.8737368145001374,
+        "feasible": true,
+        "prod_at_near_max": 1.7479245283013887,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_succ_e": {
+        "growth_max": 0.8713041830555739,
+        "feasible": true,
+        "prod_at_near_max": 1.715555555555212,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_succ_e": {
+        "growth_max": 0.8818030896471479,
+        "feasible": true,
+        "prod_at_near_max": 1.8257862171529091,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_00": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.4475000000005294,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.4475000000005294,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.4475000000005294,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_00": {
+        "growth_max": 0.8551158692967893,
+        "feasible": true,
+        "prod_at_near_max": 1.6007655502390996,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_01": {
+        "growth_max": 0.8551158692967952,
+        "feasible": true,
+        "prod_at_near_max": 1.600765550239602,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_02": {
+        "growth_max": 0.8571558501955143,
+        "feasible": true,
+        "prod_at_near_max": 1.5988223410345477,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_akg_e": {
+        "growth_max": 0.8713041830555955,
+        "feasible": true,
+        "prod_at_near_max": 1.4475000000002542,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_akg_e": {
+        "growth_max": 1.3076117383397212,
+        "feasible": true,
+        "prod_at_near_max": 1.9157422969140716,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_00": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.5037837837847134,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.5037837837847134,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.5037837837847134,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_00": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 2.6546666666688283,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_01": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 2.6546666666688283,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_02": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 2.6546666666688283,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_pyr_e": {
+        "growth_max": 0.8713041830555767,
+        "feasible": true,
+        "prod_at_near_max": 2.5037837837838826,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_pyr_e": {
+        "growth_max": 0.8713041830555897,
+        "feasible": true,
+        "prod_at_near_max": 2.503783783783864,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_00": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000006881,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000006881,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_02": {
+        "growth_max": 0.8713041830555813,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000002631,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_00": {
+        "growth_max": 0.8571558501955143,
+        "feasible": true,
+        "prod_at_near_max": 1.991428571428499,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_01": {
+        "growth_max": 0.8588886102966337,
+        "feasible": true,
+        "prod_at_near_max": 1.991428571428544,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_02": {
+        "growth_max": 0.8571558501954979,
+        "feasible": true,
+        "prod_at_near_max": 1.9914285714287308,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "PATH_EX_mal__L_e_PYC_anaplerotic": {
+        "growth_max": 0.8737368145001324,
+        "feasible": true,
+        "prod_at_near_max": 1.890612244897944,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_mal__L_e": {
+        "growth_max": 0.871304183055593,
+        "feasible": true,
+        "prod_at_near_max": 1.8527999999999814,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_mal__L_e": {
+        "growth_max": 0.8713041830555887,
+        "feasible": true,
+        "prod_at_near_max": 1.8527999999999611,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_00": {
+        "growth_max": 0.8713041830555844,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000000058,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_01": {
+        "growth_max": 0.8713041830555813,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000002058,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_02": {
+        "growth_max": 0.8713041830555813,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000002058,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_00": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 2.900506555820545,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_01": {
+        "growth_max": 0.7970846251510219,
+        "feasible": true,
+        "prod_at_near_max": 2.900506555820545,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_02": {
+        "growth_max": 0.7970846251515525,
+        "feasible": true,
+        "prod_at_near_max": 2.900506555820256,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "PATH_EX_fum_e_PYC_anaplerotic": {
+        "growth_max": 0.8737368145001327,
+        "feasible": true,
+        "prod_at_near_max": 1.8906122448980303,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_fum_e": {
+        "growth_max": 0.8713041830555939,
+        "feasible": true,
+        "prod_at_near_max": 1.852800000000637,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_fum_e": {
+        "growth_max": 0.8713041830555872,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000000973,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_00": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230782113,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230782113,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_02": {
+        "growth_max": 0.871304183055588,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230769452,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_00": {
+        "growth_max": 0.8471107826642649,
+        "feasible": true,
+        "prod_at_near_max": 3.93314369736184,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_01": {
+        "growth_max": 0.8571558501954987,
+        "feasible": true,
+        "prod_at_near_max": 3.890232558139928,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_02": {
+        "growth_max": 0.8588886102966311,
+        "feasible": true,
+        "prod_at_near_max": 3.890232558139411,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_glyclt_e": {
+        "growth_max": 0.8713041830555862,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230770865,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_glyclt_e": {
+        "growth_max": 0.8713041830555911,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230749104,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 0
+      }
+    },
+    "full": {
+      "FSEOF_EX_ac_e_00": {
+        "growth_max": 0.8713041830555848,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230767894,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_ac_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 3.563076923078179,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_ac_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 3.563076923078179,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_ac_e_00": {
+        "growth_max": 0.797084625151044,
+        "feasible": true,
+        "prod_at_near_max": 4.191578947368341,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_ac_e_01": {
+        "growth_max": 0.797084625151044,
+        "feasible": true,
+        "prod_at_near_max": 4.191578947368341,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_ac_e_02": {
+        "growth_max": 0.797084625151044,
+        "feasible": true,
+        "prod_at_near_max": 4.191578947368341,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_ac_e": {
+        "growth_max": 0.8713041830555848,
+        "feasible": true,
+        "prod_at_near_max": 3.563076923076159,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_ac_e": {
+        "growth_max": 0.8713041830555788,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230765607,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_lac__D_e_00": {
+        "growth_max": 0.8713041830555848,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454544713,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_lac__D_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.105454545455332,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_lac__D_e_02": {
+        "growth_max": 0.8713041830555848,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454544713,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_lac__D_e_00": {
+        "growth_max": 0.797084625151044,
+        "feasible": true,
+        "prod_at_near_max": 2.1524324324326978,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_lac__D_e_01": {
+        "growth_max": 0.7970846251510301,
+        "feasible": true,
+        "prod_at_near_max": 2.1524324324328004,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_lac__D_e_02": {
+        "growth_max": 0.797084625151044,
+        "feasible": true,
+        "prod_at_near_max": 2.1524324324326978,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_lac__D_e": {
+        "growth_max": 0.8713041830555861,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454547693,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_lac__D_e": {
+        "growth_max": 0.8713041830555908,
+        "feasible": true,
+        "prod_at_near_max": 2.105454545454662,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_etoh_e_00": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454553257,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_etoh_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454553257,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_etoh_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454553257,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_etoh_e_00": {
+        "growth_max": 0.7970846251510277,
+        "feasible": true,
+        "prod_at_near_max": 2.152432432432146,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_etoh_e_01": {
+        "growth_max": 0.797084625151044,
+        "feasible": true,
+        "prod_at_near_max": 2.1524324324326938,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_etoh_e_02": {
+        "growth_max": 0.797084625151044,
+        "feasible": true,
+        "prod_at_near_max": 2.1524324324326938,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "PATH_EX_etoh_e_PDC_homoethanol": {
+        "growth_max": 0.8713041830555994,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454549864,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_etoh_e": {
+        "growth_max": 0.8713041830555898,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454545046,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_etoh_e": {
+        "growth_max": 0.8713041830555911,
+        "feasible": true,
+        "prod_at_near_max": 2.1054545454533513,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_for_e_00": {
+        "growth_max": 0.8713041830555813,
+        "feasible": true,
+        "prod_at_near_max": 11.529882834612454,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_for_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 11.52988283461265,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_for_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 11.52988283461265,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_for_e_00": {
+        "growth_max": 0.852316246874951,
+        "feasible": true,
+        "prod_at_near_max": 13.531848758882441,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_for_e_01": {
+        "growth_max": 0.8662817170917833,
+        "feasible": true,
+        "prod_at_near_max": 11.740323581028344,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_for_e_02": {
+        "growth_max": 0.7952285483802173,
+        "feasible": true,
+        "prod_at_near_max": 11.627709285778641,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_for_e": {
+        "growth_max": 0.8713041830555763,
+        "feasible": true,
+        "prod_at_near_max": 11.52988283461023,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_for_e": {
+        "growth_max": 0.8713041830555881,
+        "feasible": true,
+        "prod_at_near_max": 11.529882834609195,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_succ_e_00": {
+        "growth_max": 0.8713041830555813,
+        "feasible": true,
+        "prod_at_near_max": 1.7155555555557582,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_succ_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.7155555555562045,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_succ_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.7155555555562045,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_succ_e_00": {
+        "growth_max": 0.797082803048878,
+        "feasible": true,
+        "prod_at_near_max": 2.617568726251429,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_succ_e_01": {
+        "growth_max": 0.797084625151044,
+        "feasible": true,
+        "prod_at_near_max": 2.617530306471576,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_succ_e_02": {
+        "growth_max": 0.797084625151044,
+        "feasible": true,
+        "prod_at_near_max": 2.617530306471576,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "PATH_EX_succ_e_PYC_anaplerotic": {
+        "growth_max": 0.8737368145001255,
+        "feasible": true,
+        "prod_at_near_max": 1.7479245283014493,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_succ_e": {
+        "growth_max": 0.8713041830555907,
+        "feasible": true,
+        "prod_at_near_max": 1.715555555555427,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_succ_e": {
+        "growth_max": 0.8713041830555946,
+        "feasible": true,
+        "prod_at_near_max": 1.7155555555556674,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_akg_e_00": {
+        "growth_max": 0.8713041830555844,
+        "feasible": true,
+        "prod_at_near_max": 1.4474999999999942,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_akg_e_01": {
+        "growth_max": 0.8713041830555844,
+        "feasible": true,
+        "prod_at_near_max": 1.4474999999999942,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_akg_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.4475000000005294,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_akg_e_00": {
+        "growth_max": 0.8551158692967893,
+        "feasible": true,
+        "prod_at_near_max": 1.6007655502390996,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_akg_e_01": {
+        "growth_max": 0.8551158692967874,
+        "feasible": true,
+        "prod_at_near_max": 1.6007655502393605,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_akg_e_02": {
+        "growth_max": 0.8571558501954889,
+        "feasible": true,
+        "prod_at_near_max": 1.5988223410350562,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_akg_e": {
+        "growth_max": 0.8713041830555852,
+        "feasible": true,
+        "prod_at_near_max": 1.4475000000003095,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_akg_e": {
+        "growth_max": 0.8713041830555754,
+        "feasible": true,
+        "prod_at_near_max": 1.4474999999998956,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_pyr_e_00": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.5037837837847134,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_pyr_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.5037837837847134,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_pyr_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.5037837837847134,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_pyr_e_00": {
+        "growth_max": 0.797084625151044,
+        "feasible": true,
+        "prod_at_near_max": 2.6546666666669,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_pyr_e_01": {
+        "growth_max": 0.7970846251510628,
+        "feasible": true,
+        "prod_at_near_max": 2.6546666666677567,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_pyr_e_02": {
+        "growth_max": 0.7970846251510628,
+        "feasible": true,
+        "prod_at_near_max": 2.6546666666677567,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_pyr_e": {
+        "growth_max": 0.8713041830555767,
+        "feasible": true,
+        "prod_at_near_max": 2.503783783783848,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_pyr_e": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 2.5037837837837063,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_mal__L_e_00": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000006881,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_mal__L_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000006881,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_mal__L_e_02": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000006881,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_mal__L_e_00": {
+        "growth_max": 0.8571558501954971,
+        "feasible": true,
+        "prod_at_near_max": 1.9914285714286393,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_mal__L_e_01": {
+        "growth_max": 0.8588886102966321,
+        "feasible": true,
+        "prod_at_near_max": 1.991428571428356,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_mal__L_e_02": {
+        "growth_max": 0.8571558501954888,
+        "feasible": true,
+        "prod_at_near_max": 1.9914285714286768,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "PATH_EX_mal__L_e_PYC_anaplerotic": {
+        "growth_max": 0.8737368145001271,
+        "feasible": true,
+        "prod_at_near_max": 1.8906122448981506,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_mal__L_e": {
+        "growth_max": 0.8713041830555782,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000003364,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_mal__L_e": {
+        "growth_max": 0.8713041830555851,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000002334,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_fum_e_00": {
+        "growth_max": 0.8713041830555813,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000002058,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_fum_e_01": {
+        "growth_max": 0.8713041830555844,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000000058,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_fum_e_02": {
+        "growth_max": 0.8713041830555844,
+        "feasible": true,
+        "prod_at_near_max": 1.8528000000000058,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_fum_e_00": {
+        "growth_max": 0.7970846251510488,
+        "feasible": true,
+        "prod_at_near_max": 2.90050655581952,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_fum_e_01": {
+        "growth_max": 0.7970846251510488,
+        "feasible": true,
+        "prod_at_near_max": 2.90050655581952,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_fum_e_02": {
+        "growth_max": 0.7970846251510519,
+        "feasible": true,
+        "prod_at_near_max": 2.9005065558200367,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "PATH_EX_fum_e_PYC_anaplerotic": {
+        "growth_max": 0.8737368145001362,
+        "feasible": true,
+        "prod_at_near_max": 1.8906122448978537,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_fum_e": {
+        "growth_max": 0.8713041830555939,
+        "feasible": true,
+        "prod_at_near_max": 1.852800000000637,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_fum_e": {
+        "growth_max": 0.8713041830555895,
+        "feasible": true,
+        "prod_at_near_max": 1.8527999999998994,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_glyclt_e_00": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230782113,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_glyclt_e_01": {
+        "growth_max": 0.8713041830555877,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230782113,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_glyclt_e_02": {
+        "growth_max": 0.8713041830555807,
+        "feasible": true,
+        "prod_at_near_max": 3.5630769230765162,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_glyclt_e_00": {
+        "growth_max": 0.8469393918605754,
+        "feasible": true,
+        "prod_at_near_max": 3.9352380952382644,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_glyclt_e_01": {
+        "growth_max": 0.8571558501955143,
+        "feasible": true,
+        "prod_at_near_max": 3.890232558139383,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_glyclt_e_02": {
+        "growth_max": 0.8588886102966321,
+        "feasible": true,
+        "prod_at_near_max": 3.8902325581391084,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_glyclt_e": {
+        "growth_max": 0.871304183055594,
+        "feasible": true,
+        "prod_at_near_max": 3.563076923078233,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_glyclt_e": {
+        "growth_max": 0.8713041830555887,
+        "feasible": true,
+        "prod_at_near_max": 3.563076923077456,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      }
+    },
+    "full_anaer": {
+      "FSEOF_EX_ac_e_00": {
+        "growth_max": 0.14386748554840875,
+        "feasible": true,
+        "prod_at_near_max": 12.269703730099307,
+        "prod_min_guaranteed": 5.391332865576804,
+        "coupling_strength": 0.4394020413346336,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_ac_e_01": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 12.269703730102425,
+        "prod_min_guaranteed": 5.391332865575766,
+        "coupling_strength": 0.4394020413344374,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_ac_e_02": {
+        "growth_max": 0.14386748554840875,
+        "feasible": true,
+        "prod_at_near_max": 12.269703730099307,
+        "prod_min_guaranteed": 5.391332865576804,
+        "coupling_strength": 0.4394020413346336,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_ac_e_00": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 12.272921394444067,
+        "prod_min_guaranteed": 5.395280797611127,
+        "coupling_strength": 0.4396085189670947,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_ac_e_01": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 12.272921394444067,
+        "prod_min_guaranteed": 5.395280797611127,
+        "coupling_strength": 0.4396085189670947,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_ac_e_02": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 12.272921394444067,
+        "prod_min_guaranteed": 5.395280797611127,
+        "coupling_strength": 0.4396085189670947,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_ac_e": {
+        "growth_max": 0.14386748554839365,
+        "feasible": true,
+        "prod_at_near_max": 12.26970373010347,
+        "prod_min_guaranteed": 5.391332865572111,
+        "coupling_strength": 0.43940204133410204,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_ac_e": {
+        "growth_max": 0.14386748554837075,
+        "feasible": true,
+        "prod_at_near_max": 12.269703730102883,
+        "prod_min_guaranteed": 5.391332865572589,
+        "coupling_strength": 0.43940204133416205,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_lac__D_e_00": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 6.640000000001459,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_lac__D_e_01": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 6.640000000001459,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_lac__D_e_02": {
+        "growth_max": 0.14386748554840875,
+        "feasible": true,
+        "prod_at_near_max": 6.639999999998165,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_lac__D_e_00": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 6.639999999997995,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_lac__D_e_01": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 6.639999999997995,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_lac__D_e_02": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 6.639999999997995,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_lac__D_e": {
+        "growth_max": 0.14386748554840453,
+        "feasible": true,
+        "prod_at_near_max": 6.639999999993078,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_lac__D_e": {
+        "growth_max": 0.14386748554841555,
+        "feasible": true,
+        "prod_at_near_max": 6.640000000001109,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_etoh_e_00": {
+        "growth_max": 0.14386748554840875,
+        "feasible": true,
+        "prod_at_near_max": 12.353239004455967,
+        "prod_min_guaranteed": 5.713239004460172,
+        "coupling_strength": 0.4624891498010632,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_etoh_e_01": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 12.353239004458562,
+        "prod_min_guaranteed": 5.713239004458723,
+        "coupling_strength": 0.4624891498008487,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_etoh_e_02": {
+        "growth_max": 0.14386748554840875,
+        "feasible": true,
+        "prod_at_near_max": 12.353239004455967,
+        "prod_min_guaranteed": 5.713239004460172,
+        "coupling_strength": 0.4624891498010632,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_etoh_e_00": {
+        "growth_max": 0.14342673631250766,
+        "feasible": true,
+        "prod_at_near_max": 12.264661047106761,
+        "prod_min_guaranteed": 5.624661047108661,
+        "coupling_strength": 0.4586071335771257,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_etoh_e_01": {
+        "growth_max": 0.1434267363124863,
+        "feasible": true,
+        "prod_at_near_max": 12.264661047105028,
+        "prod_min_guaranteed": 5.624661047105607,
+        "coupling_strength": 0.45860713357694155,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_etoh_e_02": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 12.264661047101075,
+        "prod_min_guaranteed": 5.624661047109353,
+        "coupling_strength": 0.4586071335773948,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "PATH_EX_etoh_e_PDC_homoethanol": {
+        "growth_max": 0.14386748554840262,
+        "feasible": true,
+        "prod_at_near_max": 12.353239004454135,
+        "prod_min_guaranteed": 5.713239004457956,
+        "coupling_strength": 0.4624891498009524,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_etoh_e": {
+        "growth_max": 0.14386748554841558,
+        "feasible": true,
+        "prod_at_near_max": 12.353239004458597,
+        "prod_min_guaranteed": 5.713239004458187,
+        "coupling_strength": 0.462489149800804,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_etoh_e": {
+        "growth_max": 0.14386748554840983,
+        "feasible": true,
+        "prod_at_near_max": 12.353239004457352,
+        "prod_min_guaranteed": 5.7132390044574635,
+        "coupling_strength": 0.46248914980079203,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_for_e_00": {
+        "growth_max": 0.1438674855484047,
+        "feasible": true,
+        "prod_at_near_max": 25.158016053558637,
+        "prod_min_guaranteed": 11.87801605354561,
+        "coupling_strength": 0.4721364366831878,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_for_e_01": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 25.15801605355624,
+        "prod_min_guaranteed": 11.878016053554141,
+        "coupling_strength": 0.4721364366835719,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_for_e_02": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 25.15801605355624,
+        "prod_min_guaranteed": 11.878016053554141,
+        "coupling_strength": 0.4721364366835719,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_for_e_00": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 25.15801605355219,
+        "prod_min_guaranteed": 11.878016053554159,
+        "coupling_strength": 0.47213643668364863,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_for_e_01": {
+        "growth_max": 0.13905061361187215,
+        "feasible": true,
+        "prod_at_near_max": 24.985281707206923,
+        "prod_min_guaranteed": 11.70528170717512,
+        "coupling_strength": 0.4684870814884096,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_for_e_02": {
+        "growth_max": 0.13905061361188342,
+        "feasible": true,
+        "prod_at_near_max": 24.98528170719693,
+        "prod_min_guaranteed": 11.705281707203012,
+        "coupling_strength": 0.46848708148971335,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_for_e": {
+        "growth_max": 0.14386748554840476,
+        "feasible": true,
+        "prod_at_near_max": 25.15801605355636,
+        "prod_min_guaranteed": 11.878016053546162,
+        "coupling_strength": 0.4721364366832525,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_for_e": {
+        "growth_max": 0.14386748554840945,
+        "feasible": true,
+        "prod_at_near_max": 25.158016053546397,
+        "prod_min_guaranteed": 11.878016053558776,
+        "coupling_strength": 0.47213643668394084,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_succ_e_00": {
+        "growth_max": 0.1438674855484047,
+        "feasible": true,
+        "prod_at_near_max": 3.3632004710173677,
+        "prod_min_guaranteed": 0.043200471013475336,
+        "coupling_strength": 0.012845047860143526,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_succ_e_01": {
+        "growth_max": 0.14386748554840773,
+        "feasible": true,
+        "prod_at_near_max": 3.36320047102456,
+        "prod_min_guaranteed": 0.04320047101347565,
+        "coupling_strength": 0.012845047860116149,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_succ_e_02": {
+        "growth_max": 0.14386748554840773,
+        "feasible": true,
+        "prod_at_near_max": 3.36320047102456,
+        "prod_min_guaranteed": 0.04320047101347565,
+        "coupling_strength": 0.012845047860116149,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_succ_e_00": {
+        "growth_max": 0.14342673631248404,
+        "feasible": true,
+        "prod_at_near_max": 1.794607827892587,
+        "prod_min_guaranteed": 0.04306812300921784,
+        "coupling_strength": 0.023998626518749146,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_succ_e_01": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 1.7946078278911293,
+        "prod_min_guaranteed": 0.04306812300922007,
+        "coupling_strength": 0.02399862651876988,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_succ_e_02": {
+        "growth_max": 0.14342673631248848,
+        "feasible": true,
+        "prod_at_near_max": 1.794607827891605,
+        "prod_min_guaranteed": 0.04306812300921354,
+        "coupling_strength": 0.02399862651875988,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "PATH_EX_succ_e_PYC_anaplerotic": {
+        "growth_max": 0.1449016124870783,
+        "feasible": true,
+        "prod_at_near_max": 6.683510998229146,
+        "prod_min_guaranteed": 0.043510998236982804,
+        "coupling_strength": 0.0065102007385805785,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_succ_e": {
+        "growth_max": 0.14386748554842205,
+        "feasible": true,
+        "prod_at_near_max": 3.3632004710137937,
+        "prod_min_guaranteed": 0.0432004710134964,
+        "coupling_strength": 0.012845047860163439,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_succ_e": {
+        "growth_max": 0.14386748554841572,
+        "feasible": true,
+        "prod_at_near_max": 3.3632004710135663,
+        "prod_min_guaranteed": 0.0432004710134816,
+        "coupling_strength": 0.012845047860159907,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_akg_e_00": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 0.5533333333334721,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_akg_e_01": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 0.5533333333334721,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_akg_e_02": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 0.5533333333334721,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_akg_e_00": {
+        "growth_max": 0.10534279769504246,
+        "feasible": true,
+        "prod_at_near_max": 0.6327272727268666,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_akg_e_01": {
+        "growth_max": 0.10534279769504133,
+        "feasible": true,
+        "prod_at_near_max": 0.6327272727276738,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_akg_e_02": {
+        "growth_max": 0.10389541959611333,
+        "feasible": true,
+        "prod_at_near_max": 0.3569230769230278,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_akg_e": {
+        "growth_max": 0.14386748554840886,
+        "feasible": true,
+        "prod_at_near_max": 0.5533333333339713,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_akg_e": {
+        "growth_max": 0.1438674855484117,
+        "feasible": true,
+        "prod_at_near_max": 0.5533333333325726,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_pyr_e_00": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 2.213333333333869,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_pyr_e_01": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 2.213333333333869,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_pyr_e_02": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 2.213333333333869,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_pyr_e_00": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 2.213333333332474,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_pyr_e_01": {
+        "growth_max": 0.14342673631249075,
+        "feasible": true,
+        "prod_at_near_max": 2.213333333337798,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_pyr_e_02": {
+        "growth_max": 0.14342673631249075,
+        "feasible": true,
+        "prod_at_near_max": 2.213333333337798,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_pyr_e": {
+        "growth_max": 0.14386748554841394,
+        "feasible": true,
+        "prod_at_near_max": 2.2133333333352243,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_pyr_e": {
+        "growth_max": 0.14386748554840617,
+        "feasible": true,
+        "prod_at_near_max": 2.2133333333324976,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_mal__L_e_00": {
+        "growth_max": 0.14386748554840773,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285745619,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_mal__L_e_01": {
+        "growth_max": 0.14386748554840773,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285745619,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_mal__L_e_02": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285716612,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_mal__L_e_00": {
+        "growth_max": 0.10389541959611333,
+        "feasible": true,
+        "prod_at_near_max": 0.773333333333215,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_mal__L_e_01": {
+        "growth_max": 0.14386748554839893,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285710097,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_mal__L_e_02": {
+        "growth_max": 0.14386748554840606,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285712654,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "PATH_EX_mal__L_e_PYC_anaplerotic": {
+        "growth_max": 0.14490161248707176,
+        "feasible": true,
+        "prod_at_near_max": 1.106666666667477,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_mal__L_e": {
+        "growth_max": 0.1438674855484081,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285711526,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_mal__L_e": {
+        "growth_max": 0.14386748554839623,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285721184,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_fum_e_00": {
+        "growth_max": 0.1438674855484047,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285718034,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_fum_e_01": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285716608,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_fum_e_02": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285716608,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_fum_e_00": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 0.7784620910585073,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_fum_e_01": {
+        "growth_max": 0.143426736312493,
+        "feasible": true,
+        "prod_at_near_max": 0.7784620910585073,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_fum_e_02": {
+        "growth_max": 0.14342673631245265,
+        "feasible": true,
+        "prod_at_near_max": 0.7784620910590736,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "PATH_EX_fum_e_PYC_anaplerotic": {
+        "growth_max": 0.14490161248708805,
+        "feasible": true,
+        "prod_at_near_max": 1.1066666666663258,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_fum_e": {
+        "growth_max": 0.14386748554839882,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285720874,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_fum_e": {
+        "growth_max": 0.1438674855484079,
+        "feasible": true,
+        "prod_at_near_max": 0.9485714285728638,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_glyclt_e_00": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 0.6036836123345285,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_glyclt_e_01": {
+        "growth_max": 0.14386748554840062,
+        "feasible": true,
+        "prod_at_near_max": 0.6036836123345285,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_glyclt_e_02": {
+        "growth_max": 0.14386748554840825,
+        "feasible": true,
+        "prod_at_near_max": 0.6036836123335672,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_glyclt_e_00": {
+        "growth_max": 0.14386748554840378,
+        "feasible": true,
+        "prod_at_near_max": 0.6036836123343463,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_glyclt_e_01": {
+        "growth_max": 0.10389541959610037,
+        "feasible": true,
+        "prod_at_near_max": 0.4640437888026685,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "KO_EX_glyclt_e_02": {
+        "growth_max": 0.143867485548402,
+        "feasible": true,
+        "prod_at_near_max": 0.6036836123345906,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_glyclt_e": {
+        "growth_max": 0.14386748554841586,
+        "feasible": true,
+        "prod_at_near_max": 0.6036836123344718,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_glyclt_e": {
+        "growth_max": 0.14386748554845014,
+        "feasible": true,
+        "prod_at_near_max": 0.6036836123343069,
+        "prod_min_guaranteed": 0.0,
+        "coupling_strength": 0.0,
+        "status": "optimal",
+        "tfa_constrained": 2
+      }
+    }
+  },
+  "labels": {
+    "FSEOF_EX_ac_e_00": "realistic",
+    "FSEOF_EX_ac_e_01": "realistic",
+    "FSEOF_EX_ac_e_02": "realistic",
+    "KO_EX_ac_e_00": "realistic",
+    "KO_EX_ac_e_01": "realistic",
+    "KO_EX_ac_e_02": "realistic",
+    "FPMED_EX_ac_e": "fp_medium",
+    "FPTHERMO_EX_ac_e": "fp_thermo",
+    "FSEOF_EX_lac__D_e_00": "realistic",
+    "FSEOF_EX_lac__D_e_01": "realistic",
+    "FSEOF_EX_lac__D_e_02": "realistic",
+    "KO_EX_lac__D_e_00": "realistic",
+    "KO_EX_lac__D_e_01": "realistic",
+    "KO_EX_lac__D_e_02": "realistic",
+    "FPMED_EX_lac__D_e": "fp_medium",
+    "FPTHERMO_EX_lac__D_e": "fp_thermo",
+    "FSEOF_EX_etoh_e_00": "realistic",
+    "FSEOF_EX_etoh_e_01": "realistic",
+    "FSEOF_EX_etoh_e_02": "realistic",
+    "KO_EX_etoh_e_00": "realistic",
+    "KO_EX_etoh_e_01": "realistic",
+    "KO_EX_etoh_e_02": "realistic",
+    "PATH_EX_etoh_e_PDC_homoethanol": "tp_pathway",
+    "FPMED_EX_etoh_e": "fp_medium",
+    "FPTHERMO_EX_etoh_e": "fp_thermo",
+    "FSEOF_EX_for_e_00": "realistic",
+    "FSEOF_EX_for_e_01": "realistic",
+    "FSEOF_EX_for_e_02": "realistic",
+    "KO_EX_for_e_00": "realistic",
+    "KO_EX_for_e_01": "realistic",
+    "KO_EX_for_e_02": "realistic",
+    "FPMED_EX_for_e": "fp_medium",
+    "FPTHERMO_EX_for_e": "fp_thermo",
+    "FSEOF_EX_succ_e_00": "realistic",
+    "FSEOF_EX_succ_e_01": "realistic",
+    "FSEOF_EX_succ_e_02": "realistic",
+    "KO_EX_succ_e_00": "realistic",
+    "KO_EX_succ_e_01": "realistic",
+    "KO_EX_succ_e_02": "realistic",
+    "PATH_EX_succ_e_PYC_anaplerotic": "tp_pathway",
+    "FPMED_EX_succ_e": "fp_medium",
+    "FPTHERMO_EX_succ_e": "fp_thermo",
+    "FSEOF_EX_akg_e_00": "realistic",
+    "FSEOF_EX_akg_e_01": "realistic",
+    "FSEOF_EX_akg_e_02": "realistic",
+    "KO_EX_akg_e_00": "realistic",
+    "KO_EX_akg_e_01": "realistic",
+    "KO_EX_akg_e_02": "realistic",
+    "FPMED_EX_akg_e": "fp_medium",
+    "FPTHERMO_EX_akg_e": "fp_thermo",
+    "FSEOF_EX_pyr_e_00": "realistic",
+    "FSEOF_EX_pyr_e_01": "realistic",
+    "FSEOF_EX_pyr_e_02": "realistic",
+    "KO_EX_pyr_e_00": "realistic",
+    "KO_EX_pyr_e_01": "realistic",
+    "KO_EX_pyr_e_02": "realistic",
+    "FPMED_EX_pyr_e": "fp_medium",
+    "FPTHERMO_EX_pyr_e": "fp_thermo",
+    "FSEOF_EX_mal__L_e_00": "realistic",
+    "FSEOF_EX_mal__L_e_01": "realistic",
+    "FSEOF_EX_mal__L_e_02": "realistic",
+    "KO_EX_mal__L_e_00": "realistic",
+    "KO_EX_mal__L_e_01": "realistic",
+    "KO_EX_mal__L_e_02": "realistic",
+    "PATH_EX_mal__L_e_PYC_anaplerotic": "tp_pathway",
+    "FPMED_EX_mal__L_e": "fp_medium",
+    "FPTHERMO_EX_mal__L_e": "fp_thermo",
+    "FSEOF_EX_fum_e_00": "realistic",
+    "FSEOF_EX_fum_e_01": "realistic",
+    "FSEOF_EX_fum_e_02": "realistic",
+    "KO_EX_fum_e_00": "realistic",
+    "KO_EX_fum_e_01": "realistic",
+    "KO_EX_fum_e_02": "realistic",
+    "PATH_EX_fum_e_PYC_anaplerotic": "tp_pathway",
+    "FPMED_EX_fum_e": "fp_medium",
+    "FPTHERMO_EX_fum_e": "fp_thermo",
+    "FSEOF_EX_glyclt_e_00": "realistic",
+    "FSEOF_EX_glyclt_e_01": "realistic",
+    "FSEOF_EX_glyclt_e_02": "realistic",
+    "KO_EX_glyclt_e_00": "realistic",
+    "KO_EX_glyclt_e_01": "realistic",
+    "KO_EX_glyclt_e_02": "realistic",
+    "FPMED_EX_glyclt_e": "fp_medium",
+    "FPTHERMO_EX_glyclt_e": "fp_thermo"
+  },
+  "caveat": "Skor coupling = prod pd near-max growth (proxy titer realistik). TP = library heterolog kurated (PYC/PDC), bukan enumerasi RetroPath/ATLAS. Label proxy, bukan wetlab."
+}

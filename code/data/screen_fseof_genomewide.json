@@ -1,0 +1,437 @@
+{
+  "model": "iML1515",
+  "cobra": "0.31.1",
+  "method": "FSEOF (Choi et al., 2010), genome-wide, plain vs resource-aware",
+  "products": [
+    "EX_lys__L_e",
+    "EX_succ_e"
+  ],
+  "results": {
+    "EX_lys__L_e": {
+      "n_targets_plain": 17,
+      "n_targets_full": 25,
+      "n_shared": 12,
+      "n_promoted_resource_aware": 13,
+      "n_dropped_vs_plain": 5,
+      "top15_full": [
+        {
+          "rxn": "RPE",
+          "up_factor": 5.0,
+          "genes": "rpe"
+        },
+        {
+          "rxn": "SDPDS",
+          "up_factor": 5.0,
+          "genes": "dapE"
+        },
+        {
+          "rxn": "DAPE",
+          "up_factor": 5.0,
+          "genes": "dapF"
+        },
+        {
+          "rxn": "DHDPRy",
+          "up_factor": 5.0,
+          "genes": "dapB"
+        },
+        {
+          "rxn": "SDPTA",
+          "up_factor": 5.0,
+          "genes": "argD;astC;gabT;puuE;serC"
+        },
+        {
+          "rxn": "DHDPS",
+          "up_factor": 5.0,
+          "genes": "dapA"
+        },
+        {
+          "rxn": "DAPDC",
+          "up_factor": 5.0,
+          "genes": "lysA"
+        },
+        {
+          "rxn": "HEX1",
+          "up_factor": 5.0,
+          "genes": "glk"
+        },
+        {
+          "rxn": "TKT2",
+          "up_factor": 5.0,
+          "genes": "tktA;tktB"
+        },
+        {
+          "rxn": "LYStex",
+          "up_factor": 5.0,
+          "genes": "ompC;ompF;ompN;phoE"
+        },
+        {
+          "rxn": "GLCt2pp",
+          "up_factor": 5.0,
+          "genes": "galP"
+        },
+        {
+          "rxn": "THDPS",
+          "up_factor": 5.0,
+          "genes": "dapD"
+        },
+        {
+          "rxn": "LYSt3pp",
+          "up_factor": 5.0,
+          "genes": "argO;ybjE"
+        },
+        {
+          "rxn": "PFK_3",
+          "up_factor": 4.547,
+          "genes": "pfkA"
+        },
+        {
+          "rxn": "TKT1",
+          "up_factor": 4.547,
+          "genes": "tktA;tktB"
+        }
+      ],
+      "top15_plain": [
+        {
+          "rxn": "ASPTA",
+          "up_factor": 5.0,
+          "genes": "aspC;tyrB"
+        },
+        {
+          "rxn": "SDPDS",
+          "up_factor": 5.0,
+          "genes": "dapE"
+        },
+        {
+          "rxn": "DAPE",
+          "up_factor": 5.0,
+          "genes": "dapF"
+        },
+        {
+          "rxn": "DHDPRy",
+          "up_factor": 5.0,
+          "genes": "dapB"
+        },
+        {
+          "rxn": "SDPTA",
+          "up_factor": 5.0,
+          "genes": "argD;astC;gabT;puuE;serC"
+        },
+        {
+          "rxn": "DHDPS",
+          "up_factor": 5.0,
+          "genes": "dapA"
+        },
+        {
+          "rxn": "ASPK",
+          "up_factor": 5.0,
+          "genes": "lysC;metL;thrA"
+        },
+        {
+          "rxn": "ASAD",
+          "up_factor": 5.0,
+          "genes": "asd"
+        },
+        {
+          "rxn": "DAPDC",
+          "up_factor": 5.0,
+          "genes": "lysA"
+        },
+        {
+          "rxn": "THD2pp",
+          "up_factor": 5.0,
+          "genes": "pntA;pntB"
+        },
+        {
+          "rxn": "LYStex",
+          "up_factor": 5.0,
+          "genes": "ompC;ompF;ompN;phoE"
+        },
+        {
+          "rxn": "THDPS",
+          "up_factor": 5.0,
+          "genes": "dapD"
+        },
+        {
+          "rxn": "SUCOAS",
+          "up_factor": 5.0,
+          "genes": "sucC;sucD"
+        },
+        {
+          "rxn": "LYSt3pp",
+          "up_factor": 5.0,
+          "genes": "argO;ybjE"
+        },
+        {
+          "rxn": "EX_co2_e",
+          "up_factor": 3.191,
+          "genes": ""
+        }
+      ],
+      "promoted_top10": [
+        {
+          "rxn": "RPE",
+          "up_factor": 5.0,
+          "genes": "rpe"
+        },
+        {
+          "rxn": "HEX1",
+          "up_factor": 5.0,
+          "genes": "glk"
+        },
+        {
+          "rxn": "TKT2",
+          "up_factor": 5.0,
+          "genes": "tktA;tktB"
+        },
+        {
+          "rxn": "GLCt2pp",
+          "up_factor": 5.0,
+          "genes": "galP"
+        },
+        {
+          "rxn": "PFK_3",
+          "up_factor": 4.547,
+          "genes": "pfkA"
+        },
+        {
+          "rxn": "TKT1",
+          "up_factor": 4.547,
+          "genes": "tktA;tktB"
+        },
+        {
+          "rxn": "FBA3",
+          "up_factor": 4.547,
+          "genes": "fbaA"
+        },
+        {
+          "rxn": "PGL",
+          "up_factor": 3.975,
+          "genes": "pgl"
+        },
+        {
+          "rxn": "GND",
+          "up_factor": 3.975,
+          "genes": "gnd"
+        },
+        {
+          "rxn": "G6PDH2r",
+          "up_factor": 3.975,
+          "genes": "zwf"
+        }
+      ],
+      "dropped_top10": [
+        {
+          "rxn": "THD2pp",
+          "up_factor": 5.0,
+          "genes": "pntA;pntB"
+        },
+        {
+          "rxn": "SUCOAS",
+          "up_factor": 5.0,
+          "genes": "sucC;sucD"
+        },
+        {
+          "rxn": "EX_co2_e",
+          "up_factor": 3.191,
+          "genes": ""
+        },
+        {
+          "rxn": "CO2tpp",
+          "up_factor": 3.191,
+          "genes": "s0001"
+        },
+        {
+          "rxn": "CO2tex",
+          "up_factor": 3.191,
+          "genes": "ompC;ompF;ompN;phoE"
+        }
+      ]
+    },
+    "EX_succ_e": {
+      "n_targets_plain": 14,
+      "n_targets_full": 8,
+      "n_shared": 5,
+      "n_promoted_resource_aware": 3,
+      "n_dropped_vs_plain": 9,
+      "top15_full": [
+        {
+          "rxn": "FRD2",
+          "up_factor": 5.0,
+          "genes": "frdA;frdB;frdC;frdD"
+        },
+        {
+          "rxn": "SUCCtex",
+          "up_factor": 5.0,
+          "genes": "ompC;ompF;ompN;phoE"
+        },
+        {
+          "rxn": "GLCt2pp",
+          "up_factor": 5.0,
+          "genes": "galP"
+        },
+        {
+          "rxn": "NADH17pp",
+          "up_factor": 5.0,
+          "genes": "nuoA;nuoB;nuoC;nuoE;nuoF;nuoG;nuoH;nuoI;nuoJ;nuoK;nuoL;nuoM;nuoN"
+        },
+        {
+          "rxn": "SUCCt1pp",
+          "up_factor": 5.0,
+          "genes": "dauA"
+        },
+        {
+          "rxn": "PPC",
+          "up_factor": 3.301,
+          "genes": "ppc"
+        },
+        {
+          "rxn": "EX_h_e",
+          "up_factor": 2.962,
+          "genes": ""
+        },
+        {
+          "rxn": "Htex",
+          "up_factor": 2.962,
+          "genes": "ompC;ompF;ompN;phoE"
+        }
+      ],
+      "top15_plain": [
+        {
+          "rxn": "ASPT",
+          "up_factor": 5.0,
+          "genes": "aspA"
+        },
+        {
+          "rxn": "PPC",
+          "up_factor": 5.0,
+          "genes": "ppc"
+        },
+        {
+          "rxn": "SUCCt1pp",
+          "up_factor": 5.0,
+          "genes": "dauA"
+        },
+        {
+          "rxn": "SUCCtex",
+          "up_factor": 4.234,
+          "genes": "ompC;ompF;ompN;phoE"
+        },
+        {
+          "rxn": "PTRCt2pp",
+          "up_factor": 3.906,
+          "genes": "plaP;potE;puuP"
+        },
+        {
+          "rxn": "PTRCORNt7pp",
+          "up_factor": 3.906,
+          "genes": "potE"
+        },
+        {
+          "rxn": "ARGORNt7pp",
+          "up_factor": 3.906,
+          "genes": "ydgI"
+        },
+        {
+          "rxn": "FRD2",
+          "up_factor": 2.977,
+          "genes": "frdA;frdB;frdC;frdD"
+        },
+        {
+          "rxn": "NADH17pp",
+          "up_factor": 2.977,
+          "genes": "nuoA;nuoB;nuoC;nuoE;nuoF;nuoG;nuoH;nuoI;nuoJ;nuoK;nuoL;nuoM;nuoN"
+        },
+        {
+          "rxn": "AST",
+          "up_factor": 2.01,
+          "genes": "astA"
+        },
+        {
+          "rxn": "SGDS",
+          "up_factor": 2.01,
+          "genes": "astE"
+        },
+        {
+          "rxn": "SADH",
+          "up_factor": 2.01,
+          "genes": "astB"
+        },
+        {
+          "rxn": "SOTA",
+          "up_factor": 2.01,
+          "genes": "astC"
+        },
+        {
+          "rxn": "SGSAD",
+          "up_factor": 2.01,
+          "genes": "astD"
+        }
+      ],
+      "promoted_top10": [
+        {
+          "rxn": "GLCt2pp",
+          "up_factor": 5.0,
+          "genes": "galP"
+        },
+        {
+          "rxn": "EX_h_e",
+          "up_factor": 2.962,
+          "genes": ""
+        },
+        {
+          "rxn": "Htex",
+          "up_factor": 2.962,
+          "genes": "ompC;ompF;ompN;phoE"
+        }
+      ],
+      "dropped_top10": [
+        {
+          "rxn": "ASPT",
+          "up_factor": 5.0,
+          "genes": "aspA"
+        },
+        {
+          "rxn": "PTRCt2pp",
+          "up_factor": 3.906,
+          "genes": "plaP;potE;puuP"
+        },
+        {
+          "rxn": "PTRCORNt7pp",
+          "up_factor": 3.906,
+          "genes": "potE"
+        },
+        {
+          "rxn": "ARGORNt7pp",
+          "up_factor": 3.906,
+          "genes": "ydgI"
+        },
+        {
+          "rxn": "AST",
+          "up_factor": 2.01,
+          "genes": "astA"
+        },
+        {
+          "rxn": "SGDS",
+          "up_factor": 2.01,
+          "genes": "astE"
+        },
+        {
+          "rxn": "SADH",
+          "up_factor": 2.01,
+          "genes": "astB"
+        },
+        {
+          "rxn": "SOTA",
+          "up_factor": 2.01,
+          "genes": "astC"
+        },
+        {
+          "rxn": "SGSAD",
+          "up_factor": 2.01,
+          "genes": "astD"
+        }
+      ]
+    }
+  },
+  "note": "up_factor = flux end/start ratio (clip 1.5-5). plain=rich no ATPM; full=M9+NGAM. promoted = targets only the resource-aware oracle surfaces."
+}

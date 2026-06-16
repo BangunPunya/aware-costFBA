@@ -1,0 +1,97 @@
+[
+  {
+    "gene": "lysC",
+    "bnum": "b4024",
+    "assigned_gene": "b4024",
+    "identity": 100.0,
+    "evalue": 1.74e-314,
+    "method": "diamond-blastp",
+    "expected": [
+      "ASPK"
+    ],
+    "recovered": [
+      "ASPK"
+    ],
+    "top_rxn": "ASPK",
+    "hit_expected": [
+      "ASPK"
+    ],
+    "false_maps": [],
+    "cascade_conf": 1.0,
+    "low_conf": false,
+    "correct": true,
+    "status": "OK"
+  },
+  {
+    "gene": "dapA",
+    "bnum": "b2478",
+    "assigned_gene": "b2478",
+    "identity": 100.0,
+    "evalue": 2.94e-213,
+    "method": "diamond-blastp",
+    "expected": [
+      "DHDPS"
+    ],
+    "recovered": [
+      "DHDPS"
+    ],
+    "top_rxn": "DHDPS",
+    "hit_expected": [
+      "DHDPS"
+    ],
+    "false_maps": [],
+    "cascade_conf": 1.0,
+    "low_conf": false,
+    "correct": true,
+    "status": "OK"
+  },
+  {
+    "gene": "thrA",
+    "bnum": "b0002",
+    "assigned_gene": "b0002",
+    "identity": 100.0,
+    "evalue": 0.0,
+    "method": "diamond-blastp",
+    "expected": [
+      "ASPK",
+      "HSDy"
+    ],
+    "recovered": [
+      "ASPK",
+      "HSDy"
+    ],
+    "top_rxn": "ASPK",
+    "hit_expected": [
+      "ASPK",
+      "HSDy"
+    ],
+    "false_maps": [],
+    "cascade_conf": 0.85,
+    "low_conf": false,
+    "correct": true,
+    "status": "OK"
+  },
+  {
+    "gene": "gltA",
+    "bnum": "b0720",
+    "assigned_gene": "b0720",
+    "identity": 100.0,
+    "evalue": 0.0,
+    "method": "diamond-blastp",
+    "expected": [
+      "CS"
+    ],
+    "recovered": [
+      "CS"
+    ],
+    "top_rxn": "CS",
+    "hit_expected": [
+      "CS"
+    ],
+    "false_maps": [],
+    "cascade_conf": 1.0,
+    "low_conf": false,
+    "correct": true,
+    "status": "OK"
+  }
+]

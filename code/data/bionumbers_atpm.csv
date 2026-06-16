@@ -1,0 +1,7 @@
+bnid,quantity,value,unit
+110422,"ATP non-growth maintenance (aerobic, glucose)",8.4,mmolATP/gDW
+111285,NGAM,7.6,mmole
+110421,GAM,60,mmolATP/gDW
+111006,ATP concentration intracellular,1.54,mM
+104673,"ATP concentration, glucose-fed exponential",9.6,mM
+101983,ATP requirement growth on glucose,1.64e+10,ATP/cell

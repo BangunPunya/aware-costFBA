@@ -1,0 +1,43 @@
+{
+  "_about": "Documented feedback-resistant (fbr) ground-truth set for E. coli aspartate kinase III (lysC, UniProt P08660). Two provenance buckets: (A) UniProt MUTAGENESIS features of P08660 whose description mentions lysine/feedback/inhibition/desensitization; (B) a small hard-coded classic literature set. EVERY position is VERIFIED against the fetched P08660 sequence (length 449) at test time; mismatches are flagged, not trusted.",
+  "accession": "P08660",
+  "expected_seq_length": 449,
+  "act_domain": [313, 394],
+
+  "ground_truth_uniprot_mutagenesis": [
+    {
+      "position": 8,  "wt": "K", "mut": "R",
+      "note": "UniProt MUTAGENESIS K8R: 'less sensitive to lysine inhibition' BUT reduces activity ~98% and raises KM(Asp) ~40x. CATALYTIC N-terminal residue (ATP binding, pos 8-11), not an ACT-domain fbr mutant. Lysine-insensitivity here is a side-effect of crippled catalysis. Source: UniProt P08660 feature."
+    },
+    {
+      "position": 202, "wt": "D", "mut": "E",
+      "note": "UniProt MUTAGENESIS D202E: same phenotype as K8R ('less sensitive to lysine inhibition', activity -98%, KM(Asp) +40x). N-terminal/catalytic region (Aspartokinase region 2-245), NOT the ACT regulatory domain. Source: UniProt P08660 feature."
+    }
+  ],
+
+  "ground_truth_literature": [
+    {
+      "position": 318, "wt": "M", "classic_mut": "M318I",
+      "note": "Classic lysC fbr allele in the ACT domain. Overlaps annotated L-lysine binding site (residue 318). Ref: Kikuchi Y. et al., FEMS Microbiol Lett 1997; Ogawa-Miyata Y. et al., Biosci Biotechnol Biochem 2001 65:1149."
+    },
+    {
+      "position": 323, "wt": "G", "classic_mut": "G323D",
+      "note": "Classic lysC fbr allele; ACT domain, immediately flanking lysine contacts 321/324. Ref: Kikuchi et al. 1997; Ogawa-Miyata et al. 2001."
+    },
+    {
+      "position": 345, "wt": "S", "classic_mut": "S345F",
+      "note": "Classic lysC fbr allele; coincides with annotated L-lysine binding site (residue 345). One of the most-cited deregulating mutations. Ref: Kikuchi et al. 1997; Ogawa-Miyata et al. 2001."
+    },
+    {
+      "position": 352, "wt": "T", "classic_mut": "T352I",
+      "note": "Classic lysC fbr allele; ACT domain (within 313-394) but NOT an annotated lysine contact (~6-7 residues C-terminal of the 345/346 contact). Ref: Kikuchi et al. 1997; Ogawa-Miyata et al. 2001; widely used in industrial lysine strains."
+    }
+  ],
+
+  "_literature_positions_rejected": [
+    {"reported": "E250T", "reason": "fetched residue at 250 is E, expected T from some numbering conventions -> numbering offset / unverified; EXCLUDED to avoid fabricated ground truth."},
+    {"reported": "T346S/T380T/S347", "reason": "fetched residues (E346, V380, V347) do not match the residue identities cited in mixed-numbering literature; EXCLUDED. These positions are likely numbering-convention artifacts (initiator-Met inclusion / alternate reference seq)."}
+  ],
+
+  "_caveats_note": "The UniProt MUTAGENESIS bucket for P08660 does NOT contain the classic ACT-domain fbr mutants (M318I/G323D/S345F/T352I); its two lysine-related entries (K8R, D202E) are catalytic-region mutations whose lysine-insensitivity is a side effect of crippled catalysis. The genuine deregulating fbr alleles come entirely from the literature bucket. This bounds what the WHERE-gate is evaluated against and is reported transparently."
+}

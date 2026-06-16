@@ -1,0 +1,387 @@
+{
+  "title": "GENERATOR SLOT 2 \u2014 proteome-anchored generator (fully local, no API, no GPU): recruit -> mutate(WHERE-gate) -> reverse_translate -> plain+modal FBA oracle -> ranked candidates",
+  "target_id": "EX_lys__L_e",
+  "target_pathway": "L-lysine",
+  "recruited_enzymes": [
+    {
+      "gene": "dapA",
+      "uniprot": "P0A6L2",
+      "protein_len": 292,
+      "n_where_gate_variants": 3,
+      "variants": [
+        "A49D",
+        "N80D",
+        "E84A"
+      ]
+    },
+    {
+      "gene": "lysC",
+      "uniprot": "P08660",
+      "protein_len": 449,
+      "n_where_gate_variants": 3,
+      "variants": [
+        "M318I",
+        "S321F",
+        "F324S"
+      ]
+    }
+  ],
+  "recombine_status": "NotImplemented (MVP future-work stub)",
+  "n_variants_scored": 5,
+  "caveats": [
+    "(H1) Modal \u0394 reflects the INTERVENTION TYPE the recovered reaction routes to (DHDPS->fbr-relaxation; ASPK->overexpression->\u0394=0), NOT the specific point mutation. Stoichiometric FBA is blind to sequence/kcat. We do NOT claim 'FBA validated this mutation'. The mutation's deregulating-plausibility is a SEPARATE evidence stream from the operator_mutate WHERE-gate (benchmarked there: recall=1.0 vs documented fbr ground-truth). Two independent evidence streams.",
+    "(H2) IN-SILICO RE-RANKING + lab-ready candidate emission \u2014 NOT a viability/titre/growth prediction.",
+    "(H3) ESM2 fold-gate DEFERRED (transformers/torch not installed); variants are NOT yet fold-filtered. The WHERE-gate supplies intent; ESM2 would supply fold safety. Known gap, stated.",
+    "(H4) NEAR-NATURAL BIAS: proteome-anchored variants are 1 substitution from a real folded E. coli enzyme -> low novelty, low fold-risk, high orderability. Opposite axis-end from Evo2's de-novo explore mode. The deliberate democratization/safety tradeoff.",
+    "(H5) fbr throttle magnitude is ILLUSTRATIVE (needs a measured Ki); the robust claim is qualitative: plain \u0394\u22480, modal \u0394>0 when the throttle binds."
+  ],
+  "results": [
+    {
+      "id": "dapA_A49D",
+      "recovered_reaction": "DHDPS",
+      "all_recovered": [
+        "DHDPS"
+      ],
+      "confidence": 0.997,
+      "low_confidence": false,
+      "intervention_type": "fbr-relaxation",
+      "plain_WT": 576.842362,
+      "plain_cand": 576.842362,
+      "plain_delta": 0.0,
+      "modal_WT": 0.240556,
+      "modal_cand": 0.772,
+      "modal_delta": 0.531444,
+      "growth_retained": true,
+      "scored": true,
+      "skip_reason": null,
+      "provenance": {
+        "dna_len_bp": 879,
+        "n_orfs": 1,
+        "cascade_method": "diamond-blastp",
+        "modal_layers_active": [
+          "medium",
+          "atpm"
+        ],
+        "throttle_frac_ILLUSTRATIVE": 0.5,
+        "growth_fraction": 0.9
+      },
+      "candidate": {
+        "cid": "LOOP_dapA_A49D_DHDPS",
+        "target_metabolite": "EX_lys__L_e",
+        "pathway_rxns": [],
+        "knockouts": [],
+        "expr_mods": {},
+        "rbs_variants": [],
+        "provenance": {
+          "source": "loop:annotate-cascade",
+          "recovered_reaction": "DHDPS",
+          "intervention_type": "fbr-relaxation",
+          "cascade_confidence": 0.997,
+          "low_confidence": false,
+          "gene": "dapA (b2478)",
+          "metabolite": "EX_lys__L_e",
+          "why": "first committed, single-gene, lysine-specific step of the DAP/lysine branch; allosterically inhibited by L-lysine in E. coli \u2014 clean isozyme-free throttle (proven in demo_fbr_lysine).",
+          "throttle_reaction": "DHDPS",
+          "note": "feedback-inhibited committed step; WT = throttled (regulation ON), candidate = throttle relaxed (fbr). Reuses demo_fbr_lysine throttle/relax."
+        }
+      },
+      "rank": 1,
+      "variant_provenance": {
+        "variant_id": "dapA_A49D",
+        "gene": "dapA",
+        "uniprot": "P0A6L2",
+        "mutation": "A49D",
+        "region_tag": "lysine_inhibitor_site",
+        "where_rank": 1,
+        "where_priority": 3.0,
+        "rationale": "Annotated L-lysine allosteric INHIBITOR contact (A); disrupting effector binding relieves feedback inhibition (fbr). [Site-feature WHERE-gate]"
+      },
+      "annotatability": {
+        "recovered_reaction": "DHDPS",
+        "identity_pct": 99.7,
+        "cascade_confidence": 0.997,
+        "confidence_label": "high",
+        "low_confidence": false
+      },
+      "gc": 0.5836,
+      "rt_strategy": "max"
+    },
+    {
+      "id": "dapA_N80D",
+      "recovered_reaction": "DHDPS",
+      "all_recovered": [
+        "DHDPS"
+      ],
+      "confidence": 0.997,
+      "low_confidence": false,
+      "intervention_type": "fbr-relaxation",
+      "plain_WT": 576.842362,
+      "plain_cand": 576.842362,
+      "plain_delta": 0.0,
+      "modal_WT": 0.240556,
+      "modal_cand": 0.772,
+      "modal_delta": 0.531444,
+      "growth_retained": true,
+      "scored": true,
+      "skip_reason": null,
+      "provenance": {
+        "dna_len_bp": 879,
+        "n_orfs": 1,
+        "cascade_method": "diamond-blastp",
+        "modal_layers_active": [
+          "medium",
+          "atpm"
+        ],
+        "throttle_frac_ILLUSTRATIVE": 0.5,
+        "growth_fraction": 0.9
+      },
+      "candidate": {
+        "cid": "LOOP_dapA_N80D_DHDPS",
+        "target_metabolite": "EX_lys__L_e",
+        "pathway_rxns": [],
+        "knockouts": [],
+        "expr_mods": {},
+        "rbs_variants": [],
+        "provenance": {
+          "source": "loop:annotate-cascade",
+          "recovered_reaction": "DHDPS",
+          "intervention_type": "fbr-relaxation",
+          "cascade_confidence": 0.997,
+          "low_confidence": false,
+          "gene": "dapA (b2478)",
+          "metabolite": "EX_lys__L_e",
+          "why": "first committed, single-gene, lysine-specific step of the DAP/lysine branch; allosterically inhibited by L-lysine in E. coli \u2014 clean isozyme-free throttle (proven in demo_fbr_lysine).",
+          "throttle_reaction": "DHDPS",
+          "note": "feedback-inhibited committed step; WT = throttled (regulation ON), candidate = throttle relaxed (fbr). Reuses demo_fbr_lysine throttle/relax."
+        }
+      },
+      "rank": 2,
+      "variant_provenance": {
+        "variant_id": "dapA_N80D",
+        "gene": "dapA",
+        "uniprot": "P0A6L2",
+        "mutation": "N80D",
+        "region_tag": "lysine_inhibitor_site",
+        "where_rank": 2,
+        "where_priority": 3.0,
+        "rationale": "Annotated L-lysine allosteric INHIBITOR contact (N); disrupting effector binding relieves feedback inhibition (fbr). [Site-feature WHERE-gate]"
+      },
+      "annotatability": {
+        "recovered_reaction": "DHDPS",
+        "identity_pct": 99.7,
+        "cascade_confidence": 0.997,
+        "confidence_label": "high",
+        "low_confidence": false
+      },
+      "gc": 0.5859,
+      "rt_strategy": "max"
+    },
+    {
+      "id": "dapA_E84A",
+      "recovered_reaction": "DHDPS",
+      "all_recovered": [
+        "DHDPS"
+      ],
+      "confidence": 0.997,
+      "low_confidence": false,
+      "intervention_type": "fbr-relaxation",
+      "plain_WT": 576.842362,
+      "plain_cand": 576.842362,
+      "plain_delta": 0.0,
+      "modal_WT": 0.240556,
+      "modal_cand": 0.772,
+      "modal_delta": 0.531444,
+      "growth_retained": true,
+      "scored": true,
+      "skip_reason": null,
+      "provenance": {
+        "dna_len_bp": 879,
+        "n_orfs": 1,
+        "cascade_method": "diamond-blastp",
+        "modal_layers_active": [
+          "medium",
+          "atpm"
+        ],
+        "throttle_frac_ILLUSTRATIVE": 0.5,
+        "growth_fraction": 0.9
+      },
+      "candidate": {
+        "cid": "LOOP_dapA_E84A_DHDPS",
+        "target_metabolite": "EX_lys__L_e",
+        "pathway_rxns": [],
+        "knockouts": [],
+        "expr_mods": {},
+        "rbs_variants": [],
+        "provenance": {
+          "source": "loop:annotate-cascade",
+          "recovered_reaction": "DHDPS",
+          "intervention_type": "fbr-relaxation",
+          "cascade_confidence": 0.997,
+          "low_confidence": false,
+          "gene": "dapA (b2478)",
+          "metabolite": "EX_lys__L_e",
+          "why": "first committed, single-gene, lysine-specific step of the DAP/lysine branch; allosterically inhibited by L-lysine in E. coli \u2014 clean isozyme-free throttle (proven in demo_fbr_lysine).",
+          "throttle_reaction": "DHDPS",
+          "note": "feedback-inhibited committed step; WT = throttled (regulation ON), candidate = throttle relaxed (fbr). Reuses demo_fbr_lysine throttle/relax."
+        }
+      },
+      "rank": 3,
+      "variant_provenance": {
+        "variant_id": "dapA_E84A",
+        "gene": "dapA",
+        "uniprot": "P0A6L2",
+        "mutation": "E84A",
+        "region_tag": "lysine_inhibitor_site",
+        "where_rank": 3,
+        "where_priority": 3.0,
+        "rationale": "Annotated L-lysine allosteric INHIBITOR contact (E); disrupting effector binding relieves feedback inhibition (fbr). [Site-feature WHERE-gate]"
+      },
+      "annotatability": {
+        "recovered_reaction": "DHDPS",
+        "identity_pct": 99.7,
+        "cascade_confidence": 0.997,
+        "confidence_label": "high",
+        "low_confidence": false
+      },
+      "gc": 0.5882,
+      "rt_strategy": "max"
+    },
+    {
+      "id": "lysC_M318I",
+      "recovered_reaction": "ASPK",
+      "all_recovered": [
+        "ASPK"
+      ],
+      "confidence": 0.998,
+      "low_confidence": false,
+      "intervention_type": "overexpression",
+      "plain_WT": 576.842362,
+      "plain_cand": 576.842362,
+      "plain_delta": -0.0,
+      "modal_WT": 0.772,
+      "modal_cand": 0.772,
+      "modal_delta": 0.0,
+      "growth_retained": true,
+      "scored": true,
+      "skip_reason": null,
+      "provenance": {
+        "dna_len_bp": 1350,
+        "n_orfs": 1,
+        "cascade_method": "diamond-blastp",
+        "modal_layers_active": [
+          "medium",
+          "atpm"
+        ],
+        "throttle_frac_ILLUSTRATIVE": 0.5,
+        "growth_fraction": 0.9
+      },
+      "candidate": {
+        "cid": "LOOP_lysC_M318I_ASPK",
+        "target_metabolite": "EX_lys__L_e",
+        "pathway_rxns": [],
+        "knockouts": [],
+        "expr_mods": {
+          "ASPK": 5.0
+        },
+        "rbs_variants": [],
+        "provenance": {
+          "source": "loop:annotate-cascade",
+          "recovered_reaction": "ASPK",
+          "intervention_type": "overexpression",
+          "cascade_confidence": 0.998,
+          "low_confidence": false,
+          "note": "overexpression = raise flux UB; pure overexpression is commonly \u0394=0 in stoichiometric FBA (step not rate-limiting or isozyme-buffered) \u2014 reported, not hidden."
+        }
+      },
+      "rank": 4,
+      "variant_provenance": {
+        "variant_id": "lysC_M318I",
+        "gene": "lysC",
+        "uniprot": "P08660",
+        "mutation": "M318I",
+        "region_tag": "lysine_binding_site",
+        "where_rank": 1,
+        "where_priority": 3.0,
+        "rationale": "Annotated L-lysine allosteric contact (M); disrupting effector binding relieves feedback inhibition (fbr)."
+      },
+      "annotatability": {
+        "recovered_reaction": "ASPK",
+        "identity_pct": 99.8,
+        "cascade_confidence": 0.998,
+        "confidence_label": "high",
+        "low_confidence": false
+      },
+      "gc": 0.5348,
+      "rt_strategy": "weighted"
+    },
+    {
+      "id": "lysC_S321F",
+      "recovered_reaction": "ASPK",
+      "all_recovered": [
+        "ASPK"
+      ],
+      "confidence": 0.998,
+      "low_confidence": false,
+      "intervention_type": "overexpression",
+      "plain_WT": 576.842362,
+      "plain_cand": 576.842362,
+      "plain_delta": 0.0,
+      "modal_WT": 0.772,
+      "modal_cand": 0.772,
+      "modal_delta": 0.0,
+      "growth_retained": true,
+      "scored": true,
+      "skip_reason": null,
+      "provenance": {
+        "dna_len_bp": 1350,
+        "n_orfs": 1,
+        "cascade_method": "diamond-blastp",
+        "modal_layers_active": [
+          "medium",
+          "atpm"
+        ],
+        "throttle_frac_ILLUSTRATIVE": 0.5,
+        "growth_fraction": 0.9
+      },
+      "candidate": {
+        "cid": "LOOP_lysC_S321F_ASPK",
+        "target_metabolite": "EX_lys__L_e",
+        "pathway_rxns": [],
+        "knockouts": [],
+        "expr_mods": {
+          "ASPK": 5.0
+        },
+        "rbs_variants": [],
+        "provenance": {
+          "source": "loop:annotate-cascade",
+          "recovered_reaction": "ASPK",
+          "intervention_type": "overexpression",
+          "cascade_confidence": 0.998,
+          "low_confidence": false,
+          "note": "overexpression = raise flux UB; pure overexpression is commonly \u0394=0 in stoichiometric FBA (step not rate-limiting or isozyme-buffered) \u2014 reported, not hidden."
+        }
+      },
+      "rank": 5,
+      "variant_provenance": {
+        "variant_id": "lysC_S321F",
+        "gene": "lysC",
+        "uniprot": "P08660",
+        "mutation": "S321F",
+        "region_tag": "lysine_binding_site",
+        "where_rank": 2,
+        "where_priority": 3.0,
+        "rationale": "Annotated L-lysine allosteric contact (S); disrupting effector binding relieves feedback inhibition (fbr)."
+      },
+      "annotatability": {
+        "recovered_reaction": "ASPK",
+        "identity_pct": 99.8,
+        "cascade_confidence": 0.998,
+        "confidence_label": "high",
+        "low_confidence": false
+      },
+      "gc": 0.5304,
+      "rt_strategy": "weighted"
+    }
+  ],
+  "cobra_version": "0.31.1"
+}

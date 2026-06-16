@@ -1,0 +1,260 @@
+{
+  "_meta": {
+    "source": "MediaDB media/147 (M9; Fischer et al), MG1655",
+    "doi": "10.1371/journal.pone.0103548",
+    "note": "komposisi MediaDB (multi-ion per garam); uptake bound kanonik (glc=10, lain=1000); amount mM di provenance; ion esensial yang absen di MediaDB di-BACKFILL dari iML1515-default M9",
+    "unmapped_compounds": [],
+    "backfilled_ions": [
+      "EX_fe2_e",
+      "EX_ni2_e",
+      "EX_mobd_e",
+      "EX_sel_e",
+      "EX_slnt_e",
+      "EX_tungs_e"
+    ]
+  },
+  "medium": {
+    "EX_nh4_e": 1000.0,
+    "EX_cl_e": 1000.0,
+    "EX_ca2_e": 1000.0,
+    "EX_cobalt2_e": 1000.0,
+    "EX_cu2_e": 1000.0,
+    "EX_glc__D_e": 10.0,
+    "EX_pi_e": 1000.0,
+    "EX_na1_e": 1000.0,
+    "EX_fe3_e": 1000.0,
+    "EX_mg2_e": 1000.0,
+    "EX_so4_e": 1000.0,
+    "EX_mn2_e": 1000.0,
+    "EX_k_e": 1000.0,
+    "EX_thm_e": 1000.0,
+    "EX_zn2_e": 1000.0,
+    "EX_o2_e": 1000.0,
+    "EX_h2o_e": 1000.0,
+    "EX_h_e": 1000.0,
+    "EX_co2_e": 1000.0,
+    "EX_fe2_e": 1000.0,
+    "EX_ni2_e": 1000.0,
+    "EX_mobd_e": 1000.0,
+    "EX_sel_e": 1000.0,
+    "EX_slnt_e": 1000.0,
+    "EX_tungs_e": 1000.0
+  },
+  "provenance": {
+    "EX_nh4_e": [
+      {
+        "compound": "Ammonium chloride",
+        "amount_mM": 14.9558,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_cl_e": [
+      {
+        "compound": "Ammonium chloride",
+        "amount_mM": 14.9558,
+        "uptake_set": 1000.0
+      },
+      {
+        "compound": "Calcium chloride anhydrous",
+        "amount_mM": 0.1,
+        "uptake_set": 1000.0
+      },
+      {
+        "compound": "Cobalt chloride",
+        "amount_mM": 0.00756525,
+        "uptake_set": 1000.0
+      },
+      {
+        "compound": "Cupric chloride",
+        "amount_mM": 0.00703894,
+        "uptake_set": 1000.0
+      },
+      {
+        "compound": "Iron(III) chloride",
+        "amount_mM": 0.616722,
+        "uptake_set": 1000.0
+      },
+      {
+        "compound": "Sodium chloride",
+        "amount_mM": 8.55578,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_ca2_e": [
+      {
+        "compound": "Calcium chloride anhydrous",
+        "amount_mM": 0.1,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_cobalt2_e": [
+      {
+        "compound": "Cobalt chloride",
+        "amount_mM": 0.00756525,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_cu2_e": [
+      {
+        "compound": "Cupric chloride",
+        "amount_mM": 0.00703894,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_glc__D_e": [
+      {
+        "compound": "D-Glucose",
+        "amount_mM": 16.6518,
+        "uptake_set": 10.0
+      }
+    ],
+    "EX_pi_e": [
+      {
+        "compound": "Dibasic sodium phosphate",
+        "amount_mM": 52.9727,
+        "uptake_set": 1000.0
+      },
+      {
+        "compound": "Potassium dihydrogen phosphate",
+        "amount_mM": 22.0449,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_na1_e": [
+      {
+        "compound": "Dibasic sodium phosphate",
+        "amount_mM": 52.9727,
+        "uptake_set": 1000.0
+      },
+      {
+        "compound": "Sodium EDTA",
+        "amount_mM": 0.597736,
+        "uptake_set": 1000.0
+      },
+      {
+        "compound": "Sodium chloride",
+        "amount_mM": 8.55578,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_fe3_e": [
+      {
+        "compound": "Iron(III) chloride",
+        "amount_mM": 0.616722,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_mg2_e": [
+      {
+        "compound": "Magnesium sulfate",
+        "amount_mM": 2.0,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_so4_e": [
+      {
+        "compound": "Magnesium sulfate",
+        "amount_mM": 2.0,
+        "uptake_set": 1000.0
+      },
+      {
+        "compound": "Manganese sulfate",
+        "amount_mM": 0.00709975,
+        "uptake_set": 1000.0
+      },
+      {
+        "compound": "Zinc sulfate",
+        "amount_mM": 0.00626022,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_mn2_e": [
+      {
+        "compound": "Manganese sulfate",
+        "amount_mM": 0.00709975,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_k_e": [
+      {
+        "compound": "Potassium dihydrogen phosphate",
+        "amount_mM": 22.0449,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_thm_e": [
+      {
+        "compound": "Thiamine HCl",
+        "amount_mM": 0.0033132,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_zn2_e": [
+      {
+        "compound": "Zinc sulfate",
+        "amount_mM": 0.00626022,
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_o2_e": [
+      {
+        "compound": "implicit aerobic",
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_h2o_e": [
+      {
+        "compound": "implicit aerobic",
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_h_e": [
+      {
+        "compound": "implicit aerobic",
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_co2_e": [
+      {
+        "compound": "implicit aerobic",
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_fe2_e": [
+      {
+        "compound": "BACKFILL iML1515-default M9 (tak ada di MediaDB list)",
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_ni2_e": [
+      {
+        "compound": "BACKFILL iML1515-default M9 (tak ada di MediaDB list)",
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_mobd_e": [
+      {
+        "compound": "BACKFILL iML1515-default M9 (tak ada di MediaDB list)",
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_sel_e": [
+      {
+        "compound": "BACKFILL iML1515-default M9 (tak ada di MediaDB list)",
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_slnt_e": [
+      {
+        "compound": "BACKFILL iML1515-default M9 (tak ada di MediaDB list)",
+        "uptake_set": 1000.0
+      }
+    ],
+    "EX_tungs_e": [
+      {
+        "compound": "BACKFILL iML1515-default M9 (tak ada di MediaDB list)",
+        "uptake_set": 1000.0
+      }
+    ]
+  }
+}

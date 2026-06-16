@@ -1,0 +1,1564 @@
+{
+  "model": "iML1515 + BiGG universal heterologous reactions",
+  "cobra": "0.31.1",
+  "growth_fraction": 0.5,
+  "margin": 0.5,
+  "collapse_ratio": 0.1,
+  "n_addable": 2343,
+  "products": [
+    "EX_lys__L_e",
+    "EX_succ_e"
+  ],
+  "results": {
+    "EX_lys__L_e": {
+      "baseline_plain": 23.35,
+      "baseline_full": 3.857,
+      "n_improvers_plain": 123,
+      "n_flagged_infeasible": 97,
+      "top15_improvers": [
+        {
+          "rxn": "GLCDBRAN3",
+          "name": "Glycogen debranching enzyme",
+          "plain_boost": 37.295,
+          "full_boost": 493.79,
+          "infeasible": false
+        },
+        {
+          "rxn": "AMYL2",
+          "name": "MNXR87084",
+          "plain_boost": 37.295,
+          "full_boost": 493.79,
+          "infeasible": false
+        },
+        {
+          "rxn": "DMSOR3",
+          "name": "RXN-9739",
+          "plain_boost": 35.465,
+          "full_boost": 2.027,
+          "infeasible": true
+        },
+        {
+          "rxn": "ACOAH",
+          "name": "Acetyl-CoA hydrolase",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "MGt5",
+          "name": "Magnesium transport in/out via permease (no H+)",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "CLt3_1pp",
+          "name": "Chloride transport out via proton antiport (1:1) (periplasm)",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "ACt2r_1",
+          "name": "Acetate reversible transport via proton symport",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "HYD4pp",
+          "name": "Hydrogenase (menaquinole, no proton translocation) (periplasm)",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "AKGt2r_1",
+          "name": "2-oxoglutarate reversible transport via symport",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "ARAB_Lt",
+          "name": "L arabinoase extracellular transport",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "NAt5",
+          "name": "Sodium/ammonium proton antiporter",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "GLYCLTt",
+          "name": "Glycolate transport via diffusion",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "TYRt",
+          "name": "L-tyrosine transport",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "GLCURtr",
+          "name": "Transport of D-Glucuronate ",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "XTSNtr",
+          "name": "Transport of Xanthosine",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        }
+      ],
+      "top15_infeasible_flags": [
+        {
+          "rxn": "DMSOR3",
+          "name": "RXN-9739",
+          "plain_boost": 35.465,
+          "full_boost": 2.027,
+          "infeasible": true
+        },
+        {
+          "rxn": "ACOAH",
+          "name": "Acetyl-CoA hydrolase",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "MGt5",
+          "name": "Magnesium transport in/out via permease (no H+)",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "CLt3_1pp",
+          "name": "Chloride transport out via proton antiport (1:1) (periplasm)",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "ACt2r_1",
+          "name": "Acetate reversible transport via proton symport",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "HYD4pp",
+          "name": "Hydrogenase (menaquinole, no proton translocation) (periplasm)",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "AKGt2r_1",
+          "name": "2-oxoglutarate reversible transport via symport",
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "ARAB_Lt",
+          "name": "L arabinoase extracellular transport",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "NAt5",
+          "name": "Sodium/ammonium proton antiporter",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "GLYCLTt",
+          "name": "Glycolate transport via diffusion",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "TYRt",
+          "name": "L-tyrosine transport",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "GLCURtr",
+          "name": "Transport of D-Glucuronate ",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "XTSNtr",
+          "name": "Transport of Xanthosine",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "GLCRt1",
+          "name": "Transport by Glut-5 Transporter into Extracellular Space",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "rxn": "GALUR_Et",
+          "name": "D-Galacturonate transport (transport mechanism unknown - evidence from biolog data)",
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        }
+      ],
+      "all_improvers": [
+        {
+          "plain_boost": 37.295,
+          "full_boost": 493.79,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 37.295,
+          "full_boost": 493.79,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 35.465,
+          "full_boost": 2.027,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 35.446,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.489,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.427,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.427,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.427,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 34.427,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 30.781,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 30.259,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 28.593,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 22.675,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 22.662,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 22.557,
+          "full_boost": 2.017,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 22.254,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 15.928,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 10.005,
+          "full_boost": 0.135,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 9.734,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 8.277,
+          "full_boost": 71.338,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 5.912,
+          "full_boost": 0.136,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 4.822,
+          "full_boost": 0.048,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 3.811,
+          "full_boost": 0.003,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.464,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 3.26,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 3.26,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 3.055,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 2.633,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 2.633,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 2.633,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 2.628,
+          "full_boost": 0.036,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 2.591,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 2.372,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.576,
+          "full_boost": 2.017,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 1.361,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.298,
+          "full_boost": 0.054,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.229,
+          "full_boost": 0.032,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.229,
+          "full_boost": 0.032,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.229,
+          "full_boost": 0.032,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.229,
+          "full_boost": 0.032,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.229,
+          "full_boost": 0.032,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.987,
+          "full_boost": 0.192,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 0.953,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.804,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.731,
+          "full_boost": 0.004,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.678,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.678,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.556,
+          "full_boost": 0.08,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 0.517,
+          "full_boost": 0.05,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.5,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.5,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.5,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.5,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.5,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.5,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.5,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.5,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.5,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.5,
+          "full_boost": -0.0,
+          "infeasible": true
+        }
+      ]
+    },
+    "EX_succ_e": {
+      "baseline_plain": 101.739,
+      "baseline_full": 8.539,
+      "n_improvers_plain": 98,
+      "n_flagged_infeasible": 23,
+      "top15_improvers": [
+        {
+          "rxn": "GLCDBRAN3",
+          "name": "Glycogen debranching enzyme",
+          "plain_boost": 478.957,
+          "full_boost": 991.461,
+          "infeasible": false
+        },
+        {
+          "rxn": "AMYL2",
+          "name": "MNXR87084",
+          "plain_boost": 478.957,
+          "full_boost": 991.461,
+          "infeasible": false
+        },
+        {
+          "rxn": "GLYFEM",
+          "name": "",
+          "plain_boost": 21.135,
+          "full_boost": 973.684,
+          "infeasible": false
+        },
+        {
+          "rxn": "ARAB_Lt",
+          "name": "L arabinoase extracellular transport",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "ACOAH",
+          "name": "Acetyl-CoA hydrolase",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "MGt5",
+          "name": "Magnesium transport in/out via permease (no H+)",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "ATPS10rpp",
+          "name": "ATP synthase (10 protons for 3 ATP) (periplasm)",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "NAt5",
+          "name": "Sodium/ammonium proton antiporter",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "NCNt",
+          "name": "Na+/Ca2+-NH4+ exchange",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "GLYCLTt",
+          "name": "Glycolate transport via diffusion",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "TYRt",
+          "name": "L-tyrosine transport",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "ATPS3r",
+          "name": "ATP synthase three protons for one ATP ",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "CLt3_1pp",
+          "name": "Chloride transport out via proton antiport (1:1) (periplasm)",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "GLCURtr",
+          "name": "Transport of D-Glucuronate ",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "rxn": "XTSNtr",
+          "name": "Transport of Xanthosine",
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        }
+      ],
+      "top15_infeasible_flags": [
+        {
+          "rxn": "HPOXR",
+          "name": "",
+          "plain_boost": 14.87,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "rxn": "IP3DH",
+          "name": "",
+          "plain_boost": 7.864,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "rxn": "GLYDHDA",
+          "name": "Gylcine dehydrogenase (deamidating)",
+          "plain_boost": 5.103,
+          "full_boost": 0.001,
+          "infeasible": true
+        },
+        {
+          "rxn": "PAPSSH",
+          "name": "PAPSSH",
+          "plain_boost": 4.528,
+          "full_boost": 0.031,
+          "infeasible": true
+        },
+        {
+          "rxn": "PFK_4",
+          "name": "Phosphofructokinase (s7p)",
+          "plain_boost": 4.43,
+          "full_boost": 0.172,
+          "infeasible": true
+        },
+        {
+          "rxn": "SDPTA_2",
+          "name": "",
+          "plain_boost": 3.776,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "rxn": "XYLpts",
+          "name": "",
+          "plain_boost": 2.916,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "rxn": "GLCD",
+          "name": "",
+          "plain_boost": 2.355,
+          "full_boost": 0.034,
+          "infeasible": true
+        },
+        {
+          "rxn": "SHL_c",
+          "name": "L-serine hydro-lyase (adding hydrogen sulfide, L-cysteine-forming)",
+          "plain_boost": 1.8,
+          "full_boost": 0.01,
+          "infeasible": true
+        },
+        {
+          "rxn": "GLNt",
+          "name": "L-glutamine transport via diffusion",
+          "plain_boost": 1.671,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "rxn": "HPYRDC",
+          "name": "Hydroxypyruvate decarboxylase",
+          "plain_boost": 1.55,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "rxn": "PFK_ppi",
+          "name": "Phosphofructokinase (ppi-dependent",
+          "plain_boost": 1.274,
+          "full_boost": 0.111,
+          "infeasible": true
+        },
+        {
+          "rxn": "SERGLYexR",
+          "name": "L-Serine/Glycine reversible exchange",
+          "plain_boost": 1.232,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "rxn": "r2526",
+          "name": "Major Facilitator(MFS) TCDB:2.A.1.44.1",
+          "plain_boost": 1.232,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "rxn": "XYLt",
+          "name": "D xylose reversible transport",
+          "plain_boost": 1.232,
+          "full_boost": 0.0,
+          "infeasible": true
+        }
+      ],
+      "all_improvers": [
+        {
+          "plain_boost": 478.957,
+          "full_boost": 991.461,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 478.957,
+          "full_boost": 991.461,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 21.135,
+          "full_boost": 973.684,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 15.416,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 14.87,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 12.694,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 10.651,
+          "full_boost": 3.229,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 7.864,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 5.103,
+          "full_boost": 0.001,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 4.528,
+          "full_boost": 0.031,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 4.43,
+          "full_boost": 0.172,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 3.776,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 2.916,
+          "full_boost": -0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 2.805,
+          "full_boost": 744.2,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 2.463,
+          "full_boost": 0.363,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 2.355,
+          "full_boost": 0.034,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.8,
+          "full_boost": 0.01,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.671,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.55,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.274,
+          "full_boost": 0.111,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.232,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.232,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.232,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.232,
+          "full_boost": 0.193,
+          "infeasible": false
+        },
+        {
+          "plain_boost": 1.232,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.232,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.232,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.232,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 1.002,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.728,
+          "full_boost": 0.0,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.652,
+          "full_boost": 0.052,
+          "infeasible": true
+        },
+        {
+          "plain_boost": 0.56,
+          "full_boost": 0.0,
+          "infeasible": true
+        }
+      ]
+    }
+  },
+  "note": "improver = adds plain-medium product boost > MARGIN; infeasible flag = that boost collapses (< 10 percent) under M9 resource-aware. Real BiGG reactions, not injected traps. In-silico hypothesis only."
+}

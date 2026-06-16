@@ -1,0 +1,116 @@
+{
+  "protein": "P08660 lysC (aspartokinase III)",
+  "model": "facebook/esm2_t6_8M_UR50D",
+  "sequence_length": 449,
+  "scoring_modes": {
+    "masked": {
+      "fbr_mutations": {
+        "M318I": 0.7105,
+        "S345F": -2.3008,
+        "G323D": -0.1627,
+        "T352I": -0.4817
+      },
+      "severe_controls": {
+        "G11W": -5.9898,
+        "G10P": -0.9344,
+        "F9P": -3.378
+      },
+      "mild_controls": {
+        "L48E": -0.6067,
+        "L48D": -0.7686,
+        "F72D": 1.1445,
+        "L104E": 0.1909,
+        "F126E": 1.0302,
+        "L388K": -0.6051,
+        "L391E": -0.5472
+      },
+      "fbr_summary": {
+        "group": "fbr",
+        "n": 4,
+        "mean": -0.5587,
+        "min": -2.3008,
+        "max": 0.7105,
+        "median": -0.3222
+      },
+      "severe_summary": {
+        "group": "severe_controls",
+        "n": 3,
+        "mean": -3.4341,
+        "min": -5.9898,
+        "max": -0.9344,
+        "median": -3.378
+      },
+      "mild_summary": {
+        "group": "mild_controls",
+        "n": 7,
+        "mean": -0.0231,
+        "min": -0.7686,
+        "max": 1.1445,
+        "median": -0.5472
+      },
+      "worst_fbr_score": -2.3008,
+      "best_severe_score": -0.9344,
+      "separation_margin_vs_severe": -1.3664,
+      "clean_separation_vs_severe": false,
+      "recommended_threshold_midpoint": null
+    },
+    "wt": {
+      "fbr_mutations": {
+        "M318I": -2.6052,
+        "S345F": -5.6654,
+        "G323D": -3.368,
+        "T352I": -3.9002
+      },
+      "severe_controls": {
+        "G11W": -9.7828,
+        "G10P": -8.715,
+        "F9P": -6.459
+      },
+      "mild_controls": {
+        "L48E": -3.7492,
+        "L48D": -3.7288,
+        "F72D": -2.2659,
+        "L104E": -3.4475,
+        "F126E": -2.7207,
+        "L388K": -3.9205,
+        "L391E": -4.0278
+      },
+      "fbr_summary": {
+        "group": "fbr",
+        "n": 4,
+        "mean": -3.8847,
+        "min": -5.6654,
+        "max": -2.6052,
+        "median": -3.6341
+      },
+      "severe_summary": {
+        "group": "severe_controls",
+        "n": 3,
+        "mean": -8.3189,
+        "min": -9.7828,
+        "max": -6.459,
+        "median": -8.715
+      },
+      "mild_summary": {
+        "group": "mild_controls",
+        "n": 7,
+        "mean": -3.4086,
+        "min": -4.0278,
+        "max": -2.2659,
+        "median": -3.7288
+      },
+      "worst_fbr_score": -5.6654,
+      "best_severe_score": -6.459,
+      "separation_margin_vs_severe": 0.7936,
+      "clean_separation_vs_severe": true,
+      "recommended_threshold_midpoint": -6.062
+    }
+  },
+  "recommended_mode": "wt-marginal",
+  "recommended_threshold_T": -6.062,
+  "clean_separation_vs_severe": true,
+  "fbr_pass_at_T": "4/4",
+  "severe_fail_at_T": "3/3",
+  "gate_validated": true,
+  "interpretation": "ESM2 (esm2_t6_8M) used as a PERMISSIVE FOLD-safety guardrail, NOT an fbr-intent predictor and NOT a discriminative fold classifier. It cleanly rejects catastrophic backbone/conserved-motif breakers (P-loop Gly->Pro/Trp, buried aromatic->Pro) while passing all four documented fbr mutants. It does NOT separate fbr mutants from milder buried-core hydrophobic->charged substitutions, because a sequence-only LM is largely blind to 3D burial. Larger ESM2 (35M/150M) did not improve per-mutation separation in this sweep."
+}

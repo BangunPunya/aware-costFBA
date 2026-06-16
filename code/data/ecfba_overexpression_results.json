@@ -1,0 +1,61 @@
+{
+  "model": "eciML1515_batch (GECKO)",
+  "cobra": "0.31.1",
+  "product": "EX_lys__L_e",
+  "growth_frac": 0.5,
+  "growth_max": 0.57438,
+  "prod_wt": 12.29471,
+  "oe_factors": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "results": [
+    {
+      "label": "dapA/DHDPS",
+      "gene": "dapA",
+      "uniprot": "P0A6L2",
+      "on_pathway": true,
+      "baseline_draw": 2.778e-05,
+      "prod_wt": 12.29471,
+      "delta_by_factor": {
+        "2x": 0.23786,
+        "5x": 0.242553,
+        "10x": 0.242553
+      },
+      "delta_uncapped": 0.242553,
+      "capacity_limiting": true
+    },
+    {
+      "label": "lysC/ASPK",
+      "gene": "lysC",
+      "uniprot": "P08660",
+      "on_pathway": true,
+      "baseline_draw": 6.408e-05,
+      "prod_wt": 12.29471,
+      "delta_by_factor": {
+        "2x": 0.807178,
+        "5x": 0.864141,
+        "10x": 0.864141
+      },
+      "delta_uncapped": 0.864141,
+      "capacity_limiting": true
+    },
+    {
+      "label": "gltA/CS",
+      "gene": "gltA",
+      "uniprot": "P0ABH7",
+      "on_pathway": false,
+      "baseline_draw": 1.06e-06,
+      "prod_wt": 12.29471,
+      "delta_by_factor": {
+        "2x": 0.007026,
+        "5x": 1e-05,
+        "10x": 1e-05
+      },
+      "delta_uncapped": 1e-05,
+      "capacity_limiting": false
+    }
+  ],
+  "note": "plain stoichiometric FBA gives delta=0 for all overexpression (no enzyme bound exists to relax); ec-FBA scores capacity-limiting ones."
+}

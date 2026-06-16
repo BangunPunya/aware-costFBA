@@ -1,0 +1,199 @@
+{
+  "genome": {
+    "accession": "NC_000913.3",
+    "header": ">NC_000913.3 Escherichia coli str. K-12 substr. MG1655, complete genome",
+    "length_bp": 4641652,
+    "gc_percent": 50.791
+  },
+  "raw_codon_counts": {
+    "start_codons_forward_anywhere": {
+      "ATG": 76282,
+      "GTG": 63648,
+      "TTG": 76998
+    },
+    "stop_codons_forward_anywhere": {
+      "TAA": 68858,
+      "TAG": 27254,
+      "TGA": 83532
+    },
+    "start_codons_both_strands_anywhere": {
+      "ATG": 153323,
+      "GTG": 127928,
+      "TTG": 153652
+    },
+    "stop_codons_both_strands_anywhere": {
+      "TAA": 137703,
+      "TAG": 54024,
+      "TGA": 167633
+    },
+    "start_codons_forward_framed": {
+      "frame0": {
+        "GTG": 21764,
+        "ATG": 25368,
+        "TTG": 25656
+      },
+      "frame1": {
+        "GTG": 22053,
+        "ATG": 25533,
+        "TTG": 25747
+      },
+      "frame2": {
+        "ATG": 25381,
+        "TTG": 25595,
+        "GTG": 22325
+      }
+    },
+    "stop_codons_forward_framed": {
+      "frame0": {
+        "TGA": 28127,
+        "TAA": 23054,
+        "TAG": 8970
+      },
+      "frame1": {
+        "TGA": 27596,
+        "TAA": 22990,
+        "TAG": 9407
+      },
+      "frame2": {
+        "TAA": 22814,
+        "TAG": 8877,
+        "TGA": 27809
+      }
+    },
+    "start_codons_revcomp_framed": {
+      "frame0": {
+        "ATG": 25518,
+        "GTG": 22087,
+        "TTG": 25820
+      },
+      "frame1": {
+        "TTG": 25191,
+        "GTG": 22369,
+        "ATG": 25842
+      },
+      "frame2": {
+        "TTG": 25643,
+        "ATG": 25681,
+        "GTG": 22326
+      }
+    },
+    "stop_codons_revcomp_framed": {
+      "frame0": {
+        "TAA": 22973,
+        "TGA": 28402,
+        "TAG": 8821
+      },
+      "frame1": {
+        "TAA": 22989,
+        "TGA": 27739,
+        "TAG": 8916
+      },
+      "frame2": {
+        "TGA": 27960,
+        "TAA": 22883,
+        "TAG": 9033
+      }
+    }
+  },
+  "naive_orf_enumeration": {
+    "thresholds_aa": [
+      30,
+      60,
+      100,
+      150,
+      200,
+      250
+    ],
+    "note": "naive_all_orfs = every in-frame start->stop in all 6 frames (counts nested starts). naive_first_start_orfs = one ORF per stop-segment (first start after prev stop), 6 frames.",
+    "counts_naive_all": {
+      ">=30aa": 188222,
+      ">=60aa": 112567,
+      ">=100aa": 77336,
+      ">=150aa": 57622,
+      ">=200aa": 44294,
+      ">=250aa": 33890
+    },
+    "counts_naive_first_start": {
+      ">=30aa": 46265,
+      ">=60aa": 17453,
+      ">=100aa": 7653,
+      ">=150aa": 4602,
+      ">=200aa": 3472,
+      ">=250aa": 2725
+    },
+    "total_naive_all_orfs_unfiltered": 439895,
+    "total_naive_first_orfs_unfiltered": 156852
+  },
+  "pyrodigal": {
+    "mode": "single/normal (meta=False), self-trained on NC_000913.3",
+    "gene_count": 4319,
+    "protein_length_stats": {
+      "n": 4319,
+      "min_aa": 29,
+      "median_aa": 276,
+      "mean_aa": 313.2,
+      "max_aa": 2367,
+      "count_lt_100aa": 468,
+      "count_lt_50aa": 67
+    }
+  },
+  "official_ncbi": {
+    "accession": "NC_000913.3",
+    "cds_feature_count": 4318,
+    "cds_with_translation": 4300,
+    "protein_length_stats": {
+      "n": 4300,
+      "min_aa": 8,
+      "median_aa": 274.0,
+      "mean_aa": 309.3,
+      "max_aa": 2339,
+      "count_lt_100aa": 532,
+      "count_lt_50aa": 161
+    },
+    "error": null
+  },
+  "comparison": {
+    "reference_real_gene_count": 4300,
+    "reference_source": "official NCBI CDS-with-translation",
+    "median_real_protein_aa": 274.0,
+    "median_real_protein_bp": 822,
+    "overcounting_by_threshold": {
+      ">=30aa": {
+        "naive_all_orfs": 188222,
+        "naive_first_start_orfs": 46265,
+        "ratio_naiveAll_over_official": 43.77,
+        "ratio_naiveFirst_over_official": 10.76
+      },
+      ">=60aa": {
+        "naive_all_orfs": 112567,
+        "naive_first_start_orfs": 17453,
+        "ratio_naiveAll_over_official": 26.18,
+        "ratio_naiveFirst_over_official": 4.06
+      },
+      ">=100aa": {
+        "naive_all_orfs": 77336,
+        "naive_first_start_orfs": 7653,
+        "ratio_naiveAll_over_official": 17.99,
+        "ratio_naiveFirst_over_official": 1.78
+      },
+      ">=150aa": {
+        "naive_all_orfs": 57622,
+        "naive_first_start_orfs": 4602,
+        "ratio_naiveAll_over_official": 13.4,
+        "ratio_naiveFirst_over_official": 1.07
+      },
+      ">=200aa": {
+        "naive_all_orfs": 44294,
+        "naive_first_start_orfs": 3472,
+        "ratio_naiveAll_over_official": 10.3,
+        "ratio_naiveFirst_over_official": 0.81
+      },
+      ">=250aa": {
+        "naive_all_orfs": 33890,
+        "naive_first_start_orfs": 2725,
+        "ratio_naiveAll_over_official": 7.88,
+        "ratio_naiveFirst_over_official": 0.63
+      }
+    }
+  }
+}

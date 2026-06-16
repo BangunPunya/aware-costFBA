@@ -1,0 +1,2601 @@
+{
+  "n_candidates": 80,
+  "label_counts": {
+    "realistic": 60,
+    "fp_thermo": 10,
+    "fp_medium": 10
+  },
+  "H1": {
+    "spearman_global": 0.5119270895792003,
+    "kendall_global": 0.39048374797243424,
+    "top10_churn": 0.8,
+    "spearman_per_product": {
+      "EX_ac_e": 0.0,
+      "EX_lac__D_e": 0.3012048192771084,
+      "EX_etoh_e": -0.43915503282683993,
+      "EX_for_e": -0.048795003647426664,
+      "EX_succ_e": 0.9047619047619048,
+      "EX_akg_e": 0.261904761904762,
+      "EX_pyr_e": 0.3353353533357125,
+      "EX_mal__L_e": -0.6024533658898499,
+      "EX_fum_e": 0.5476190476190477,
+      "EX_glyclt_e": -0.16766767666785626
+    },
+    "mean_per_product": 0.10927548078665626,
+    "pass": true
+  },
+  "H2": {
+    "fp_among_winners_polos": 1.0,
+    "fp_among_winners_full": 0.0,
+    "winners_polos": 13,
+    "winners_full": 0,
+    "trap_inflated_polos": 13,
+    "trap_removed_full": 13,
+    "trap_catch_rate": 1.0,
+    "pass": true
+  },
+  "ablative_fp_among_winners": {
+    "polos": 1.0,
+    "medium": 1.0,
+    "medium_atpm": 1.0,
+    "tfa_1mM": 0.0,
+    "full": 0.0
+  },
+  "wt_baseline": {
+    "polos": {
+      "EX_ac_e": 173.72832369942168,
+      "EX_lac__D_e": 129.19941241278,
+      "EX_etoh_e": 113.0108639420591,
+      "EX_for_e": 156.11111111111114,
+      "EX_succ_e": 120.9094412331407,
+      "EX_akg_e": 58.04000000000007,
+      "EX_pyr_e": 162.74358974359055,
+      "EX_mal__L_e": 77.39801864801872,
+      "EX_fum_e": 94.73214285714283,
+      "EX_glyclt_e": 57.24637681159421
+    },
+    "medium": {
+      "EX_ac_e": 29.34673366834165,
+      "EX_lac__D_e": 19.99999999999997,
+      "EX_etoh_e": 20.000000000000018,
+      "EX_for_e": 104.99999999999986,
+      "EX_succ_e": 17.142857142857157,
+      "EX_akg_e": 13.006681514476607,
+      "EX_pyr_e": 23.492063492063494,
+      "EX_mal__L_e": 19.019607843137404,
+      "EX_fum_e": 19.019607843137237,
+      "EX_glyclt_e": 29.346733668341532
+    },
+    "medium_atpm": {
+      "EX_ac_e": 28.67135678391959,
+      "EX_lac__D_e": 19.99999999999998,
+      "EX_etoh_e": 20.000000000000018,
+      "EX_for_e": 101.63999999999982,
+      "EX_succ_e": 17.025454545454547,
+      "EX_akg_e": 12.707349665924294,
+      "EX_pyr_e": 22.958730158730297,
+      "EX_mal__L_e": 18.360784313725507,
+      "EX_fum_e": 18.360784313725517,
+      "EX_glyclt_e": 28.671356783919656
+    },
+    "tfa_1mM": {
+      "EX_ac_e": 27.127999999999748,
+      "EX_lac__D_e": 18.009523809523802,
+      "EX_etoh_e": 18.00952380952382,
+      "EX_for_e": 94.54999999999991,
+      "EX_succ_e": 14.039344262295117,
+      "EX_akg_e": 11.19550561797755,
+      "EX_pyr_e": 21.200000000000053,
+      "EX_mal__L_e": 15.024561403508788,
+      "EX_fum_e": 15.024561403508768,
+      "EX_glyclt_e": 24.943750000000023
+    },
+    "full": {
+      "EX_ac_e": 28.466666666666644,
+      "EX_lac__D_e": 20.00000000000001,
+      "EX_etoh_e": 20.000000000000007,
+      "EX_for_e": 101.64000000000077,
+      "EX_succ_e": 17.02545454545439,
+      "EX_akg_e": 12.694545454545434,
+      "EX_pyr_e": 22.958730158730216,
+      "EX_mal__L_e": 18.3607843137256,
+      "EX_fum_e": 18.36078431372547,
+      "EX_glyclt_e": 28.466666666666594
+    }
+  },
+  "scores": {
+    "polos": {
+      "FSEOF_EX_ac_e_00": {
+        "growth": 1.6132906517853915,
+        "feasible": true,
+        "target_max": 173.72832369942168,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_ac_e_01": {
+        "growth": 1.613290651785436,
+        "feasible": true,
+        "target_max": 173.7283236994222,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_ac_e_02": {
+        "growth": 1.613290651785384,
+        "feasible": true,
+        "target_max": 173.72832369942188,
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_00": {
+        "growth": 1.4783324673664202,
+        "feasible": true,
+        "target_max": 171.3366336633663,
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_01": {
+        "growth": 1.4783324673664322,
+        "feasible": true,
+        "target_max": 171.33663366336643,
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_02": {
+        "growth": 1.4783324673664398,
+        "feasible": true,
+        "target_max": 171.33663366336626,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_ac_e": {
+        "growth": 1.613290651785589,
+        "feasible": true,
+        "target_max": 173.72832369942205,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_ac_e": {
+        "growth": 2.193380187356002,
+        "feasible": true,
+        "target_max": 202.67456359102243,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_00": {
+        "growth": 1.61329065178539,
+        "feasible": true,
+        "target_max": 129.19941241278002,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_01": {
+        "growth": 1.6132906517853967,
+        "feasible": true,
+        "target_max": 129.19941241278002,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_02": {
+        "growth": 1.6132906517853722,
+        "feasible": true,
+        "target_max": 129.19941241278008,
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_00": {
+        "growth": 1.4783324673664267,
+        "feasible": true,
+        "target_max": 118.52229299363073,
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_01": {
+        "growth": 1.4783324673663976,
+        "feasible": true,
+        "target_max": 118.52229299363061,
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_02": {
+        "growth": 1.4783324673664426,
+        "feasible": true,
+        "target_max": 118.52229299363056,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_lac__D_e": {
+        "growth": 1.6132906517853995,
+        "feasible": true,
+        "target_max": 131.42150395778359,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_lac__D_e": {
+        "growth": 2.6232278193434806,
+        "feasible": true,
+        "target_max": 131.71853714764748,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_00": {
+        "growth": 1.61329065178539,
+        "feasible": true,
+        "target_max": 113.01086394205996,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_01": {
+        "growth": 1.6132906517853682,
+        "feasible": true,
+        "target_max": 113.01086394205889,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_02": {
+        "growth": 1.613290651785405,
+        "feasible": true,
+        "target_max": 113.01086394205906,
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_00": {
+        "growth": 1.4783324673664469,
+        "feasible": true,
+        "target_max": 108.5689753863767,
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_01": {
+        "growth": 1.4783324673664384,
+        "feasible": true,
+        "target_max": 108.94427660288679,
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_02": {
+        "growth": 1.4783324673664338,
+        "feasible": true,
+        "target_max": 108.94427660288684,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_etoh_e": {
+        "growth": 1.6132906517854,
+        "feasible": true,
+        "target_max": 127.41274127412746,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_etoh_e": {
+        "growth": 2.4460091890933033,
+        "feasible": true,
+        "target_max": 119.74452554744495,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_00": {
+        "growth": 1.61329065178539,
+        "feasible": true,
+        "target_max": 156.11111111111106,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_01": {
+        "growth": 1.613290651785327,
+        "feasible": true,
+        "target_max": 156.11111111111097,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_02": {
+        "growth": 1.613290651785404,
+        "feasible": true,
+        "target_max": 156.11111111111103,
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_00": {
+        "growth": 1.5510219177407136,
+        "feasible": true,
+        "target_max": 156.11111111111103,
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_01": {
+        "growth": 1.6132906517853796,
+        "feasible": true,
+        "target_max": 156.11111111111117,
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_02": {
+        "growth": 1.6132906517853944,
+        "feasible": true,
+        "target_max": 156.11111111111103,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_for_e": {
+        "growth": 1.6132906517854022,
+        "feasible": true,
+        "target_max": 168.74764595103568,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_for_e": {
+        "growth": 2.1173508357650785,
+        "feasible": true,
+        "target_max": 162.90482076637812,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_00": {
+        "growth": 1.613290651785398,
+        "feasible": true,
+        "target_max": 120.90944123314068,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_01": {
+        "growth": 1.6132906517853856,
+        "feasible": true,
+        "target_max": 120.90944123314065,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_02": {
+        "growth": 1.6132906517853725,
+        "feasible": true,
+        "target_max": 120.9094412331406,
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_00": {
+        "growth": 1.4783324673664457,
+        "feasible": true,
+        "target_max": 117.40689655172395,
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_01": {
+        "growth": 1.478332467366422,
+        "feasible": true,
+        "target_max": 117.40689655172409,
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_02": {
+        "growth": 1.4783324673664386,
+        "feasible": true,
+        "target_max": 117.40689655172413,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_succ_e": {
+        "growth": 1.6132906517853935,
+        "feasible": true,
+        "target_max": 120.90944123314078,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_succ_e": {
+        "growth": 2.2082881692396583,
+        "feasible": true,
+        "target_max": 122.49999999999993,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_00": {
+        "growth": 1.613290651785398,
+        "feasible": true,
+        "target_max": 58.0400000000004,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_01": {
+        "growth": 1.6132906517853898,
+        "feasible": true,
+        "target_max": 58.04000000000015,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_02": {
+        "growth": 1.6132906517853949,
+        "feasible": true,
+        "target_max": 58.040000000000035,
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_00": {
+        "growth": 1.2696994590067114,
+        "feasible": true,
+        "target_max": 56.47719298245622,
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_01": {
+        "growth": 1.2696994590064354,
+        "feasible": true,
+        "target_max": 56.47719298245641,
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_02": {
+        "growth": 1.613290651785387,
+        "feasible": true,
+        "target_max": 56.62274923144484,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_akg_e": {
+        "growth": 1.7398550125138963,
+        "feasible": true,
+        "target_max": 81.17647058823485,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_akg_e": {
+        "growth": 2.4711923481415727,
+        "feasible": true,
+        "target_max": 108.41046277666041,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_00": {
+        "growth": 1.613290651785398,
+        "feasible": true,
+        "target_max": 162.74358974359004,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_01": {
+        "growth": 1.6132906517854109,
+        "feasible": true,
+        "target_max": 162.74358974359032,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_02": {
+        "growth": 1.613290651785403,
+        "feasible": true,
+        "target_max": 162.74358974359012,
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_00": {
+        "growth": 1.4783324673664127,
+        "feasible": true,
+        "target_max": 162.74358974358998,
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_01": {
+        "growth": 1.4783324673664213,
+        "feasible": true,
+        "target_max": 162.74358974358944,
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_02": {
+        "growth": 1.4783324673664846,
+        "feasible": true,
+        "target_max": 162.7435897435922,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_pyr_e": {
+        "growth": 1.6132906517854229,
+        "feasible": true,
+        "target_max": 162.74358974358972,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_pyr_e": {
+        "growth": 2.514976907149242,
+        "feasible": true,
+        "target_max": 162.75555555555437,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_00": {
+        "growth": 1.6132906517854047,
+        "feasible": true,
+        "target_max": 77.39801864801854,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_01": {
+        "growth": 1.613290651785156,
+        "feasible": true,
+        "target_max": 77.39801864801866,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_02": {
+        "growth": 1.6132906517853582,
+        "feasible": true,
+        "target_max": 77.39801864801865,
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_00": {
+        "growth": 1.6132906517854229,
+        "feasible": true,
+        "target_max": 77.39801864801872,
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_01": {
+        "growth": 1.6132906517853567,
+        "feasible": true,
+        "target_max": 77.39801864801865,
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_02": {
+        "growth": 1.6132906517853747,
+        "feasible": true,
+        "target_max": 77.39801864801872,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_mal__L_e": {
+        "growth": 1.663861058902771,
+        "feasible": true,
+        "target_max": 88.62068965517278,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_mal__L_e": {
+        "growth": 2.727681913951046,
+        "feasible": true,
+        "target_max": 91.88070175438622,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_00": {
+        "growth": 1.6132906517853698,
+        "feasible": true,
+        "target_max": 94.73214285714155,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_01": {
+        "growth": 1.6132906517853876,
+        "feasible": true,
+        "target_max": 94.73214285714324,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_02": {
+        "growth": 1.6132906517875323,
+        "feasible": true,
+        "target_max": 94.73214285714297,
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_00": {
+        "growth": 1.4783324673664084,
+        "feasible": true,
+        "target_max": 88.01980198019801,
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_01": {
+        "growth": 1.4783324673664289,
+        "feasible": true,
+        "target_max": 88.01980198019882,
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_02": {
+        "growth": 1.4783324673664286,
+        "feasible": true,
+        "target_max": 88.01980198019811,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_fum_e": {
+        "growth": 1.6132906517992647,
+        "feasible": true,
+        "target_max": 97.69230769230766,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_fum_e": {
+        "growth": 2.5160688184028728,
+        "feasible": true,
+        "target_max": 101.57142857142983,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_00": {
+        "growth": 1.613290651785398,
+        "feasible": true,
+        "target_max": 57.24637681159421,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_01": {
+        "growth": 1.6132906517854646,
+        "feasible": true,
+        "target_max": 57.246376811594224,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_02": {
+        "growth": 1.6132906517853747,
+        "feasible": true,
+        "target_max": 57.24637681159427,
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_00": {
+        "growth": 1.6132906517853771,
+        "feasible": true,
+        "target_max": 57.246376811594196,
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_01": {
+        "growth": 1.613290651785391,
+        "feasible": true,
+        "target_max": 57.24637681159421,
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_02": {
+        "growth": 1.613290651785414,
+        "feasible": true,
+        "target_max": 57.246376811594246,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_glyclt_e": {
+        "growth": 1.6132906517861696,
+        "feasible": true,
+        "target_max": 72.79513888888907,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_glyclt_e": {
+        "growth": 2.1933801873559085,
+        "feasible": true,
+        "target_max": 91.25000000000037,
+        "tfa_constrained": 0
+      }
+    },
+    "medium": {
+      "FSEOF_EX_ac_e_00": {
+        "growth": 0.90290588917678,
+        "feasible": true,
+        "target_max": 29.34673366834165,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_ac_e_01": {
+        "growth": 0.9029058891767846,
+        "feasible": true,
+        "target_max": 29.34673366834183,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_ac_e_02": {
+        "growth": 0.902905889176827,
+        "feasible": true,
+        "target_max": 29.34673366834183,
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_00": {
+        "growth": 0.830713509386427,
+        "feasible": true,
+        "target_max": 29.3467336683415,
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_01": {
+        "growth": 0.8307135093864453,
+        "feasible": true,
+        "target_max": 29.346733668341653,
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_02": {
+        "growth": 0.8307135093863384,
+        "feasible": true,
+        "target_max": 29.346733668341717,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_ac_e": {
+        "growth": 0.9029058891767463,
+        "feasible": true,
+        "target_max": 29.346733668341567,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_ac_e": {
+        "growth": 0.9029058891768382,
+        "feasible": true,
+        "target_max": 29.359605911330142,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_00": {
+        "growth": 0.9029058891767778,
+        "feasible": true,
+        "target_max": 19.999999999999982,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_01": {
+        "growth": 0.9029058891767713,
+        "feasible": true,
+        "target_max": 20.00000000000001,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_02": {
+        "growth": 0.9029058891735293,
+        "feasible": true,
+        "target_max": 20.00000000000001,
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_00": {
+        "growth": 0.8307135093864139,
+        "feasible": true,
+        "target_max": 20.000000000000007,
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_01": {
+        "growth": 0.8307135093864398,
+        "feasible": true,
+        "target_max": 19.999999999999982,
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_02": {
+        "growth": 0.830713509386435,
+        "feasible": true,
+        "target_max": 20.000000000000007,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_lac__D_e": {
+        "growth": 0.9029058891741651,
+        "feasible": true,
+        "target_max": 20.000000000000007,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_lac__D_e": {
+        "growth": 0.9029058891767645,
+        "feasible": true,
+        "target_max": 20.00000000000002,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_00": {
+        "growth": 0.9029058891767638,
+        "feasible": true,
+        "target_max": 19.999999999999986,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_01": {
+        "growth": 0.902905889176808,
+        "feasible": true,
+        "target_max": 20.00000000000003,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_02": {
+        "growth": 0.9029058891767857,
+        "feasible": true,
+        "target_max": 20.000000000000007,
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_00": {
+        "growth": 0.830713509406164,
+        "feasible": true,
+        "target_max": 19.99999999999998,
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_01": {
+        "growth": 0.8307135093864414,
+        "feasible": true,
+        "target_max": 20.00000000000001,
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_02": {
+        "growth": 0.8307135093863592,
+        "feasible": true,
+        "target_max": 19.999999999999986,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_etoh_e": {
+        "growth": 0.9029058891767745,
+        "feasible": true,
+        "target_max": 19.999999999999986,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_etoh_e": {
+        "growth": 0.9029058891767658,
+        "feasible": true,
+        "target_max": 19.999999999999982,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_00": {
+        "growth": 0.9029058891767642,
+        "feasible": true,
+        "target_max": 105.00000000000041,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_01": {
+        "growth": 0.9029058891767481,
+        "feasible": true,
+        "target_max": 104.99999999999896,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_02": {
+        "growth": 0.9029058891798194,
+        "feasible": true,
+        "target_max": 104.99999999999953,
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_00": {
+        "growth": 0.8849185076843512,
+        "feasible": true,
+        "target_max": 104.99999999999974,
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_01": {
+        "growth": 0.898661204981271,
+        "feasible": true,
+        "target_max": 101.53846153846142,
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_02": {
+        "growth": 0.8986612049814943,
+        "feasible": true,
+        "target_max": 101.5384615384551,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_for_e": {
+        "growth": 0.9029058891767713,
+        "feasible": true,
+        "target_max": 104.99999999999955,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_for_e": {
+        "growth": 0.9029058891757714,
+        "feasible": true,
+        "target_max": 104.99999999999967,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_00": {
+        "growth": 0.9029058891767596,
+        "feasible": true,
+        "target_max": 17.142857142857114,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_01": {
+        "growth": 0.9029058891767571,
+        "feasible": true,
+        "target_max": 17.14285714285713,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_02": {
+        "growth": 0.9029058891767523,
+        "feasible": true,
+        "target_max": 17.142857142857128,
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_00": {
+        "growth": 0.8307116104100817,
+        "feasible": true,
+        "target_max": 17.142857142857153,
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_01": {
+        "growth": 0.8307135093864216,
+        "feasible": true,
+        "target_max": 17.142857142857142,
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_02": {
+        "growth": 0.8307135093864199,
+        "feasible": true,
+        "target_max": 17.14285714285711,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_succ_e": {
+        "growth": 0.9029058891644035,
+        "feasible": true,
+        "target_max": 17.1428571428572,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_succ_e": {
+        "growth": 0.9141345866049588,
+        "feasible": true,
+        "target_max": 17.142857142857086,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_00": {
+        "growth": 0.9029058891767707,
+        "feasible": true,
+        "target_max": 13.006681514476623,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_01": {
+        "growth": 0.9029058891767672,
+        "feasible": true,
+        "target_max": 13.006681514476519,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_02": {
+        "growth": 0.9029058891767499,
+        "feasible": true,
+        "target_max": 13.006681514476607,
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_00": {
+        "growth": 0.8894677263130536,
+        "feasible": true,
+        "target_max": 13.006681514476629,
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_01": {
+        "growth": 0.889467726313023,
+        "feasible": true,
+        "target_max": 13.006681514476602,
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_02": {
+        "growth": 0.8915896576638964,
+        "feasible": true,
+        "target_max": 13.006681514476607,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_akg_e": {
+        "growth": 0.9029058891767723,
+        "feasible": true,
+        "target_max": 13.006681514476591,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_akg_e": {
+        "growth": 1.3268840601387375,
+        "feasible": true,
+        "target_max": 18.647619047620147,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_00": {
+        "growth": 0.9029058891767694,
+        "feasible": true,
+        "target_max": 23.492063492063675,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_01": {
+        "growth": 0.902905889176735,
+        "feasible": true,
+        "target_max": 23.49206349206339,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_02": {
+        "growth": 0.9029058891768943,
+        "feasible": true,
+        "target_max": 23.492063492063348,
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_00": {
+        "growth": 0.8307135093864286,
+        "feasible": true,
+        "target_max": 23.492063492063767,
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_01": {
+        "growth": 0.8307135093864548,
+        "feasible": true,
+        "target_max": 23.4920634920636,
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_02": {
+        "growth": 0.8307135093864306,
+        "feasible": true,
+        "target_max": 23.49206349206354,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_pyr_e": {
+        "growth": 0.9029058891767697,
+        "feasible": true,
+        "target_max": 23.492063492063508,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_pyr_e": {
+        "growth": 0.9029058891767667,
+        "feasible": true,
+        "target_max": 23.673469387755123,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_00": {
+        "growth": 0.9029058891767693,
+        "feasible": true,
+        "target_max": 19.019607843137333,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_01": {
+        "growth": 0.9029058891767842,
+        "feasible": true,
+        "target_max": 19.019607843137297,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_02": {
+        "growth": 0.9029058891763918,
+        "feasible": true,
+        "target_max": 19.019607843137173,
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_00": {
+        "growth": 0.8915896576639177,
+        "feasible": true,
+        "target_max": 19.019607843137262,
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_01": {
+        "growth": 0.8933920264921895,
+        "feasible": true,
+        "target_max": 19.019607843137273,
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_02": {
+        "growth": 0.8915896576638808,
+        "feasible": true,
+        "target_max": 19.019607843137283,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_mal__L_e": {
+        "growth": 0.9029058891767625,
+        "feasible": true,
+        "target_max": 19.01960784313726,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_mal__L_e": {
+        "growth": 0.9029058891767944,
+        "feasible": true,
+        "target_max": 19.065420560747732,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_00": {
+        "growth": 0.9029058891767693,
+        "feasible": true,
+        "target_max": 19.019607843137155,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_01": {
+        "growth": 0.9029058891768424,
+        "feasible": true,
+        "target_max": 19.01960784313731,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_02": {
+        "growth": 0.9029058891760461,
+        "feasible": true,
+        "target_max": 19.01960784313724,
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_00": {
+        "growth": 0.8307135093864242,
+        "feasible": true,
+        "target_max": 18.44827586206897,
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_01": {
+        "growth": 0.8307135093864975,
+        "feasible": true,
+        "target_max": 18.44827586206897,
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_02": {
+        "growth": 0.8307135093864952,
+        "feasible": true,
+        "target_max": 18.448275862068968,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_fum_e": {
+        "growth": 0.9029058891767644,
+        "feasible": true,
+        "target_max": 19.01960784313737,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_fum_e": {
+        "growth": 0.9029058891767574,
+        "feasible": true,
+        "target_max": 19.065420560747672,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_00": {
+        "growth": 0.9029058891767693,
+        "feasible": true,
+        "target_max": 29.346733668341514,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_01": {
+        "growth": 0.9029058891767716,
+        "feasible": true,
+        "target_max": 29.34673366834186,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_02": {
+        "growth": 0.9029058891767686,
+        "feasible": true,
+        "target_max": 29.346733668341685,
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_00": {
+        "growth": 0.8815528473999055,
+        "feasible": true,
+        "target_max": 29.346733668341695,
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_01": {
+        "growth": 0.8915896576639062,
+        "feasible": true,
+        "target_max": 29.34673366834164,
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_02": {
+        "growth": 0.8933920264925236,
+        "feasible": true,
+        "target_max": 29.346733668341642,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_glyclt_e": {
+        "growth": 0.9029058891767678,
+        "feasible": true,
+        "target_max": 29.34673366834168,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_glyclt_e": {
+        "growth": 0.9029058891768493,
+        "feasible": true,
+        "target_max": 29.359605911330256,
+        "tfa_constrained": 0
+      }
+    },
+    "medium_atpm": {
+      "FSEOF_EX_ac_e_00": {
+        "growth": 0.8713041830556044,
+        "feasible": true,
+        "target_max": 28.67135678391959,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_ac_e_01": {
+        "growth": 0.8713041830556179,
+        "feasible": true,
+        "target_max": 28.671356783919517,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_ac_e_02": {
+        "growth": 0.8713041830550968,
+        "feasible": true,
+        "target_max": 28.671356783919848,
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_00": {
+        "growth": 0.7970846251510314,
+        "feasible": true,
+        "target_max": 28.671356783919123,
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_01": {
+        "growth": 0.7970846251511433,
+        "feasible": true,
+        "target_max": 28.671356783919485,
+        "tfa_constrained": 0
+      },
+      "KO_EX_ac_e_02": {
+        "growth": 0.7970846251509723,
+        "feasible": true,
+        "target_max": 28.671356783919848,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_ac_e": {
+        "growth": 0.8713041830550969,
+        "feasible": true,
+        "target_max": 28.67135678391961,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_ac_e": {
+        "growth": 0.8713041830554169,
+        "feasible": true,
+        "target_max": 28.697536945812605,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_00": {
+        "growth": 0.8713041830555844,
+        "feasible": true,
+        "target_max": 20.000000000000007,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_01": {
+        "growth": 0.8713041830554455,
+        "feasible": true,
+        "target_max": 19.99999999999997,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_lac__D_e_02": {
+        "growth": 0.871304183055586,
+        "feasible": true,
+        "target_max": 20.000000000000007,
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_00": {
+        "growth": 0.7970846251511214,
+        "feasible": true,
+        "target_max": 20.00000000000019,
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_01": {
+        "growth": 0.7970846251602374,
+        "feasible": true,
+        "target_max": 19.999999999999936,
+        "tfa_constrained": 0
+      },
+      "KO_EX_lac__D_e_02": {
+        "growth": 0.797084625336305,
+        "feasible": true,
+        "target_max": 19.999999999999993,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_lac__D_e": {
+        "growth": 0.871304183055571,
+        "feasible": true,
+        "target_max": 19.999999999999947,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_lac__D_e": {
+        "growth": 0.8713041830555706,
+        "feasible": true,
+        "target_max": 19.999999999999954,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_00": {
+        "growth": 0.8713041830556015,
+        "feasible": true,
+        "target_max": 19.999999999999947,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_01": {
+        "growth": 0.8713041830555777,
+        "feasible": true,
+        "target_max": 20.00000000000001,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_etoh_e_02": {
+        "growth": 0.8713041830555703,
+        "feasible": true,
+        "target_max": 20.00000000000003,
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_00": {
+        "growth": 0.7970846251510204,
+        "feasible": true,
+        "target_max": 20.000000000000128,
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_01": {
+        "growth": 0.797084625151041,
+        "feasible": true,
+        "target_max": 19.999999999999975,
+        "tfa_constrained": 0
+      },
+      "KO_EX_etoh_e_02": {
+        "growth": 0.7970846251510655,
+        "feasible": true,
+        "target_max": 20.00000000000002,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_etoh_e": {
+        "growth": 0.8713041830555885,
+        "feasible": true,
+        "target_max": 19.999999999999996,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_etoh_e": {
+        "growth": 0.8713041830556012,
+        "feasible": true,
+        "target_max": 20.000000000000014,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_00": {
+        "growth": 0.8713041830555898,
+        "feasible": true,
+        "target_max": 101.64000000000009,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_01": {
+        "growth": 0.8713041830555591,
+        "feasible": true,
+        "target_max": 101.64000000000088,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_for_e_02": {
+        "growth": 0.8713041830557378,
+        "feasible": true,
+        "target_max": 101.6400000000001,
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_00": {
+        "growth": 0.852316246875042,
+        "feasible": true,
+        "target_max": 101.64000000000006,
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_01": {
+        "growth": 0.8678499636676192,
+        "feasible": true,
+        "target_max": 98.64000000000097,
+        "tfa_constrained": 0
+      },
+      "KO_EX_for_e_02": {
+        "growth": 0.8678499636676129,
+        "feasible": true,
+        "target_max": 98.64000000000333,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_for_e": {
+        "growth": 0.8713041830555901,
+        "feasible": true,
+        "target_max": 101.64000000000046,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_for_e": {
+        "growth": 0.8713041830555921,
+        "feasible": true,
+        "target_max": 101.63999999999993,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_00": {
+        "growth": 0.8713041830555897,
+        "feasible": true,
+        "target_max": 17.02545454545455,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_01": {
+        "growth": 0.8713041830555898,
+        "feasible": true,
+        "target_max": 17.025454545454394,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_succ_e_02": {
+        "growth": 0.8713041830555134,
+        "feasible": true,
+        "target_max": 17.025454545454544,
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_00": {
+        "growth": 0.7970828030488699,
+        "feasible": true,
+        "target_max": 16.690598290598103,
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_01": {
+        "growth": 0.7970846251510241,
+        "feasible": true,
+        "target_max": 16.690598290598196,
+        "tfa_constrained": 0
+      },
+      "KO_EX_succ_e_02": {
+        "growth": 0.7970846251571445,
+        "feasible": true,
+        "target_max": 16.69059829059827,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_succ_e": {
+        "growth": 0.8713041830555849,
+        "feasible": true,
+        "target_max": 17.025454545454465,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_succ_e": {
+        "growth": 0.8818030896469008,
+        "feasible": true,
+        "target_max": 17.142857142857153,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_00": {
+        "growth": 0.8713041830555844,
+        "feasible": true,
+        "target_max": 12.707349665924331,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_01": {
+        "growth": 0.8713041830555788,
+        "feasible": true,
+        "target_max": 12.707349665924347,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_akg_e_02": {
+        "growth": 0.8713041830554951,
+        "feasible": true,
+        "target_max": 12.707349665924264,
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_00": {
+        "growth": 0.8551158692967799,
+        "feasible": true,
+        "target_max": 12.707349665924282,
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_01": {
+        "growth": 0.8551158692968055,
+        "feasible": true,
+        "target_max": 12.707349665924326,
+        "tfa_constrained": 0
+      },
+      "KO_EX_akg_e_02": {
+        "growth": 0.8571558501955122,
+        "feasible": true,
+        "target_max": 12.707349665924191,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_akg_e": {
+        "growth": 0.8713041830549286,
+        "feasible": true,
+        "target_max": 12.707349665924248,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_akg_e": {
+        "growth": 1.3076117383422279,
+        "feasible": true,
+        "target_max": 18.455619047620957,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_00": {
+        "growth": 0.8713041830555844,
+        "feasible": true,
+        "target_max": 22.958730158730088,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_01": {
+        "growth": 0.8713041830556096,
+        "feasible": true,
+        "target_max": 22.95873015873017,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_pyr_e_02": {
+        "growth": 0.8713041830552164,
+        "feasible": true,
+        "target_max": 22.958730158730184,
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_00": {
+        "growth": 0.797084625151007,
+        "feasible": true,
+        "target_max": 22.958730158730127,
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_01": {
+        "growth": 0.797084625151036,
+        "feasible": true,
+        "target_max": 22.958730158730184,
+        "tfa_constrained": 0
+      },
+      "KO_EX_pyr_e_02": {
+        "growth": 0.7970846251510254,
+        "feasible": true,
+        "target_max": 22.958730158730155,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_pyr_e": {
+        "growth": 0.871304183055585,
+        "feasible": true,
+        "target_max": 22.958730158730194,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_pyr_e": {
+        "growth": 0.871304183055583,
+        "feasible": true,
+        "target_max": 23.330612244898013,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_00": {
+        "growth": 0.8713041830556053,
+        "feasible": true,
+        "target_max": 18.360784313725482,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_01": {
+        "growth": 0.8713041830548646,
+        "feasible": true,
+        "target_max": 18.36078431372535,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_mal__L_e_02": {
+        "growth": 0.8713041830555822,
+        "feasible": true,
+        "target_max": 18.36078431372552,
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_00": {
+        "growth": 0.8571558501956904,
+        "feasible": true,
+        "target_max": 18.360784313725482,
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_01": {
+        "growth": 0.8588886102966519,
+        "feasible": true,
+        "target_max": 18.360784313725517,
+        "tfa_constrained": 0
+      },
+      "KO_EX_mal__L_e_02": {
+        "growth": 0.8571558501954879,
+        "feasible": true,
+        "target_max": 18.36078431372523,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_mal__L_e": {
+        "growth": 0.8713041830564406,
+        "feasible": true,
+        "target_max": 18.360784313725535,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_mal__L_e": {
+        "growth": 0.8713041830556143,
+        "feasible": true,
+        "target_max": 18.428000000000058,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_00": {
+        "growth": 0.8713041830556053,
+        "feasible": true,
+        "target_max": 18.36078431372551,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_01": {
+        "growth": 0.8713041830555269,
+        "feasible": true,
+        "target_max": 18.360784313725574,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_fum_e_02": {
+        "growth": 0.8713041830553622,
+        "feasible": true,
+        "target_max": 18.360784313725528,
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_00": {
+        "growth": 0.7970846251510525,
+        "feasible": true,
+        "target_max": 17.8689655172415,
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_01": {
+        "growth": 0.7970846251510173,
+        "feasible": true,
+        "target_max": 17.86896551724138,
+        "tfa_constrained": 0
+      },
+      "KO_EX_fum_e_02": {
+        "growth": 0.7970846251510412,
+        "feasible": true,
+        "target_max": 17.868965517241357,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_fum_e": {
+        "growth": 0.8713041830591844,
+        "feasible": true,
+        "target_max": 18.36078431372551,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_fum_e": {
+        "growth": 0.871304183055588,
+        "feasible": true,
+        "target_max": 18.42800000000001,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_00": {
+        "growth": 0.8713041830556053,
+        "feasible": true,
+        "target_max": 28.6713567839197,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_01": {
+        "growth": 0.8713041830555692,
+        "feasible": true,
+        "target_max": 28.671356783919663,
+        "tfa_constrained": 0
+      },
+      "FSEOF_EX_glyclt_e_02": {
+        "growth": 0.871304183055587,
+        "feasible": true,
+        "target_max": 28.67135678391983,
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_00": {
+        "growth": 0.847110782663436,
+        "feasible": true,
+        "target_max": 28.671356783919144,
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_01": {
+        "growth": 0.8571558501954744,
+        "feasible": true,
+        "target_max": 28.671356783919535,
+        "tfa_constrained": 0
+      },
+      "KO_EX_glyclt_e_02": {
+        "growth": 0.8588886102965834,
+        "feasible": true,
+        "target_max": 28.671356783919588,
+        "tfa_constrained": 0
+      },
+      "FPMED_EX_glyclt_e": {
+        "growth": 0.8713041830555709,
+        "feasible": true,
+        "target_max": 28.671356783919688,
+        "tfa_constrained": 0
+      },
+      "FPTHERMO_EX_glyclt_e": {
+        "growth": 0.871304183056127,
+        "feasible": true,
+        "target_max": 28.69753694581285,
+        "tfa_constrained": 0
+      }
+    },
+    "tfa_1mM": {
+      "FSEOF_EX_ac_e_00": {
+        "growth": 0.734190995861326,
+        "feasible": true,
+        "target_max": 27.127999999999748,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_ac_e_01": {
+        "growth": 0.7341909958613331,
+        "feasible": true,
+        "target_max": 27.12800000000011,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_ac_e_02": {
+        "growth": 0.7341909958613557,
+        "feasible": true,
+        "target_max": 27.128000000000277,
+        "tfa_constrained": 3
+      },
+      "KO_EX_ac_e_00": {
+        "growth": 0.6994983061559521,
+        "feasible": true,
+        "target_max": 27.12800000000026,
+        "tfa_constrained": 3
+      },
+      "KO_EX_ac_e_01": {
+        "growth": 0.6994983061559517,
+        "feasible": true,
+        "target_max": 27.127999999999975,
+        "tfa_constrained": 3
+      },
+      "KO_EX_ac_e_02": {
+        "growth": 0.6994983061559599,
+        "feasible": true,
+        "target_max": 27.128000000000004,
+        "tfa_constrained": 3
+      },
+      "FPMED_EX_ac_e": {
+        "growth": 0.7341909958613565,
+        "feasible": true,
+        "target_max": 27.128000000000135,
+        "tfa_constrained": 3
+      },
+      "FPTHERMO_EX_ac_e": {
+        "growth": 0.7341909958613184,
+        "feasible": true,
+        "target_max": 27.128000000000064,
+        "tfa_constrained": 4
+      },
+      "FSEOF_EX_lac__D_e_00": {
+        "growth": 0.7341909958614725,
+        "feasible": true,
+        "target_max": 18.00952380952387,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_lac__D_e_01": {
+        "growth": 0.7341909958613491,
+        "feasible": true,
+        "target_max": 18.00952380952384,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_lac__D_e_02": {
+        "growth": 0.7341909958615184,
+        "feasible": true,
+        "target_max": 18.009523809523746,
+        "tfa_constrained": 3
+      },
+      "KO_EX_lac__D_e_00": {
+        "growth": 0.6994983061558994,
+        "feasible": true,
+        "target_max": 18.0095238095239,
+        "tfa_constrained": 3
+      },
+      "KO_EX_lac__D_e_01": {
+        "growth": 0.6994983061539343,
+        "feasible": true,
+        "target_max": 18.00952380952379,
+        "tfa_constrained": 3
+      },
+      "KO_EX_lac__D_e_02": {
+        "growth": 0.69949830615592,
+        "feasible": true,
+        "target_max": 18.009523809523937,
+        "tfa_constrained": 3
+      },
+      "FPMED_EX_lac__D_e": {
+        "growth": 0.7341909958613522,
+        "feasible": true,
+        "target_max": 18.0095238095238,
+        "tfa_constrained": 3
+      },
+      "FPTHERMO_EX_lac__D_e": {
+        "growth": 0.734190995861277,
+        "feasible": true,
+        "target_max": 18.009523809523863,
+        "tfa_constrained": 4
+      },
+      "FSEOF_EX_etoh_e_00": {
+        "growth": 0.7341909958614792,
+        "feasible": true,
+        "target_max": 18.009523809523824,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_etoh_e_01": {
+        "growth": 0.7341909958613061,
+        "feasible": true,
+        "target_max": 18.009523809523863,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_etoh_e_02": {
+        "growth": 0.7341909958613451,
+        "feasible": true,
+        "target_max": 18.009523809523824,
+        "tfa_constrained": 3
+      },
+      "KO_EX_etoh_e_00": {
+        "growth": 0.6994983061559477,
+        "feasible": true,
+        "target_max": 18.009523809523877,
+        "tfa_constrained": 3
+      },
+      "KO_EX_etoh_e_01": {
+        "growth": 0.6994983061559428,
+        "feasible": true,
+        "target_max": 18.00952380952386,
+        "tfa_constrained": 3
+      },
+      "KO_EX_etoh_e_02": {
+        "growth": 0.6994983061558222,
+        "feasible": true,
+        "target_max": 18.009523809523735,
+        "tfa_constrained": 3
+      },
+      "FPMED_EX_etoh_e": {
+        "growth": 0.7341909958625783,
+        "feasible": true,
+        "target_max": 18.009523809524023,
+        "tfa_constrained": 3
+      },
+      "FPTHERMO_EX_etoh_e": {
+        "growth": 0.7341909958613447,
+        "feasible": true,
+        "target_max": 18.00952380952389,
+        "tfa_constrained": 4
+      },
+      "FSEOF_EX_for_e_00": {
+        "growth": 0.7341909958608644,
+        "feasible": true,
+        "target_max": 94.54999999999993,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_for_e_01": {
+        "growth": 0.7341909958615201,
+        "feasible": true,
+        "target_max": 94.54999999999896,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_for_e_02": {
+        "growth": 0.7341909958613428,
+        "feasible": true,
+        "target_max": 94.54999999999987,
+        "tfa_constrained": 3
+      },
+      "KO_EX_for_e_00": {
+        "growth": 0.728348013135063,
+        "feasible": true,
+        "target_max": 94.54999999999998,
+        "tfa_constrained": 3
+      },
+      "KO_EX_for_e_01": {
+        "growth": 0.698527677945538,
+        "feasible": true,
+        "target_max": 76.36666666666747,
+        "tfa_constrained": 3
+      },
+      "KO_EX_for_e_02": {
+        "growth": 0.718492318487543,
+        "feasible": true,
+        "target_max": 83.0333333333358,
+        "tfa_constrained": 3
+      },
+      "FPMED_EX_for_e": {
+        "growth": 0.7341909958576869,
+        "feasible": true,
+        "target_max": 94.55000000000234,
+        "tfa_constrained": 3
+      },
+      "FPTHERMO_EX_for_e": {
+        "growth": 0.7341909958613291,
+        "feasible": true,
+        "target_max": 94.55000000000014,
+        "tfa_constrained": 4
+      },
+      "FSEOF_EX_succ_e_00": {
+        "growth": 0.7341909958613644,
+        "feasible": true,
+        "target_max": 14.039344262295039,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_succ_e_01": {
+        "growth": 0.7341909958613229,
+        "feasible": true,
+        "target_max": 14.039344262295065,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_succ_e_02": {
+        "growth": 0.7341909958613534,
+        "feasible": true,
+        "target_max": 14.039344262295058,
+        "tfa_constrained": 3
+      },
+      "KO_EX_succ_e_00": {
+        "growth": 0.6994968286916157,
+        "feasible": true,
+        "target_max": 13.731034482758668,
+        "tfa_constrained": 3
+      },
+      "KO_EX_succ_e_01": {
+        "growth": 0.69949830615592,
+        "feasible": true,
+        "target_max": 13.731034482758623,
+        "tfa_constrained": 3
+      },
+      "KO_EX_succ_e_02": {
+        "growth": 0.6994983061559683,
+        "feasible": true,
+        "target_max": 13.731034482758636,
+        "tfa_constrained": 3
+      },
+      "FPMED_EX_succ_e": {
+        "growth": 0.7341909958618194,
+        "feasible": true,
+        "target_max": 14.039344262295085,
+        "tfa_constrained": 3
+      },
+      "FPTHERMO_EX_succ_e": {
+        "growth": 0.7341909958613417,
+        "feasible": true,
+        "target_max": 14.039344262295128,
+        "tfa_constrained": 4
+      },
+      "FSEOF_EX_akg_e_00": {
+        "growth": 0.7341909958613614,
+        "feasible": true,
+        "target_max": 11.195505617977432,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_akg_e_01": {
+        "growth": 0.7341909958618976,
+        "feasible": true,
+        "target_max": 11.195505617977465,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_akg_e_02": {
+        "growth": 0.7341909958613584,
+        "feasible": true,
+        "target_max": 11.195505617977485,
+        "tfa_constrained": 3
+      },
+      "KO_EX_akg_e_00": {
+        "growth": 0.7325358290459157,
+        "feasible": true,
+        "target_max": 11.195505617977432,
+        "tfa_constrained": 3
+      },
+      "KO_EX_akg_e_01": {
+        "growth": 0.7325358290462347,
+        "feasible": true,
+        "target_max": 11.195505617977586,
+        "tfa_constrained": 3
+      },
+      "KO_EX_akg_e_02": {
+        "growth": 0.734190995861368,
+        "feasible": true,
+        "target_max": 11.195505617977535,
+        "tfa_constrained": 3
+      },
+      "FPMED_EX_akg_e": {
+        "growth": 0.734190995861294,
+        "feasible": true,
+        "target_max": 11.195505617977398,
+        "tfa_constrained": 3
+      },
+      "FPTHERMO_EX_akg_e": {
+        "growth": 0.7341909958613355,
+        "feasible": true,
+        "target_max": 11.195505617977545,
+        "tfa_constrained": 4
+      },
+      "FSEOF_EX_pyr_e_00": {
+        "growth": 0.734190995861449,
+        "feasible": true,
+        "target_max": 21.19999999999998,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_pyr_e_01": {
+        "growth": 0.7341909958613481,
+        "feasible": true,
+        "target_max": 21.200000000000248,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_pyr_e_02": {
+        "growth": 0.7341909958613506,
+        "feasible": true,
+        "target_max": 21.199999999999974,
+        "tfa_constrained": 3
+      },
+      "KO_EX_pyr_e_00": {
+        "growth": 0.6994983061559417,
+        "feasible": true,
+        "target_max": 21.199999999999996,
+        "tfa_constrained": 3
+      },
+      "KO_EX_pyr_e_01": {
+        "growth": 0.6994983061559306,
+        "feasible": true,
+        "target_max": 21.200000000000017,
+        "tfa_constrained": 3
+      },
+      "KO_EX_pyr_e_02": {
+        "growth": 0.6994983061559343,
+        "feasible": true,
+        "target_max": 21.20000000000003,
+        "tfa_constrained": 3
+      },
+      "FPMED_EX_pyr_e": {
+        "growth": 0.734190995861342,
+        "feasible": true,
+        "target_max": 21.200000000000042,
+        "tfa_constrained": 3
+      },
+      "FPTHERMO_EX_pyr_e": {
+        "growth": 0.7341909958612971,
+        "feasible": true,
+        "target_max": 21.199999999999992,
+        "tfa_constrained": 4
+      },
+      "FSEOF_EX_mal__L_e_00": {
+        "growth": 0.7341909958613516,
+        "feasible": true,
+        "target_max": 15.024561403508766,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_mal__L_e_01": {
+        "growth": 0.7341909958613297,
+        "feasible": true,
+        "target_max": 15.024561403508736,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_mal__L_e_02": {
+        "growth": 0.7341909958613467,
+        "feasible": true,
+        "target_max": 15.024561403508615,
+        "tfa_constrained": 3
+      },
+      "KO_EX_mal__L_e_00": {
+        "growth": 0.7341909958614434,
+        "feasible": true,
+        "target_max": 15.02456140350877,
+        "tfa_constrained": 3
+      },
+      "KO_EX_mal__L_e_01": {
+        "growth": 0.7341909958613534,
+        "feasible": true,
+        "target_max": 15.024561403508752,
+        "tfa_constrained": 3
+      },
+      "KO_EX_mal__L_e_02": {
+        "growth": 0.7341909958596269,
+        "feasible": true,
+        "target_max": 15.02456140350882,
+        "tfa_constrained": 3
+      },
+      "FPMED_EX_mal__L_e": {
+        "growth": 0.7341909958613415,
+        "feasible": true,
+        "target_max": 15.024561403508775,
+        "tfa_constrained": 3
+      },
+      "FPTHERMO_EX_mal__L_e": {
+        "growth": 0.7341909958613267,
+        "feasible": true,
+        "target_max": 15.02456140350869,
+        "tfa_constrained": 4
+      },
+      "FSEOF_EX_fum_e_00": {
+        "growth": 0.7341909958613516,
+        "feasible": true,
+        "target_max": 15.024561403508793,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_fum_e_01": {
+        "growth": 0.7341909958613317,
+        "feasible": true,
+        "target_max": 15.024561403508795,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_fum_e_02": {
+        "growth": 0.7341909958613343,
+        "feasible": true,
+        "target_max": 15.024561403508821,
+        "tfa_constrained": 3
+      },
+      "KO_EX_fum_e_00": {
+        "growth": 0.6994983061559256,
+        "feasible": true,
+        "target_max": 14.748148148148164,
+        "tfa_constrained": 3
+      },
+      "KO_EX_fum_e_01": {
+        "growth": 0.699498306155943,
+        "feasible": true,
+        "target_max": 14.748148148148195,
+        "tfa_constrained": 3
+      },
+      "KO_EX_fum_e_02": {
+        "growth": 0.6994983061559975,
+        "feasible": true,
+        "target_max": 14.748148148148163,
+        "tfa_constrained": 3
+      },
+      "FPMED_EX_fum_e": {
+        "growth": 0.7341909958613461,
+        "feasible": true,
+        "target_max": 15.024561403508827,
+        "tfa_constrained": 3
+      },
+      "FPTHERMO_EX_fum_e": {
+        "growth": 0.7341909958613527,
+        "feasible": true,
+        "target_max": 15.024561403508734,
+        "tfa_constrained": 4
+      },
+      "FSEOF_EX_glyclt_e_00": {
+        "growth": 0.7341909958613269,
+        "feasible": true,
+        "target_max": 24.943749999999927,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_glyclt_e_01": {
+        "growth": 0.734190995861358,
+        "feasible": true,
+        "target_max": 24.94375000000011,
+        "tfa_constrained": 3
+      },
+      "FSEOF_EX_glyclt_e_02": {
+        "growth": 0.7341909958613568,
+        "feasible": true,
+        "target_max": 24.94375000000028,
+        "tfa_constrained": 3
+      },
+      "KO_EX_glyclt_e_00": {
+        "growth": 0.7341895656076008,
+        "feasible": true,
+        "target_max": 24.94375000000027,
+        "tfa_constrained": 3
+      },
+      "KO_EX_glyclt_e_01": {
+        "growth": 0.7341909958613605,
+        "feasible": true,
+        "target_max": 24.943749999999966,
+        "tfa_constrained": 3
+      },
+      "KO_EX_glyclt_e_02": {
+        "growth": 0.734190995861357,
+        "feasible": true,
+        "target_max": 24.943750000000083,
+        "tfa_constrained": 3
+      },
+      "FPMED_EX_glyclt_e": {
+        "growth": 0.7341909958613422,
+        "feasible": true,
+        "target_max": 24.943750000000012,
+        "tfa_constrained": 3
+      },
+      "FPTHERMO_EX_glyclt_e": {
+        "growth": 0.7341909958613635,
+        "feasible": true,
+        "target_max": 24.94374999999998,
+        "tfa_constrained": 4
+      }
+    },
+    "full": {
+      "FSEOF_EX_ac_e_00": {
+        "growth": 0.8713041830555848,
+        "feasible": true,
+        "target_max": 28.466666666666644,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_ac_e_01": {
+        "growth": 0.8713041830554135,
+        "feasible": true,
+        "target_max": 28.46666666666666,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_ac_e_02": {
+        "growth": 0.8713041830555727,
+        "feasible": true,
+        "target_max": 28.466666666666775,
+        "tfa_constrained": 1
+      },
+      "KO_EX_ac_e_00": {
+        "growth": 0.7970846251510089,
+        "feasible": true,
+        "target_max": 28.466666666666672,
+        "tfa_constrained": 1
+      },
+      "KO_EX_ac_e_01": {
+        "growth": 0.7970846251480006,
+        "feasible": true,
+        "target_max": 28.466666666666686,
+        "tfa_constrained": 1
+      },
+      "KO_EX_ac_e_02": {
+        "growth": 0.7970846251499276,
+        "feasible": true,
+        "target_max": 28.466666666666683,
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_ac_e": {
+        "growth": 0.871304183055581,
+        "feasible": true,
+        "target_max": 28.466666666666313,
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_ac_e": {
+        "growth": 0.8713041830557618,
+        "feasible": true,
+        "target_max": 28.466666666666693,
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_lac__D_e_00": {
+        "growth": 0.8713041830555653,
+        "feasible": true,
+        "target_max": 19.999999999999986,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_lac__D_e_01": {
+        "growth": 0.8713041830556778,
+        "feasible": true,
+        "target_max": 19.999999999999893,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_lac__D_e_02": {
+        "growth": 0.87130418305561,
+        "feasible": true,
+        "target_max": 20.000000000000018,
+        "tfa_constrained": 1
+      },
+      "KO_EX_lac__D_e_00": {
+        "growth": 0.7970846251510315,
+        "feasible": true,
+        "target_max": 20.00000000000019,
+        "tfa_constrained": 1
+      },
+      "KO_EX_lac__D_e_01": {
+        "growth": 0.7970846251510418,
+        "feasible": true,
+        "target_max": 19.999999999999904,
+        "tfa_constrained": 1
+      },
+      "KO_EX_lac__D_e_02": {
+        "growth": 0.7970846251510115,
+        "feasible": true,
+        "target_max": 19.999999999999996,
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_lac__D_e": {
+        "growth": 0.8713041830555993,
+        "feasible": true,
+        "target_max": 20.000000000000018,
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_lac__D_e": {
+        "growth": 0.8713041830555829,
+        "feasible": true,
+        "target_max": 20.000000000000014,
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_etoh_e_00": {
+        "growth": 0.8713041830555713,
+        "feasible": true,
+        "target_max": 19.999999999999986,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_etoh_e_01": {
+        "growth": 0.8713041830555844,
+        "feasible": true,
+        "target_max": 19.999999999999986,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_etoh_e_02": {
+        "growth": 0.8713041830555817,
+        "feasible": true,
+        "target_max": 19.999999999999986,
+        "tfa_constrained": 1
+      },
+      "KO_EX_etoh_e_00": {
+        "growth": 0.7970846251510066,
+        "feasible": true,
+        "target_max": 20.000000000000032,
+        "tfa_constrained": 1
+      },
+      "KO_EX_etoh_e_01": {
+        "growth": 0.7970846251510325,
+        "feasible": true,
+        "target_max": 20.00000000000005,
+        "tfa_constrained": 1
+      },
+      "KO_EX_etoh_e_02": {
+        "growth": 0.7970846251510357,
+        "feasible": true,
+        "target_max": 19.999999999999982,
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_etoh_e": {
+        "growth": 0.8713041830551667,
+        "feasible": true,
+        "target_max": 19.999999999999993,
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_etoh_e": {
+        "growth": 0.8713041830555347,
+        "feasible": true,
+        "target_max": 19.999999999999964,
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_for_e_00": {
+        "growth": 0.8713041830555939,
+        "feasible": true,
+        "target_max": 101.63999999999905,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_for_e_01": {
+        "growth": 0.8713041830555656,
+        "feasible": true,
+        "target_max": 101.64000000000026,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_for_e_02": {
+        "growth": 0.8713041830555875,
+        "feasible": true,
+        "target_max": 101.63999999999984,
+        "tfa_constrained": 1
+      },
+      "KO_EX_for_e_00": {
+        "growth": 0.8523162468749409,
+        "feasible": true,
+        "target_max": 101.6400000000001,
+        "tfa_constrained": 1
+      },
+      "KO_EX_for_e_01": {
+        "growth": 0.866281717091778,
+        "feasible": true,
+        "target_max": 98.64000000000148,
+        "tfa_constrained": 1
+      },
+      "KO_EX_for_e_02": {
+        "growth": 0.7952285483802205,
+        "feasible": true,
+        "target_max": 98.63999999999992,
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_for_e": {
+        "growth": 0.8713041830555786,
+        "feasible": true,
+        "target_max": 101.64000000000037,
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_for_e": {
+        "growth": 0.8713041830556142,
+        "feasible": true,
+        "target_max": 101.6399999999983,
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_succ_e_00": {
+        "growth": 0.8713041830555944,
+        "feasible": true,
+        "target_max": 17.025454545454398,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_succ_e_01": {
+        "growth": 0.8713041830555818,
+        "feasible": true,
+        "target_max": 17.025454545454505,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_succ_e_02": {
+        "growth": 0.8713041830553172,
+        "feasible": true,
+        "target_max": 17.02545454545447,
+        "tfa_constrained": 1
+      },
+      "KO_EX_succ_e_00": {
+        "growth": 0.797082803048872,
+        "feasible": true,
+        "target_max": 16.690598290598228,
+        "tfa_constrained": 1
+      },
+      "KO_EX_succ_e_01": {
+        "growth": 0.7970846251510771,
+        "feasible": true,
+        "target_max": 16.690598290598306,
+        "tfa_constrained": 1
+      },
+      "KO_EX_succ_e_02": {
+        "growth": 0.7970846251513417,
+        "feasible": true,
+        "target_max": 16.690598290598288,
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_succ_e": {
+        "growth": 0.8713041830555897,
+        "feasible": true,
+        "target_max": 17.02545454545451,
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_succ_e": {
+        "growth": 0.8713041830555689,
+        "feasible": true,
+        "target_max": 17.025454545454537,
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_akg_e_00": {
+        "growth": 0.8713041830555054,
+        "feasible": true,
+        "target_max": 12.694545454545464,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_akg_e_01": {
+        "growth": 0.8713041830555908,
+        "feasible": true,
+        "target_max": 12.694545454545402,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_akg_e_02": {
+        "growth": 0.8713041830556222,
+        "feasible": true,
+        "target_max": 12.694545454545576,
+        "tfa_constrained": 1
+      },
+      "KO_EX_akg_e_00": {
+        "growth": 0.8551158692967822,
+        "feasible": true,
+        "target_max": 12.694545454545432,
+        "tfa_constrained": 1
+      },
+      "KO_EX_akg_e_01": {
+        "growth": 0.8551158692981016,
+        "feasible": true,
+        "target_max": 12.69454545454549,
+        "tfa_constrained": 1
+      },
+      "KO_EX_akg_e_02": {
+        "growth": 0.8571558501955034,
+        "feasible": true,
+        "target_max": 12.6945454545454,
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_akg_e": {
+        "growth": 0.8713041830555862,
+        "feasible": true,
+        "target_max": 12.69454545454551,
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_akg_e": {
+        "growth": 0.8713041830555901,
+        "feasible": true,
+        "target_max": 12.694545454545477,
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_pyr_e_00": {
+        "growth": 0.8713041830555213,
+        "feasible": true,
+        "target_max": 22.958730158730415,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_pyr_e_01": {
+        "growth": 0.8713041830555779,
+        "feasible": true,
+        "target_max": 22.958730158730248,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_pyr_e_02": {
+        "growth": 0.8713041830556008,
+        "feasible": true,
+        "target_max": 22.958730158730116,
+        "tfa_constrained": 1
+      },
+      "KO_EX_pyr_e_00": {
+        "growth": 0.7970846251510172,
+        "feasible": true,
+        "target_max": 22.958730158730116,
+        "tfa_constrained": 1
+      },
+      "KO_EX_pyr_e_01": {
+        "growth": 0.7970846251510489,
+        "feasible": true,
+        "target_max": 22.958730158730216,
+        "tfa_constrained": 1
+      },
+      "KO_EX_pyr_e_02": {
+        "growth": 0.7970846251510466,
+        "feasible": true,
+        "target_max": 22.958730158730262,
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_pyr_e": {
+        "growth": 0.8713041830555864,
+        "feasible": true,
+        "target_max": 22.958730158730084,
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_pyr_e": {
+        "growth": 0.8713041830556045,
+        "feasible": true,
+        "target_max": 22.958730158730187,
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_mal__L_e_00": {
+        "growth": 0.871304183055095,
+        "feasible": true,
+        "target_max": 18.36078431372549,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_mal__L_e_01": {
+        "growth": 0.8713041830555733,
+        "feasible": true,
+        "target_max": 18.360784313725475,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_mal__L_e_02": {
+        "growth": 0.8713041830555933,
+        "feasible": true,
+        "target_max": 18.3607843137255,
+        "tfa_constrained": 1
+      },
+      "KO_EX_mal__L_e_00": {
+        "growth": 0.8571558501954989,
+        "feasible": true,
+        "target_max": 18.360784313725464,
+        "tfa_constrained": 1
+      },
+      "KO_EX_mal__L_e_01": {
+        "growth": 0.8588886102966291,
+        "feasible": true,
+        "target_max": 18.36078431372552,
+        "tfa_constrained": 1
+      },
+      "KO_EX_mal__L_e_02": {
+        "growth": 0.8571558501954929,
+        "feasible": true,
+        "target_max": 18.360784313725535,
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_mal__L_e": {
+        "growth": 0.8713041830555788,
+        "feasible": true,
+        "target_max": 18.360784313725347,
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_mal__L_e": {
+        "growth": 0.8713041830567272,
+        "feasible": true,
+        "target_max": 18.36078431372544,
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_fum_e_00": {
+        "growth": 0.8713041830555953,
+        "feasible": true,
+        "target_max": 18.360784313725528,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_fum_e_01": {
+        "growth": 0.8713041830559866,
+        "feasible": true,
+        "target_max": 18.36078431372557,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_fum_e_02": {
+        "growth": 0.8713041830555782,
+        "feasible": true,
+        "target_max": 18.360784313725443,
+        "tfa_constrained": 1
+      },
+      "KO_EX_fum_e_00": {
+        "growth": 0.7970846251510446,
+        "feasible": true,
+        "target_max": 17.868965517241424,
+        "tfa_constrained": 1
+      },
+      "KO_EX_fum_e_01": {
+        "growth": 0.7970846251510884,
+        "feasible": true,
+        "target_max": 17.86896551724138,
+        "tfa_constrained": 1
+      },
+      "KO_EX_fum_e_02": {
+        "growth": 0.7970846251510267,
+        "feasible": true,
+        "target_max": 17.868965517241403,
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_fum_e": {
+        "growth": 0.8713041830555678,
+        "feasible": true,
+        "target_max": 18.36078431372551,
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_fum_e": {
+        "growth": 0.8713041830578389,
+        "feasible": true,
+        "target_max": 18.36078431372542,
+        "tfa_constrained": 2
+      },
+      "FSEOF_EX_glyclt_e_00": {
+        "growth": 0.871304183055687,
+        "feasible": true,
+        "target_max": 28.466666666666715,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_glyclt_e_01": {
+        "growth": 0.8713041830556505,
+        "feasible": true,
+        "target_max": 28.466666666666523,
+        "tfa_constrained": 1
+      },
+      "FSEOF_EX_glyclt_e_02": {
+        "growth": 0.8713041830555935,
+        "feasible": true,
+        "target_max": 28.46666666666646,
+        "tfa_constrained": 1
+      },
+      "KO_EX_glyclt_e_00": {
+        "growth": 0.8469393918602421,
+        "feasible": true,
+        "target_max": 28.466666666667045,
+        "tfa_constrained": 1
+      },
+      "KO_EX_glyclt_e_01": {
+        "growth": 0.857155850195487,
+        "feasible": true,
+        "target_max": 28.466666666666505,
+        "tfa_constrained": 1
+      },
+      "KO_EX_glyclt_e_02": {
+        "growth": 0.8588886102967193,
+        "feasible": true,
+        "target_max": 28.466666666666555,
+        "tfa_constrained": 1
+      },
+      "FPMED_EX_glyclt_e": {
+        "growth": 0.8713041830556211,
+        "feasible": true,
+        "target_max": 28.466666666667006,
+        "tfa_constrained": 1
+      },
+      "FPTHERMO_EX_glyclt_e": {
+        "growth": 0.871304183052734,
+        "feasible": true,
+        "target_max": 28.466666666666708,
+        "tfa_constrained": 2
+      }
+    }
+  },
+  "labels": {
+    "FSEOF_EX_ac_e_00": "realistic",
+    "FSEOF_EX_ac_e_01": "realistic",
+    "FSEOF_EX_ac_e_02": "realistic",
+    "KO_EX_ac_e_00": "realistic",
+    "KO_EX_ac_e_01": "realistic",
+    "KO_EX_ac_e_02": "realistic",
+    "FPMED_EX_ac_e": "fp_medium",
+    "FPTHERMO_EX_ac_e": "fp_thermo",
+    "FSEOF_EX_lac__D_e_00": "realistic",
+    "FSEOF_EX_lac__D_e_01": "realistic",
+    "FSEOF_EX_lac__D_e_02": "realistic",
+    "KO_EX_lac__D_e_00": "realistic",
+    "KO_EX_lac__D_e_01": "realistic",
+    "KO_EX_lac__D_e_02": "realistic",
+    "FPMED_EX_lac__D_e": "fp_medium",
+    "FPTHERMO_EX_lac__D_e": "fp_thermo",
+    "FSEOF_EX_etoh_e_00": "realistic",
+    "FSEOF_EX_etoh_e_01": "realistic",
+    "FSEOF_EX_etoh_e_02": "realistic",
+    "KO_EX_etoh_e_00": "realistic",
+    "KO_EX_etoh_e_01": "realistic",
+    "KO_EX_etoh_e_02": "realistic",
+    "FPMED_EX_etoh_e": "fp_medium",
+    "FPTHERMO_EX_etoh_e": "fp_thermo",
+    "FSEOF_EX_for_e_00": "realistic",
+    "FSEOF_EX_for_e_01": "realistic",
+    "FSEOF_EX_for_e_02": "realistic",
+    "KO_EX_for_e_00": "realistic",
+    "KO_EX_for_e_01": "realistic",
+    "KO_EX_for_e_02": "realistic",
+    "FPMED_EX_for_e": "fp_medium",
+    "FPTHERMO_EX_for_e": "fp_thermo",
+    "FSEOF_EX_succ_e_00": "realistic",
+    "FSEOF_EX_succ_e_01": "realistic",
+    "FSEOF_EX_succ_e_02": "realistic",
+    "KO_EX_succ_e_00": "realistic",
+    "KO_EX_succ_e_01": "realistic",
+    "KO_EX_succ_e_02": "realistic",
+    "FPMED_EX_succ_e": "fp_medium",
+    "FPTHERMO_EX_succ_e": "fp_thermo",
+    "FSEOF_EX_akg_e_00": "realistic",
+    "FSEOF_EX_akg_e_01": "realistic",
+    "FSEOF_EX_akg_e_02": "realistic",
+    "KO_EX_akg_e_00": "realistic",
+    "KO_EX_akg_e_01": "realistic",
+    "KO_EX_akg_e_02": "realistic",
+    "FPMED_EX_akg_e": "fp_medium",
+    "FPTHERMO_EX_akg_e": "fp_thermo",
+    "FSEOF_EX_pyr_e_00": "realistic",
+    "FSEOF_EX_pyr_e_01": "realistic",
+    "FSEOF_EX_pyr_e_02": "realistic",
+    "KO_EX_pyr_e_00": "realistic",
+    "KO_EX_pyr_e_01": "realistic",
+    "KO_EX_pyr_e_02": "realistic",
+    "FPMED_EX_pyr_e": "fp_medium",
+    "FPTHERMO_EX_pyr_e": "fp_thermo",
+    "FSEOF_EX_mal__L_e_00": "realistic",
+    "FSEOF_EX_mal__L_e_01": "realistic",
+    "FSEOF_EX_mal__L_e_02": "realistic",
+    "KO_EX_mal__L_e_00": "realistic",
+    "KO_EX_mal__L_e_01": "realistic",
+    "KO_EX_mal__L_e_02": "realistic",
+    "FPMED_EX_mal__L_e": "fp_medium",
+    "FPTHERMO_EX_mal__L_e": "fp_thermo",
+    "FSEOF_EX_fum_e_00": "realistic",
+    "FSEOF_EX_fum_e_01": "realistic",
+    "FSEOF_EX_fum_e_02": "realistic",
+    "KO_EX_fum_e_00": "realistic",
+    "KO_EX_fum_e_01": "realistic",
+    "KO_EX_fum_e_02": "realistic",
+    "FPMED_EX_fum_e": "fp_medium",
+    "FPTHERMO_EX_fum_e": "fp_thermo",
+    "FSEOF_EX_glyclt_e_00": "realistic",
+    "FSEOF_EX_glyclt_e_01": "realistic",
+    "FSEOF_EX_glyclt_e_02": "realistic",
+    "KO_EX_glyclt_e_00": "realistic",
+    "KO_EX_glyclt_e_01": "realistic",
+    "KO_EX_glyclt_e_02": "realistic",
+    "FPMED_EX_glyclt_e": "fp_medium",
+    "FPTHERMO_EX_glyclt_e": "fp_thermo"
+  },
+  "caveat": "Label realisme = proxy (\u0394G/medium by-construction), BUKAN wetlab. H2 diukur per-produk relatif-WT karena ranking global terkonfound flux-ceiling antar-produk. Hasil null = sah."
+}

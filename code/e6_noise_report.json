@@ -1,0 +1,81 @@
+{
+  "noise_levels": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_candidates": 84,
+  "curve": [
+    {
+      "noise_p": 0.0,
+      "auroc_mean": 0.9625,
+      "auroc_sd": 0.01767766952966373,
+      "auroc_seeds": [
+        0.95,
+        0.9875,
+        0.95
+      ]
+    },
+    {
+      "noise_p": 0.1,
+      "auroc_mean": 0.9333333333333333,
+      "auroc_sd": 0.025685058345704066,
+      "auroc_seeds": [
+        0.9375,
+        0.9625,
+        0.9
+      ]
+    },
+    {
+      "noise_p": 0.25,
+      "auroc_mean": 0.8666666666666666,
+      "auroc_sd": 0.07795119555779044,
+      "auroc_seeds": [
+        0.95,
+        0.7625,
+        0.8875
+      ]
+    },
+    {
+      "noise_p": 0.5,
+      "auroc_mean": 0.8416666666666667,
+      "auroc_sd": 0.06947221666888777,
+      "auroc_seeds": [
+        0.9375,
+        0.8125,
+        0.775
+      ]
+    },
+    {
+      "noise_p": 0.75,
+      "auroc_mean": 0.7125,
+      "auroc_sd": 0.04082482904638629,
+      "auroc_seeds": [
+        0.7125,
+        0.6625,
+        0.7625
+      ]
+    },
+    {
+      "noise_p": 1.0,
+      "auroc_mean": 0.6833333333333333,
+      "auroc_sd": 0.07523112535528242,
+      "auroc_seeds": [
+        0.7875,
+        0.65,
+        0.6125
+      ]
+    }
+  ],
+  "reliable_threshold_p": 0.75,
+  "growth_fraction": 0.9,
+  "interpretation": "Ambang p = laju mis-anotasi maks sebelum modal gagal memisahkan TP dari FP (AUROC<0.7). Membatasi klaim ke rezim anotasi-andal. Label proxy, bukan wetlab."
+}

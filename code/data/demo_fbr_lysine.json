@@ -1,0 +1,108 @@
+{
+  "title": "fbr enzyme intervention: invisible to plain FBA, scorable under modal regulatory-throttle (L-lysine, iML1515)",
+  "target_metabolite": "L-lysine",
+  "target_exchange": "EX_lys__L_e",
+  "throttled_reaction": {
+    "id": "DHDPS",
+    "name": "dihydrodipicolinate synthase (DHDPS)",
+    "gene": "dapA (b2478), single gene, no isozyme escape",
+    "why": "first committed, lysine-specific step of the DAP/lysine branch; allosterically inhibited by L-lysine in E. coli -> clean throttle."
+  },
+  "aspk_note": "ASPK (aspartate kinase) was inspected and REJECTED as the throttle: 3 isozymes (lysC/thrA/metL); only lysC is lysine-sensitive, so a single-reaction cap reroutes flux through thrA/metL and is not lysine-specific. ASPK is a shared node, DHDPS is lysine-committed.",
+  "modal_layers_active": [
+    "medium",
+    "atpm"
+  ],
+  "wt_throttle_fraction_ILLUSTRATIVE": 0.5,
+  "dhdps_unconstrained_capacity": {
+    "modal_oracle": 1.062888,
+    "plain_oracle": 240.0
+  },
+  "ablation_table": {
+    "plain_FBA": {
+      "oracle": "plain_FBA",
+      "WT": {
+        "growth_max": 74.981448,
+        "lysine_at_near_max_growth": 576.842362,
+        "lysine_min_guaranteed": 0.0,
+        "feasible": true,
+        "status": "optimal"
+      },
+      "fbr": {
+        "growth_max": 74.981448,
+        "lysine_at_near_max_growth": 576.842362,
+        "lysine_min_guaranteed": 0.0,
+        "feasible": true,
+        "status": "optimal"
+      },
+      "delta_lysine_fbr_minus_WT": 0.0,
+      "growth_retained": true
+    },
+    "modal_regulatory_FBA": {
+      "oracle": "modal_regulatory_FBA",
+      "WT": {
+        "growth_max": 0.871304,
+        "lysine_at_near_max_growth": 0.240556,
+        "lysine_min_guaranteed": 0.0,
+        "feasible": true,
+        "status": "optimal"
+      },
+      "fbr": {
+        "growth_max": 0.871304,
+        "lysine_at_near_max_growth": 0.772,
+        "lysine_min_guaranteed": 0.0,
+        "feasible": true,
+        "status": "optimal"
+      },
+      "delta_lysine_fbr_minus_WT": 0.531444,
+      "growth_retained": true
+    }
+  },
+  "sensitivity_sweep": [
+    {
+      "throttle_fraction_of_capacity": 0.2,
+      "modal_WT_lysine": 0.021258,
+      "modal_fbr_lysine": 0.772,
+      "modal_delta": 0.750742,
+      "modal_WT_growth": 0.573064,
+      "modal_growth_retained": false,
+      "plain_delta": 0.0
+    },
+    {
+      "throttle_fraction_of_capacity": 0.3,
+      "modal_WT_lysine": 0.031887,
+      "modal_fbr_lysine": 0.772,
+      "modal_delta": 0.740113,
+      "modal_WT_growth": 0.859597,
+      "modal_growth_retained": false,
+      "plain_delta": 0.0
+    },
+    {
+      "throttle_fraction_of_capacity": 0.5,
+      "modal_WT_lysine": 0.240556,
+      "modal_fbr_lysine": 0.772,
+      "modal_delta": 0.531444,
+      "modal_WT_growth": 0.871304,
+      "modal_growth_retained": true,
+      "plain_delta": 0.0
+    },
+    {
+      "throttle_fraction_of_capacity": 0.7,
+      "modal_WT_lysine": 0.453133,
+      "modal_fbr_lysine": 0.772,
+      "modal_delta": 0.318867,
+      "modal_WT_growth": 0.871304,
+      "modal_growth_retained": true,
+      "plain_delta": 0.0
+    }
+  ],
+  "interpretation": "feedback-resistance is unscorable by plain FBA (delta=0.0000) and scorable only under the modal regulatory layer (delta=+0.5314). The qualitative result (plain=0, modal>0) holds across ALL throttle levels in the sweep; only the magnitude of the modal delta is parameter-dependent.",
+  "caveats": [
+    "Throttle magnitude is ILLUSTRATIVE / data-hungry: a real value needs a measured Ki / degree-of-inhibition of L-lysine on DHDPS. Not fitted here.",
+    "The ROBUST claim is QUALITATIVE: plain-FBA delta=0 at every throttle level, modal delta>0 whenever the throttle binds. Exact magnitude is parameter-dependent (see sensitivity_sweep).",
+    "This is IN-SILICO RE-RANKING (does the modal oracle distinguish WT vs fbr?), NOT a viability/titre prediction.",
+    "Throttle is on the lysine-committed step DHDPS (single gene b2478) to avoid ASPK isozyme rerouting through thrA/metL.",
+    "Growth feasibility checked in every condition (growth_retained flags). A very tight throttle (e.g. fraction=0.20) depresses growth \u2014 reported, not hidden."
+  ],
+  "cobra_version": "0.31.1"
+}

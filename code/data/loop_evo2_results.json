@@ -1,0 +1,159 @@
+{
+  "title": "GENERATIVE ARC: real Evo2-40b DNA -> annotate -> Candidate -> plain+modal FBA oracle -> ranking",
+  "target_id": "EX_lys__L_e",
+  "generation": {
+    "model": "nvidia evo2-40b (NIM hosted)",
+    "prompt_bp": 400,
+    "num_tokens": 300,
+    "temperature": 0.7,
+    "top_k": 3,
+    "random_seed": 42,
+    "prompt_genes": [
+      "dapA",
+      "lysC"
+    ]
+  },
+  "degeneracy_gates": {
+    "gc_band": [
+      0.35,
+      0.65
+    ],
+    "max_homopolymer": 12,
+    "require_all_four_bases": true
+  },
+  "caveats": [
+    "Evo2 generation is prompt-seeded on REAL E. coli CDS; the continuation is the actually-generated novel segment.",
+    "Degenerate continuations (GC out of band / homopolymer / missing bases) are EXCLUDED from scoring but REPORTED \u2014 no fabrication.",
+    "cont_vs_realgene_identity is a DRIFT metric: high => Evo2 reproduced the gene (annotatable), low => it drifted (may be unmappable).",
+    "Cascade confidence propagates to ranking; low_confidence is flagged.",
+    "This is IN-SILICO RE-RANKING through the real generative path, not a viability / titre prediction."
+  ],
+  "closed_arc": true,
+  "n_sequences": 2,
+  "n_scored": 2,
+  "results": [
+    {
+      "evo2_id": "evo2_dapA_seed42",
+      "prompt_gene": "dapA",
+      "prompt_gene_known_reaction": [
+        "DHDPS"
+      ],
+      "gene": "dapA",
+      "prompt_bp": 400,
+      "full_gen_bp": 300,
+      "continuation_bp": 300,
+      "gc_full": 55.0,
+      "gc_continuation": 55.0,
+      "max_homopolymer_cont": 6,
+      "degenerate": false,
+      "degenerate_reason": "ok",
+      "cont_vs_realgene_identity_pct": 87.7,
+      "elapsed_ms": 17906,
+      "annotate_full": {
+        "n_orfs": 1,
+        "recovered_reactions": [
+          "DHDPS"
+        ],
+        "top_reaction": "DHDPS",
+        "cascade_confidence": 0.5514,
+        "low_confidence": false,
+        "top_assigned_gene": "b2478",
+        "top_assigned_gene_name": "dapA",
+        "top_identity_pct": 91.9,
+        "top_method": "diamond-blastp",
+        "top_confidence_label": "high",
+        "method": "diamond-blastp"
+      },
+      "annotate_continuation_only": {
+        "n_orfs": 1,
+        "recovered_reactions": [
+          "DHDPS"
+        ],
+        "top_reaction": "DHDPS",
+        "cascade_confidence": 0.5514,
+        "low_confidence": false,
+        "top_assigned_gene": "b2478",
+        "top_assigned_gene_name": "dapA",
+        "top_identity_pct": 91.9,
+        "top_method": "diamond-blastp",
+        "top_confidence_label": "high",
+        "method": "diamond-blastp"
+      },
+      "preserves_prompt_gene_reaction": true,
+      "loop": {
+        "rank": 1,
+        "recovered_reaction": "DHDPS",
+        "intervention_type": "fbr-relaxation",
+        "confidence": 0.5514,
+        "low_confidence": false,
+        "plain_delta": 0.0,
+        "modal_delta": 0.531444,
+        "growth_retained": true,
+        "scored": true,
+        "skip_reason": null
+      }
+    },
+    {
+      "evo2_id": "evo2_lysC_seed42",
+      "prompt_gene": "lysC",
+      "prompt_gene_known_reaction": [
+        "ASPK"
+      ],
+      "gene": "lysC",
+      "prompt_bp": 400,
+      "full_gen_bp": 300,
+      "continuation_bp": 300,
+      "gc_full": 56.3,
+      "gc_continuation": 56.3,
+      "max_homopolymer_cont": 4,
+      "degenerate": false,
+      "degenerate_reason": "ok",
+      "cont_vs_realgene_identity_pct": 98.7,
+      "elapsed_ms": 17442,
+      "annotate_full": {
+        "n_orfs": 1,
+        "recovered_reactions": [
+          "ASPK"
+        ],
+        "top_reaction": "ASPK",
+        "cascade_confidence": 0.594,
+        "low_confidence": false,
+        "top_assigned_gene": "b4024",
+        "top_assigned_gene_name": "lysC",
+        "top_identity_pct": 99.0,
+        "top_method": "diamond-blastp",
+        "top_confidence_label": "high",
+        "method": "diamond-blastp"
+      },
+      "annotate_continuation_only": {
+        "n_orfs": 1,
+        "recovered_reactions": [
+          "ASPK"
+        ],
+        "top_reaction": "ASPK",
+        "cascade_confidence": 0.594,
+        "low_confidence": false,
+        "top_assigned_gene": "b4024",
+        "top_assigned_gene_name": "lysC",
+        "top_identity_pct": 99.0,
+        "top_method": "diamond-blastp",
+        "top_confidence_label": "high",
+        "method": "diamond-blastp"
+      },
+      "preserves_prompt_gene_reaction": true,
+      "loop": {
+        "rank": 2,
+        "recovered_reaction": "ASPK",
+        "intervention_type": "overexpression",
+        "confidence": 0.594,
+        "low_confidence": false,
+        "plain_delta": -0.0,
+        "modal_delta": 0.0,
+        "growth_retained": true,
+        "scored": true,
+        "skip_reason": null
+      }
+    }
+  ],
+  "cobra_version": "0.31.1"
+}

@@ -1,0 +1,81 @@
+{
+  "organisms": [
+    "iML1515",
+    "iML1515_noECMDB",
+    "iJO1366",
+    "iMM904",
+    "iYO844",
+    "iJN1463"
+  ],
+  "products": [
+    "EX_ac_e",
+    "EX_succ_e",
+    "EX_etoh_e",
+    "EX_lac__D_e",
+    "EX_mal__L_e",
+    "EX_fum_e"
+  ],
+  "results": [
+    {
+      "organism": "iML1515",
+      "n_candidates": 40,
+      "n_products": 6,
+      "n_tp": 4,
+      "auroc_polos": 0.6875,
+      "auroc_full": 0.9166666666666666,
+      "modal_advantage": 0.22916666666666663,
+      "ecmdb": true
+    },
+    {
+      "organism": "iML1515_noECMDB",
+      "n_candidates": 40,
+      "n_products": 6,
+      "n_tp": 4,
+      "auroc_polos": 0.6875,
+      "auroc_full": 0.9166666666666666,
+      "modal_advantage": 0.22916666666666663,
+      "ecmdb": false
+    },
+    {
+      "organism": "iJO1366",
+      "n_candidates": 31,
+      "n_products": 6,
+      "n_tp": 4,
+      "auroc_polos": 0.6666666666666666,
+      "auroc_full": 0.6041666666666666,
+      "modal_advantage": -0.0625,
+      "ecmdb": false
+    },
+    {
+      "organism": "iMM904",
+      "n_candidates": 28,
+      "n_products": 6,
+      "n_tp": 4,
+      "auroc_polos": 0.25,
+      "auroc_full": 0.1875,
+      "modal_advantage": -0.0625,
+      "ecmdb": false
+    },
+    {
+      "organism": "iYO844",
+      "n_candidates": 22,
+      "n_products": 5,
+      "n_tp": 4,
+      "auroc_polos": 0.2625,
+      "auroc_full": 0.725,
+      "modal_advantage": 0.46249999999999997,
+      "ecmdb": false
+    },
+    {
+      "organism": "iJN1463",
+      "n_candidates": 25,
+      "n_products": 6,
+      "n_tp": 4,
+      "auroc_polos": 0.1875,
+      "auroc_full": 0.4583333333333333,
+      "modal_advantage": 0.2708333333333333,
+      "ecmdb": false
+    }
+  ],
+  "interpretation": "modal_advantage = AUROC(tp vs fp) full \u2212 polos. ECMDB-conc (kolam-metabolit terukur) hanya E.coli; di luar itu \u0394G screen jatuh ke 1mM default. Mengukur peluruhan manfaat-modal. \u0394G (chemistry) tetap ada lintas-organisme via abbreviasi BiGG shared."
+}
