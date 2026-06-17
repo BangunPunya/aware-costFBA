@@ -1,6 +1,7 @@
 from __future__ import annotations
 import json, os, random
 import numpy as np
+from scipy import stats
 import cobra
 
 CODE = os.path.dirname(os.path.abspath(__file__)); D = os.path.join(CODE, "data")
@@ -11,10 +12,7 @@ GF = 0.5
 N_NEG = 60
 SEED = 42
 
-# EXTERNAL positives: lysine-biosynthesis (DAP pathway) + anaplerotic/precursor genes
-# documented as lysine engineering targets in the literature.
 POS_GENES = ["dapA", "dapB", "dapD", "dapE", "dapF", "lysA", "lysC", "asd", "ppc", "aspC"]
-# kept out of the random negative pool because they are lysine-adjacent (not "random")
 EXCLUDE_FROM_NEG = set(POS_GENES) | {"thrA", "metL", "dapH", "argD", "lysB", "lysP"}
 
 
@@ -51,6 +49,34 @@ def overexpress_delta(model, uniprot, floor, baseline):
 def auroc(pos, neg):
     pos, neg = np.asarray(pos, float), np.asarray(neg, float)
     return float(np.mean([(p > n) + 0.5 * (p == n) for p in pos for n in neg]))
+
+
+def distribution_free_stats(pos, neg, n_perm=20000, seed=SEED):
+    """Small-N robust stats on raw Delta scores: Mann-Whitney U (one-sided),
+    label-permutation null for AUROC, and rank-biserial effect size. None of
+    these assume normality or estimate a covariance from the positive class,
+    so they hold where DeLong/parametric tests are underpowered at small N."""
+    pos, neg = np.asarray(pos, float), np.asarray(neg, float)
+    obs = auroc(pos, neg)
+    U, p_mwu = stats.mannwhitneyu(pos, neg, alternative="greater")
+    allx = np.concatenate([pos, neg])
+    lab = np.array([1] * len(pos) + [0] * len(neg))
+    rng = np.random.default_rng(seed)
+    ge = 0
+    for _ in range(n_perm):
+        perm = rng.permutation(lab)
+        if auroc(allx[perm == 1], allx[perm == 0]) >= obs:
+            ge += 1
+    p_perm = (ge + 1) / (n_perm + 1)
+    return {
+        "mannwhitney_U": float(U),
+        "mannwhitney_p_onesided": float(p_mwu),
+        "permutation_p": float(p_perm),
+        "permutation_n": int(n_perm),
+        "permutation_note": f"{ge}/{n_perm} label-permutations reached observed AUROC",
+        "rank_biserial_r": round(2 * obs - 1, 4),
+        "n_pairwise": int(len(pos) * len(neg)),
+    }
 
 
 def run():
@@ -94,11 +120,14 @@ def run():
                          rng2.choice(na, len(na), replace=True))
     ci = (float(np.percentile(boots, 2.5)), float(np.percentile(boots, 97.5)))
 
+    dfree = distribution_free_stats(pv, nv)
+
     out = {
         "model": "eciML1515 (GECKO)", "product": PRODUCT, "growth_fraction": GF,
         "design": "blind held-out: external literature positives vs random negatives",
         "n_pos": len(pv), "n_neg": len(nv), "seed": SEED,
         "auroc_resource_aware": round(au, 4), "ci95_bootstrap": [round(ci[0], 4), round(ci[1], 4)],
+        "distribution_free": dfree,
         "auroc_plain_fba": 0.5, "plain_note": "plain FBA gives Δ=0 for every overexpression (no signal)",
         "pos_scores": pos_scores, "neg_scores": neg_scores,
         "neg_scores_summary": {
@@ -114,6 +143,9 @@ def run():
           ", ".join(f"{g}={v:+.2f}" for g, v in sorted(pos_scores.items(), key=lambda kv: -kv[1])))
     print(f"  negatives (random, n={len(nv)}): {out['neg_scores_summary']}")
     print(f"  AUROC = {au:.3f}  95% bootstrap CI [{ci[0]:.3f}, {ci[1]:.3f}]   (plain FBA = 0.5, no signal)")
+    print(f"  Mann-Whitney U = {dfree['mannwhitney_U']:.0f}, one-sided p = {dfree['mannwhitney_p_onesided']:.2e}")
+    print(f"  permutation p = {dfree['permutation_p']:.2e} ({dfree['permutation_note']}); "
+          f"rank-biserial r = {dfree['rank_biserial_r']:.3f}; pairwise = {dfree['n_pairwise']}")
     print(f"  -> non-circular: negatives random, positives external. saved benchmark_blind_heldout.json")
     return 0
 
